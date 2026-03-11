@@ -34,7 +34,27 @@
 \fancyfoot[C]{\thepage}
 
 % --- Nummerierte Gleichungen ---
+\numberwithin{equation}{section}% --- Kopf- und Fußzeile ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Abschnitt \leftmark}
+\fancyfoot[C]{\thepage}
+
+% --- Nummerierte Gleichungen ---
 \numberwithin{equation}{section}
+
+% --- Abbildungs- und Tabellenbeschriftungen ---
+\captionsetup{font=small,labelfont=bf}
+
+% Kopfzeile: links aktueller Abschnitt
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+
+% Section-Mark definieren, damit \leftmark das Richtige enthält
+\renewcommand{\sectionmark}[1]{%
+  \markboth{\thesection\ #1}{}%
+}
+
 
 % --- Abbildungs- und Tabellenbeschriftungen ---
 \captionsetup{font=small,labelfont=bf}
@@ -68,9 +88,9 @@
     \vspace{1.5cm}
     {\LARGE \Abgabeart\par}
     \vspace{0.5cm}
-    {\Large \Versuchsnummer: \Versuchsnummer\par}
+    {\Large Versuchsnummer: \Versuchsnummer\par}
     \vspace{0.5cm}
-    {\Large \Versuchstitel: \Versuchstitel\par}
+    {\Large Versuchstitel: \Versuchstitel\par}
     \vspace{1.5cm}
     {\large Gruppe \Gruppe\par}
     \vspace{0.5cm}
@@ -95,8 +115,7 @@
 % - Welcher theoretische Hintergrund?
 % - Was soll konkret untersucht werden?
 
-Hier folgt die Einleitung zum Versuch. Sie ordnet den Versuch in einen aktuellen Kontext ein, beschreibt die Relevanz und formuliert das Ziel der Messungen. [file:1]
-
+Brennstoffzellen stellen einen vielversprechenden Ansatz für eine klimaneutrale Energieversorgung dar, da sie Wasserstoff elektrochemisch in elektrische Energie umwandeln und lediglich Wasser sowie Wärme als Reaktionsprodukte erzeugen. Im Rahmen der Energiewende gewinnen sie durch ihre hohe gravimetrische Energiedichte und Emissionsfreiheit an technischer Relevanz. Der Versuch behandelt das Funktionsprinzip von PEM-Elektrolyseur und PEM-Brennstoffzelle als zentrale Komponenten eines Wasserstoff-Energiesystems. Mittels U-I-Kennlinienaufnahmen und Wirkungsgradbestimmungen werden die Effizienzen der Energiewandler sowie irreversible Verluste durch Aktivierungs-, Ohmsche- und Konzentrationsüber-Spannungen experimentell charakterisiert. [file:1]
 % ---------------------------------------------------
 % 2 Theoretische Grundlagen (1–2 Seiten)
 % ---------------------------------------------------
