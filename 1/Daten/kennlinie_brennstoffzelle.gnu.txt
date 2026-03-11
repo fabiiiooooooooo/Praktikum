@@ -1,0 +1,31 @@
+set datafile separator ";"
+set decimalsign ","
+
+# Plot 1: Aufwärts (0-70 mA)
+set terminal pngcairo size 800,500 enhanced font "Latin Modern Roman,12"
+set output "kennlinie_aufwaerts.png"
+set xlabel "Strom I / mA"
+set ylabel "Spannung U / V"
+set grid
+set key top right
+set xrange [0:70]
+set yrange [0.78:0.91]
+plot "U-I_aufwärts.csv" using 1:2 every ::1 with linespoints lt 1 pt 7 ps 1.5 lw 3 title "aufwärts"
+
+# Plot 2: Abwärts (0-250 mA)  
+set output "kennlinie_abwaerts.png"
+set xrange [0:250]
+set yrange [0.70:0.81]
+plot "U-I_abwärts.csv" using 1:2 every ::1 with linespoints lt 3 pt 9 ps 1.5 lw 3 title "abwärts"
+
+# Plot 3: Kombi mit zwei y-Achsen (optional)
+set terminal pngcairo size 800,600
+set output "kennlinie_kombi.png"
+set xlabel "Strom I / mA"
+set ylabel "Spannung U / V (links)"
+set y2label "Spannung U / V (rechts)"
+set grid
+set key top right
+plot \
+ "U-I_aufwärts.csv" using 1:2 every ::1 axes x1y1 with linespoints lt 1 pt 7 ps 1.5 lw 3 title "aufwärts", \
+ "U-I_abwärts.csv"  using 1:2 every ::1 axes x1y2 with linespoints lt 3 pt 9 ps 1.5 lw 3 title "abwärts"
