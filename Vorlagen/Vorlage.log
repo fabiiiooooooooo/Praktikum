@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**protokoll-1.tex
-(./protokoll-1.tex
+**Vorlage.tex
+(./Vorlage.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -536,7 +536,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 78
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 70
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -546,30 +546,30 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count342
 )
-(./protokoll-1.aux
+(./Vorlage.aux
 Package babel Info: 'ngerman' activates 'german' shorthands.
 (babel)             Reported on input line 8.
 )
-\openout1 = `protokoll-1.aux'.
+\openout1 = `Vorlage.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -605,13 +605,13 @@ LaTeX Font Info:    ... okay on input line 78.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 78.
-Package microtype Info: Applying patch `item' on input line 78.
-Package microtype Info: Applying patch `toc' on input line 78.
-Package microtype Info: Applying patch `eqnum' on input line 78.
-Package microtype Info: Applying patch `footnote' on input line 78.
-Package microtype Info: Applying patch `verbatim' on input line 78.
-LaTeX Info: Redefining \microtypesetup on input line 78.
+LaTeX Info: Redefining \microtypecontext on input line 70.
+Package microtype Info: Applying patch `item' on input line 70.
+Package microtype Info: Applying patch `toc' on input line 70.
+Package microtype Info: Applying patch `eqnum' on input line 70.
+Package microtype Info: Applying patch `footnote' on input line 70.
+Package microtype Info: Applying patch `verbatim' on input line 70.
+LaTeX Info: Redefining \microtypesetup on input line 70.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -658,47 +658,57 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 78.
-Package hyperref Info: Link coloring OFF on input line 78.
- (./protokoll-1.out) (./protokoll-1.out)
+or `german'. on input line 70.
+Package hyperref Info: Link coloring OFF on input line 70.
+ (./Vorlage.out) (./Vorlage.out)
 \@outlinefile=\write3
-\openout3 = `protokoll-1.out'.
+\openout3 = `Vorlage.out'.
 
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-29.
+Package babel Info: 'ngerman' activates 'german' shorthands.
+(babel)             Reported on input line 111.
 
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+23.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-29.
+23.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-129.
+123.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-129.
+123.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 129.
+(Font)              <10.95> on input line 123.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 129.
+(Font)              <8> on input line 123.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 129.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 129
+(Font)              <6> on input line 123.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 123
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -707,7 +717,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 129
+LaTeX Font Info:    Trying to load font information for U+msb on input line 123
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -716,15 +726,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-69.
 
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+26/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+63.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Package babel Info: 'ngerman' activates 'german' shorthands.
-(babel)             Reported on input line 192.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -732,10 +756,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
-26/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2026/texmf-d
-ist/fonts/enc/dvips/lm/lm-ts1.enc}]
+[4{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -743,22 +764,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2] (./protokoll-1.aux)
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7] (./Vorlage.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `protokoll-1.out' has not changed.
-(rerunfilecheck)             Checksum: 30DECF39984F4B888B21A0BFC0F355D9;922.
+Package rerunfilecheck Info: File `Vorlage.out' has not changed.
+(rerunfilecheck)             Checksum: DEE8C067CDD0D17D67C9B45545D2E623;907.
  ) 
 Here is how much of TeX's memory you used:
- 20212 strings out of 467525
- 387306 string characters out of 5418982
- 813878 words of memory out of 5000000
+ 20213 strings out of 467525
+ 387220 string characters out of 5418982
+ 808840 words of memory out of 5000000
  48810 multiletter control sequences out of 15000+600000
- 675637 words of font info for 103 fonts, out of 8000000 for 9000
+ 675471 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,80p,1008b,1143s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,80p,1004b,1143s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
 e/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/tex
@@ -767,10 +804,10 @@ ts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/pu
 blic/lm/lmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr
 8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb></us
 r/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on protokoll-1.pdf (3 pages, 197321 bytes).
+Output written on Vorlage.pdf (8 pages, 197379 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
  28729 words of extra memory for PDF output out of 29859 (max. 10000000)
 
