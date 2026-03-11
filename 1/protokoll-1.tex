@@ -1,0 +1,194 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Pakete ---
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % Computer Modern (empfohlen)
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm
+}
+\usepackage{setspace}
+\setstretch{1.24} % entspricht Empfehlung (1–1.5 Zeilenabstand)
+\usepackage{microtype}
+\usepackage{csquotes}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{siunitx}     % saubere Einheiten, Einheiten aufrecht
+\sisetup{detect-all}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+% --- Kopf- und Fußzeile ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Abschnitt \leftmark}
+\fancyfoot[C]{\thepage}
+
+% --- Nummerierte Gleichungen ---
+\numberwithin{equation}{section}
+
+% --- Abbildungs- und Tabellenbeschriftungen ---
+\captionsetup{font=small,labelfont=bf}
+
+% --- Metadaten (für Titelseite) ---
+\newcommand{\Lehrveranstaltung}{Praktikum Physikalische Eigenschaften der Materialien}
+\newcommand{\Universitaet}{Universität Augsburg}
+\newcommand{\Semester}{Wintersemester 2025/2026}
+\newcommand{\Versuchsnummer}{1}
+\newcommand{\Versuchstitel}{Brennstoffzelle}
+\newcommand{\Gruppe}{C}
+\newcommand{\Versuchsdatum}{02.03.2026}
+\newcommand{\Abgabedatum}{TT.MM.JJJJ}
+
+\newcommand{\Abgabeart}{Gemeinsames Versuchsprotokoll}
+\newcommand{\Autor}{Fabio Nogielsky, Konstantin Szantho von Radnoth , Fabio Piskorz}
+
+% ---------------------------------------------------
+% Titelseite (ohne Seitenzahl)
+% ---------------------------------------------------
+\begin{document}
+\pagenumbering{gobble} % keine Seitenzahl auf Titelseite
+
+\begin{titlepage}
+    \centering
+    {\Large \Lehrveranstaltung\par}
+    \vspace{0.5cm}
+    {\large \Universitaet\par}
+    \vspace{0.5cm}
+    {\large \Semester\par}
+    \vspace{1.5cm}
+    {\LARGE \Abgabeart\par}
+    \vspace{0.5cm}
+    {\Large \Versuchsnummer: \Versuchsnummer\par}
+    \vspace{0.5cm}
+    {\Large \Versuchstitel: \Versuchstitel\par}
+    \vspace{1.5cm}
+    {\large Gruppe \Gruppe\par}
+    \vspace{0.5cm}
+    {\large Autor(en): \Autor\par}
+    \vspace{1.5cm}
+    {\large Versuchsdatum: \Versuchsdatum\par}
+    \vspace{0.5cm}
+    {\large Abgabedatum: \Abgabedatum\par}
+
+    \vfill
+\end{titlepage}
+
+% ab hier Seitenzahlen normal
+\pagenumbering{arabic}
+
+% ---------------------------------------------------
+% 1 Einleitung (max. ca. 1/2 Seite)
+% ---------------------------------------------------
+\section{Einleitung}
+% Kurz und prägnant, max. 2/3 Seite. [file:1]
+% - Warum ist der Versuch interessant/wichtig?
+% - Welcher theoretische Hintergrund?
+% - Was soll konkret untersucht werden?
+
+Hier folgt die Einleitung zum Versuch. Sie ordnet den Versuch in einen aktuellen Kontext ein, beschreibt die Relevanz und formuliert das Ziel der Messungen. [file:1]
+
+% ---------------------------------------------------
+% 2 Theoretische Grundlagen (1–2 Seiten)
+% ---------------------------------------------------
+\section{Theoretische Grundlagen}
+% Nur das, was für Verständnis und Auswertung nötig ist. [file:1]
+% Herleitungen ggf. gekürzt und mit Literaturangaben.
+
+In diesem Abschnitt werden die für den Versuch relevanten physikalischen Größen und Zusammenhänge erläutert. [file:1]
+
+Als Beispiel für eine Gleichung mit erklärten Variablen:
+\begin{equation}
+    \Delta T = T_{\text{Raum}} - T_{\text{H2O}}.
+\end{equation}
+Hier bezeichnet \(T_{\text{Raum}}\) die Raumtemperatur und \(T_{\text{H2O}}\) die Wassertemperatur. [file:1]
+
+% ---------------------------------------------------
+% 3 Versuchsbeschreibung
+% ---------------------------------------------------
+\section{Versuchsbeschreibung}
+% Versuchsaufbau und -durchführung so beschreiben,
+% dass der Versuch ohne Anleitung nachvollziehbar ist. [file:1]
+
+In diesem Abschnitt werden der Versuchsaufbau und die Versuchsdurchführung detailliert beschrieben, sodass der Versuch ohne zusätzliche Anleitung reproduzierbar ist. [file:1]
+
+% Beispiel für eine Abbildung mit eindeutiger Nummer:
+\begin{figure}[h]
+    \centering
+    %\includegraphics[width=0.7\textwidth]{aufbau.png}
+    \caption{Schematische Darstellung des Versuchsaufbaus.}
+    \label{fig:aufbau}
+\end{figure}
+
+Im Text wird auf die Abbildung \ref{fig:aufbau} verwiesen und deren Inhalt beschrieben. [file:1]
+
+% ---------------------------------------------------
+% 4 Auswertung und Diskussion
+% ---------------------------------------------------
+\section{Auswertung und Diskussion}
+% Auswertung nach Aufgabenstellung, inkl. Fehlerrechnung
+% und ggf. Vergleich mit Literaturwerten. [file:1]
+
+In diesem Abschnitt werden die Messdaten ausgewertet, Unsicherheiten bestimmt und die Ergebnisse mit Literaturwerten verglichen. [file:1]
+
+% Beispiel-Tabelle:
+\begin{table}[h]
+    \centering
+    \caption{Beispielhafte Messwerte und berechnete Größen.}
+    \label{tab:messwerte}
+    \begin{tabular}{lccc}
+        \toprule
+        Messung & Zeit / \si{\second} & Weg / \si{\meter} & Geschwindigkeit / \si{\meter\per\second} \\
+        \midrule
+        1 & 1.0 & 0.50 & 0.50 \\
+        2 & 2.0 & 1.00 & 0.50 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Die Tabelle \ref{tab:messwerte} zeigt beispielhaft Messwerte mit zugehörigen Einheiten. [file:1]
+
+% ---------------------------------------------------
+% 5 Zusammenfassung (kurz, max. 1/2 Seite)
+% ---------------------------------------------------
+\section{Zusammenfassung}
+% Kurzfassung des Versuchs und der wichtigsten Ergebnisse,
+% typischerweise <= 1/2 Seite. [file:1]
+
+Hier werden die wichtigsten Ergebnisse und Erkenntnisse des Versuchs kurz zusammengefasst und ggf. ein Ausblick gegeben. [file:1]
+
+% ---------------------------------------------------
+% 6 Laborbuch (Anhang)
+% ---------------------------------------------------
+\appendix
+\section{Laborbuch}
+% Digitale Kopie des Laborbuch-Eintrags (z.B. Scan oder Foto). [file:1]
+
+Fügen Sie hier eine gut lesbare digitale Kopie der Laborbuchseiten ein, auf denen die Messdaten dokumentiert sind. [file:1]
+
+% ---------------------------------------------------
+% 7 Literaturverzeichnis
+% ---------------------------------------------------
+\section{Literaturverzeichnis}
+% Einträge in der Reihenfolge des ersten Auftretens im Text. [file:1]
+% Beispiel im IEEE-Stil:
+
+\begin{thebibliography}{9}
+
+\bibitem{Demtroeder1}
+W.~Demtröder, \emph{Experimentalphysik 1: Mechanik und Wärme}, Springer, 2003. [file:1]
+
+% weitere Quellen nach Bedarf
+
+\end{thebibliography}
+
+\end{document}
