@@ -1,0 +1,6 @@
+set datafile separator ";"
+set decimalsign ","
+plot sin(x)
+set output
+replot
+pause -1
