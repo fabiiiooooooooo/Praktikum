@@ -29,6 +29,7 @@
 \usepackage{booktabs}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
+\usepackage{mhchem}
 
 % --- Kopf- und Fußzeile ---
 \pagestyle{fancy}
@@ -105,13 +106,39 @@ Brennstoffzellen stellen einen vielversprechenden Ansatz für eine klimaneutrale
 % ---------------------------------------------------
 \section{Theoretische Grundlagen}
 
-In diesem Abschnitt werden die für den Versuch relevanten physikalischen Größen und Zusammenhänge erläutert.
-
-Als Beispiel für eine Gleichung mit erklärten Variablen:
+\subsection{PEM-Elektrolyseur}
+Der Elektolyseur zerlegt durch elektrischen Strom Wasser ($H_{\text{2}}O$) in seine Bestandteile Wasserstoff ($H_{\text{2}}$) und Sauerstoff ($O_{\text{2}}$). Die dabei ablaufende Reaktion l\"asst sich mithilfe Reaktionsgleichung \ref{eq:ele} beschreiben.
+\begin{align}
+\ce{2H2O &-> 4H+ + 4e- + O2} \nonumber \\
+\ce{4H+ + 4e- &-> 2H2}
+\label{eq:ele}
+\end{align}
+\noindent Bei einem idealen Elektolyseur w\"urde bei dieser Reaktion die gesamte hinzugegebene elektrische Energie in nutzbare chemische Energie umgewandelt werden. F\"ur reale Elektrolyseure wird der tats\"achliche Wirkungsgrad $\eta_{\text{EL}}$ \"uber das Verh\"altnis von $E_{\text{chem}}$ zu $E_{\text{el}}$ als 
 \begin{equation}
-    \Delta T = T_{\text{Raum}} - T_{\text{H2O}}.
+\eta_\text{EL} = \frac{E_\text{chem}}{E_\text{el}} = \frac{n \cdot \Delta H}{U \cdot I \cdot t}
+\label{eq:wirkungBrenn}
 \end{equation}
-Hier bezeichnet \(T_{\text{Raum}}\) die Raumtemperatur und \(T_{\text{H2O}}\) die Wassertemperatur.
+berechnet. Die Entalpie  $\Delta H$ = 286kJ/mol entspricht hierbei der chemischen Energie die bei Standardbedingungen in \ce{H2} pro Mol gespeichert ist. Unter Ber\"ucksichtigung der idealen Gasgleichung
+\begin{equation}
+p \cdot V=n \cdot R \cdot T
+\label{eq:ideal}
+\end{equation}
+erh\"alt man f\"ur den Wirkungsgrad  
+\begin{equation}
+\eta_\text{EL} = \frac{p \cdot \Delta H \cdot V}{R \cdot R \cdot U \cdot I \cdot t}
+\label{eq:wirkungBrennVoll}
+\end{equation}
+U und I entsprechen Spannung und Strom während des Umwandlungsprozess, t der benötigten Zeit und n der Stoffmenge des erzeugten Wasserstoffs.
+\subsection{PEM-Brennstoffzelle}
+Der Wirkungsgrad einer Brennstoffzelle setzt die jeweils gelieferte elektrische Energie $E_{\text{el}}$ = U·I·t ins Verhältnis zur
+verbrannten chemischen Energie $E_{\text{chem}} =  \Delta H$ . Die Kondensationsenergie $\Delta q$ wird als W\"arme frei und l\"asst sich elektrisch nicht nutzen. Daher wird anstelle der Enthalpie $\Delta H$ der untere Heizwert $\Delta H_{\text{u}} = \Delta H - \Delta q = 242kJ/mol$ verwendet. \newline
+Setzt man auch hier das idealen Gasgesetzes \ref{eq:ideal} ein, so ergibt sich f\"ur die Berechnung des Wirkungsgrades $\eta_{\text{EL}}$ folgende Gleichung:
+
+\begin{equation}
+\eta_\text{EL} = \frac{E_\text{chem}}{E_\text{el}} = \frac{U \cdot I \cdot t}{n \cdot \Delta H_{\text{u}}} = \frac{p \cdot \Delta H_{\text{u}} \cdot V}{R \cdot T \cdot U \cdot I \cdot t} 
+\label{eq:wirkungBrenn}
+\end{equation}
+\newline 
 
 % ---------------------------------------------------
 % 3 Versuchsbeschreibung
@@ -124,15 +151,24 @@ Der Versuch l\"asst sich in zwei Teile Gliedern. An erster Stelle wird die Funkt
 	\centering
 	\includegraphics[width = 0.8\textwidth]{Aufbau3-2.jpeg}
 	\caption{Versuchsaufbau PEM Elektrolyseur}
-	\label{fig:elektrolyseur}
+	\label{fig:elekt}
 \end{figure}
-Die beiden Vorratsbeh\"alter des Doppelzellen-Elektrolyseur werden bis zur Markierung mit destilliertem Wasser bef\"ullt.  
-Wie in Abbildung \ref{fig:elektrolyseur} zu sehen, werden Multimeter, Elektrolyseur und Netzger\"at so miteinander verbunden, dass Stromst\"arke und Spannung am Netzger\"at gemessen werden k\"onnen. Zur Bestimmung der Kennlinie wird die Spannung $U_{\text{max}}$ = 3,65 V angelegt. In regelm\"a{\ss}igen Intervallen wird die Spannung gesenkt und die Stromst\"arke gemessen. Vor jeder Aufnahme muss ca. eine Minute gewartet werden, bis sich die Prozesse innerhalb der Zelle, sowie die Werte stabilisiert haben.
-\newline
-Auf diese Weise wurden 13 U-I Wertepaare aufgenommen.
 
+Die beiden Vorratsbeh\"alter des Doppelzellen-Elektrolyseurs werden bis zur Markierung mit destilliertem Wasser bef\"ullt.  
+Wie in Abbildung \ref{fig:elekt} zu sehen, werden Multimeter, Elektrolyseur und Netzger\"at so miteinander verbunden, dass Stromst\"arke und Spannung am Netzger\"at gemessen werden k\"onnen. Zur Bestimmung der Kennlinie wird die Spannung $U_{\text{max}}$ = 3,65 V angelegt. In regelm\"a{\ss}igen Intervallen wird die Spannung gesenkt und die Stromst\"arke gemessen. Vor jeder Aufnahme muss ca. eine Minute gewartet werden, bis sich die Prozesse innerhalb der Zelle, sowie die Werte stabilisiert haben. Auf diese Weise werden 13 U-I Wertepaare aufgenommen.
+\newline
+Anschlie{\ss}end wird  die Zeit gemessen, die ben\"otigt wird um 25 ml Wasserstoff herzustellen, um den Wirkungsgrad des Elektrolyseurs zu bestimmen. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.8\textwidth]{Wirkungsgrad.jpeg}
+	\caption{Wirkungsgrad des Elektrolyseurs}
+	\label{fig:wirk}
+\end{figure}
+\noindent Der Versuchsaufbau wird hierzu wie in Abbildung \ref{fig:wirk} erweitert. \"Uber zwei mit  Wasser gef\"ullten Erlenmeyerkolben werden verschlossene Messzylinder gesetzt. Die Schl\"auche der Auslassstutzen werden mit den Messzylindern \"uber ein T-Ventil verbunden. Am Netger\"at wird die Spannung $U_{\text{max}}$  angelegt. Die Zeitmessung erfolgt in drei Durchl\"aufen. Gemessen wird jeweils sobald 25ml Wasserstoff im Messzylinder vorhanden sind. Die Messungen werden bei $T_{\text{Raum}}$ = 20°C und $P_{\text{Raum}}$ = \SI{1022}{\hecto\pascal} durchgef\"uhrt.
+
+\newpage
 \subsection{Brennstoffzelle}
-F\"ur den folgenden Versuchsaufbau wird der Elektolyseur zur st\"andigen Gasversorgung direkt an das Netzger\"at angeschlossen. Das entstehende Gas wird \"uber Schl\"auche mit einem Drei-Wege-Ventil verbunden. Hierr\"uber sind sowohl die Auffangbeh\"alter als auch die Brennstoffzelle an die Ga{\ss}produktion angeschlossen. \newline
+F\"ur den folgenden Versuchsaufbau wird der Elektrolyseurs zur st\"andigen Gasversorgung direkt an das Netzger\"at angeschlossen. Das entstehende Gas wird \"uber Schl\"auche mit einem Drei-Wege-Ventil verbunden. Hierr\"uber sind sowohl die Auffangbeh\"alter als auch die Brennstoffzelle an die Ga{\ss}produktion angeschlossen. \newline
 
 \begin{figure}[H]
     \centering
@@ -174,8 +210,9 @@ F\"ur den folgenden Versuchsaufbau wird der Elektolyseur zur st\"andigen Gasvers
 \section{Auswertung und Diskussion}
 
 In diesem Abschnitt werden die Messdaten ausgewertet, Unsicherheiten bestimmt und die Ergebnisse mit Literaturwerten verglichen.
+\subsection{Wirkungsgrad}
 
-\
+
 
 % ---------------------------------------------------
 % 5 Zusammenfassung

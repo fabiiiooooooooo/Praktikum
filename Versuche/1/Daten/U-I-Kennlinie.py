@@ -13,13 +13,13 @@ def plot_and_save(df, title, filename, marker="o", color=None, base_dir=None, sh
         xerr = None
         yerr = df.get("I_err", None)
         xlabel = "Spannung U [V]"
-        ylabel = "Strom I [mA]"
+        ylabel = "Stromstärke I [mA]"
     else:
         x = df["I_mA"]
         y = df["U_V"]
         xerr = df.get("I_err", None)
         yerr = df.get("U_err", None)
-        xlabel = "Strom I [mA]"
+        xlabel = "Stromstärke I [mA]"
         ylabel = "Spannung U [V]"
 
     ax.errorbar(
@@ -84,13 +84,13 @@ def main():
     
 
     # einzeln speichern (I‑U)
-    plot_and_save(df_auf, "I-U Kennlinie (Aufwärts)", "I-Ukennlinie_aufwaerts.png", marker="o", color="blue", base_dir=base_dir)
-    plot_and_save(df_ab,  "I-U Kennlinie (Abwärts)", "I-Ukennlinie_abwaerts.png", marker="s", color="red", base_dir=base_dir)
+    plot_and_save(df_auf, "", "I-Ukennlinie_aufwaerts.png", marker="o", color="blue", base_dir=base_dir)
+    plot_and_save(df_ab,  "", "I-Ukennlinie_abwaerts.png", marker="s", color="red", base_dir=base_dir)
 
     # zusätzlich U‑I Kennlinien (getauschte Achsen)
     plot_and_save(
         df_auf,
-        "U-I Kennlinie Aufwärts (Leerlauf → Last)",
+        "",
         "U-I-kennlinie_aufwaerts.png",
         marker="o",
         color="blue",
@@ -99,7 +99,7 @@ def main():
     )
     plot_and_save(
         df_ab,
-        "U-I Kennlinie Abwärts (Last → Kurzschluss)",
+        "",
         "U-I-kennlinie_abwaerts.png",
         marker="s",
         color="red",
