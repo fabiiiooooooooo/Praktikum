@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  12 MAR 2026 15:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  13 MAR 2026 13:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -762,36 +762,36 @@ Package chemgreek Info: Activating mapping `default' on line 64.
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-10.
+15.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-10.
+15.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-110.
+115.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-110.
+115.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 110.
+(Font)              <10.95> on input line 115.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 110.
+(Font)              <8> on input line 115.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 110.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 110
+(Font)              <6> on input line 115.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 115
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -800,7 +800,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 110
+LaTeX Font Info:    Trying to load font information for U+msb on input line 115
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -809,14 +809,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-33.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 Package babel Info: 'ngerman' activates 'german' shorthands.
-(babel)             Reported on input line 136.
+(babel)             Reported on input line 137.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -827,9 +821,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
-26/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2026/texmf-d
-ist/fonts/enc/dvips/lm/lm-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+26/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+45.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
@@ -840,16 +839,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2]
-<Aufbau3-2.jpeg, id=83, 3498.06876pt x 3535.2075pt>
+[2{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+<Aufbau3-2.jpeg, id=88, 3498.06876pt x 3535.2075pt>
 File: Aufbau3-2.jpeg Graphic file (type jpg)
 <use Aufbau3-2.jpeg>
-Package pdftex.def Info: Aufbau3-2.jpeg  used on input line 152.
+Package pdftex.def Info: Aufbau3-2.jpeg  used on input line 164.
 (pdftex.def)             Requested size: 364.19667pt x 368.0521pt.
-<Wirkungsgrad.jpeg, id=85, 5733.42pt x 4300.065pt>
+<Wirkungsgrad.jpeg, id=90, 5733.42pt x 4300.065pt>
 File: Wirkungsgrad.jpeg Graphic file (type jpg)
 <use Wirkungsgrad.jpeg>
-Package pdftex.def Info: Wirkungsgrad.jpeg  used on input line 163.
+Package pdftex.def Info: Wirkungsgrad.jpeg  used on input line 175.
 (pdftex.def)             Requested size: 364.19667pt x 273.08391pt.
 
 
@@ -860,22 +859,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3 <./Aufbau3-2.jpeg>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[4 <./Wirkungsgrad.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-<Aufbau3-3.jpeg, id=98, 1376.0208pt x 1032.0156pt>
+<Aufbau3-3.jpeg, id=99, 1376.0208pt x 1032.0156pt>
 File: Aufbau3-3.jpeg Graphic file (type jpg)
 <use Aufbau3-3.jpeg>
-Package pdftex.def Info: Aufbau3-3.jpeg  used on input line 175.
+Package pdftex.def Info: Aufbau3-3.jpeg  used on input line 186.
 (pdftex.def)             Requested size: 364.19667pt x 273.13638pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -884,7 +875,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5 <./Aufbau3-3.jpeg>]
+[4 <./Wirkungsgrad.jpeg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -892,39 +883,101 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6] (./protokoll-1.aux)
+[5 <./Aufbau3-3.jpeg>]
+<Kennlinie_PEM-Elektrolyseur.png, id=113, 578.16pt x 433.62pt>
+File: Kennlinie_PEM-Elektrolyseur.png Graphic file (type png)
+<use Kennlinie_PEM-Elektrolyseur.png>
+Package pdftex.def Info: Kennlinie_PEM-Elektrolyseur.png  used on input line 22
+8.
+(pdftex.def)             Requested size: 364.19667pt x 273.14235pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6 <./Kennlinie_PEM-Elektrolyseur.png>]
+
+LaTeX Warning: Citation `NIST_R' on page 7 undefined on input line 242.
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+84.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--290
+[]\T1/lmr/m/n/10.95 (+20) U.S. De-part-ment of Ener-gy, \T1/lmr/m/it/10.95 (+20
+) Hy-dro-gen Shot: Wa-ter Elec-tro-ly-sis Tech-no-lo-gy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--290
+\T1/lmr/m/it/10.95 (+20) As-sess-ment\T1/lmr/m/n/10.95 (+20) , 2024. []$\T1/lmt
+t/m/n/10.95 https : / / www . energy . gov / sites / default / files / 2024-[]1
+2 /
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8] (./protokoll-1.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `protokoll-1.out' has not changed.
-(rerunfilecheck)             Checksum: 1529F7DCD03D503F00974A949C07401C;1613.
+(rerunfilecheck)             Checksum: A367F97D171BABE850C7A1075B0AF0FC;1902.
  ) 
 Here is how much of TeX's memory you used:
- 21571 strings out of 467525
- 416693 string characters out of 5418982
- 865768 words of memory out of 5000000
- 50079 multiletter control sequences out of 15000+600000
- 683756 words of font info for 127 fonts, out of 8000000 for 9000
+ 21664 strings out of 467525
+ 418230 string characters out of 5418982
+ 866024 words of memory out of 5000000
+ 50135 multiletter control sequences out of 15000+600000
+ 685071 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,18n,80p,1008b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,18n,80p,1075b,1253s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
-e/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/tex
-mf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2026/texmf-dist/fon
-ts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/pu
-blic/lm/lmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr
-8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb></us
-r/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/te
-xlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on protokoll-1.pdf (7 pages, 9702461 bytes).
+e/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2026/tex
+mf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/texmf-dist/fo
+nts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/p
+ublic/lm/lmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lm
+r12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr17.pfb></u
+sr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/tex
+live/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026/
+texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist
+/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
+1/public/lm/lmtt10.pfb>
+Output written on protokoll-1.pdf (9 pages, 9775159 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 34928 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 35453 words of extra memory for PDF output out of 35830 (max. 10000000)
 

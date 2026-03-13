@@ -99,7 +99,12 @@
 % ---------------------------------------------------
 \section{Einleitung}
 
-Brennstoffzellen stellen einen vielversprechenden Ansatz für eine klimaneutrale Energieversorgung dar, da sie Wasserstoff elektrochemisch in elektrische Energie umwandeln und lediglich Wasser sowie Wärme als Reaktionsprodukte erzeugen. Im Rahmen der Energiewende gewinnen sie durch ihre hohe gravimetrische Energiedichte und Emissionsfreiheit an technischer Relevanz. Der Versuch behandelt das Funktionsprinzip von PEM-Elektrolyseur und PEM-Brennstoffzelle als zentrale Komponenten eines Wasserstoff-Energiesystems. Mittels U-I-Kennlinienaufnahmen und Wirkungsgradbestimmungen werden die Effizienzen der Energiewandler sowie irreversible Verluste durch Aktivierungs-, Ohmsche- und Konzentrationsüberspannungen experimentell charakterisiert.
+Angesichts des fortschreitenden Klimawandels und der Notwendigkeit einer nachhaltigen Energieversorgung gewinnen wasserstoffbasierte Energiesysteme zunehmend an technischer Bedeutung. Die Brennstoffzelle stellt dabei einen zentralen Energiewandler dar, der chemische Energie durch elektrochemische Reaktion direkt und emissionsfrei in elektrische Energie umwandelt. In Kombination mit einem Elektrolyseur, der mittels erneuerbarer Energie Wasserstoff erzeugt, bildet sie ein vollständiges Speicher- und Wandlungssystem.
+\newline Im Rahmen dieses Versuchs werden die grundlegenden elektrochemischen 
+Prinzipien von PEM-Elektrolyseur und PEM-Brennstoffzelle experimentell untersucht. Theoretische Grundlage bilden dabei die thermodynamischen Zusammenhänge der freien Enthalpie sowie die Kinetik elektrochemischer Reaktionen an Platinelektroden.
+
+\noindent Konkret werden die Strom-Spannungs-Kennlinien beider Energiewandler aufgenommen, um die charakteristischen Verlustmechanismen durch Aktivierungsüberspannungen, Ohmsche Widerstände und Konzentrationsüberspannungen zu identifizieren und zu diskutieren. Darüber hinaus wird der energetische Wirkungsgrad von Elektrolyseur und Brennstoffzelle experimentell bestimmt und mit industriellen Referenzwerten verglichen.
+
 
 % ---------------------------------------------------
 % 2 Theoretische Grundlagen
@@ -107,13 +112,15 @@ Brennstoffzellen stellen einen vielversprechenden Ansatz für eine klimaneutrale
 \section{Theoretische Grundlagen}
 
 \subsection{PEM-Elektrolyseur}
-Der Elektolyseur zerlegt durch elektrischen Strom Wasser ($H_{\text{2}}O$) in seine Bestandteile Wasserstoff ($H_{\text{2}}$) und Sauerstoff ($O_{\text{2}}$). Die dabei ablaufende Reaktion l\"asst sich mithilfe Reaktionsgleichung \ref{eq:ele} beschreiben.
+Der Polymerelektrolytmembran-Elektolyseur (PEM-Elektrolyseur) zerlegt durch elektrischen Strom Wasser ($H_{\text{2}}O$) in seine Bestandteile Wasserstoff ($H_{\text{2}}$) und Sauerstoff ($O_{\text{2}}$). Die dabei ablaufende Reaktion l\"asst sich mithilfe Reaktionsgleichung \ref{eq:ele} beschreiben.
 \begin{align}
 \ce{2H2O &-> 4H+ + 4e- + O2} \nonumber \\
 \ce{4H+ + 4e- &-> 2H2}
 \label{eq:ele}
 \end{align}
-\noindent Bei einem idealen Elektolyseur w\"urde bei dieser Reaktion die gesamte hinzugegebene elektrische Energie in nutzbare chemische Energie umgewandelt werden. F\"ur reale Elektrolyseure wird der tats\"achliche Wirkungsgrad $\eta_{\text{EL}}$ \"uber das Verh\"altnis von $E_{\text{chem}}$ zu $E_{\text{el}}$ als 
+%Aufbau mit Grafik einbinden und beschreiben
+\noindent Flüssiges Wasser wird der Anode zugeführt und gespalten. Die beiden Protonen (H+), die dabei entstehen, diffundieren durch die Membran zur Kathode, wo sie mit Elektronen zu Wasserstoff kombiniert werden
+Bei einem idealen Elektolyseur w\"urde bei dieser Reaktion die gesamte hinzugegebene elektrische Energie in nutzbare chemische Energie umgewandelt werden. F\"ur reale Elektrolyseure wird der tats\"achliche Wirkungsgrad $\eta_{\text{EL}}$ \"uber das Verh\"altnis von $E_{\text{chem}}$ zu $E_{\text{el}}$ als 
 \begin{equation}
 \eta_\text{EL} = \frac{E_\text{chem}}{E_\text{el}} = \frac{n \cdot \Delta H}{U \cdot I \cdot t}
 \label{eq:wirkungBrenn}
@@ -125,12 +132,17 @@ p \cdot V=n \cdot R \cdot T
 \end{equation}
 erh\"alt man f\"ur den Wirkungsgrad  
 \begin{equation}
-\eta_\text{EL} = \frac{p \cdot \Delta H \cdot V}{R \cdot R \cdot U \cdot I \cdot t}
+\eta_\text{EL} = \frac{p \cdot \Delta H \cdot V}{R \cdot U \cdot I \cdot t}
 \label{eq:wirkungBrennVoll}
 \end{equation}
-U und I entsprechen Spannung und Strom während des Umwandlungsprozess, t der benötigten Zeit und n der Stoffmenge des erzeugten Wasserstoffs.
+U und I entsprechen Spannung und Strom während des Umwandlungsprozess, t der benötigten Zeit und n der Stoffmenge des erzeugten Wasserstoffs. Weiter entspricht p dem Umgebungsdruck, T der Umgebungstemperatur, R der idealen Gaskonstante und V dem Volumen des erzeugten Wasserstoffs.
 \subsection{PEM-Brennstoffzelle}
-Der Wirkungsgrad einer Brennstoffzelle setzt die jeweils gelieferte elektrische Energie $E_{\text{el}}$ = U·I·t ins Verhältnis zur
+Die in einer Brennstoffzelle ablaufenden Prozesse laufen in umgekehrter Reihenfolge des Elektolyseurs (\ref{eq:ele}) ab. Die Brennstoffzelle besteht aus Anode und Kathode, die durch eine protonenleitfähige, gasdichte Polymermembran getrennt und mit Platinkatalysator beschichtet sind. An der Anode wird Wasserstoff oxidiert. Die Protonen durchqueren die Membran zur Kathode, während die Elektronen 
+über den äußeren Stromkreis fließen und dabei elektrische Arbeit verrichten. An der Kathode werden Protonen, Elektronen und Sauerstoff zu Wasser reduziert.
+Die Brennstoffzelle ist ein Energiewandler, welcher chemische in elektrische Energie wandelt. %Aufbau mit Grafik einbinden und beschreiben
+
+
+\noindent Der Wirkungsgrad einer Brennstoffzelle setzt die jeweils gelieferte elektrische Energie $E_{\text{el}}$ = U·I·t ins Verhältnis zur
 verbrannten chemischen Energie $E_{\text{chem}} =  \Delta H$ . Die Kondensationsenergie $\Delta q$ wird als W\"arme frei und l\"asst sich elektrisch nicht nutzen. Daher wird anstelle der Enthalpie $\Delta H$ der untere Heizwert $\Delta H_{\text{u}} = \Delta H - \Delta q = 242kJ/mol$ verwendet. \newline
 Setzt man auch hier das idealen Gasgesetzes \ref{eq:ideal} ein, so ergibt sich f\"ur die Berechnung des Wirkungsgrades $\eta_{\text{EL}}$ folgende Gleichung:
 
@@ -147,30 +159,29 @@ Setzt man auch hier das idealen Gasgesetzes \ref{eq:ideal} ein, so ergibt sich f
 \section{Versuchsbeschreibung}
 Der Versuch l\"asst sich in zwei Teile Gliedern. An erster Stelle wird die Funktionsweise des PEM Elektolyseurs untersucht. Dieser liefert die Versorgung mit Wasserstoffgas f\"ur den zweiten Versuchsteil. 
 \subsection{PEM Elektrolyseur}
-\begin{figure}[H]
+\begin{figure}[hthb]
 	\centering
 	\includegraphics[width = 0.8\textwidth]{Aufbau3-2.jpeg}
 	\caption{Versuchsaufbau PEM Elektrolyseur}
 	\label{fig:elekt}
 \end{figure}
 
-Die beiden Vorratsbeh\"alter des Doppelzellen-Elektrolyseurs werden bis zur Markierung mit destilliertem Wasser bef\"ullt.  
+\noindent Die beiden Vorratsbeh\"alter des Doppelzellen-Elektrolyseurs werden bis zur Markierung mit destilliertem Wasser bef\"ullt.  
 Wie in Abbildung \ref{fig:elekt} zu sehen, werden Multimeter, Elektrolyseur und Netzger\"at so miteinander verbunden, dass Stromst\"arke und Spannung am Netzger\"at gemessen werden k\"onnen. Zur Bestimmung der Kennlinie wird die Spannung $U_{\text{max}}$ = 3,65 V angelegt. In regelm\"a{\ss}igen Intervallen wird die Spannung gesenkt und die Stromst\"arke gemessen. Vor jeder Aufnahme muss ca. eine Minute gewartet werden, bis sich die Prozesse innerhalb der Zelle, sowie die Werte stabilisiert haben. Auf diese Weise werden 13 U-I Wertepaare aufgenommen.
 \newline
 Anschlie{\ss}end wird  die Zeit gemessen, die ben\"otigt wird um 25 ml Wasserstoff herzustellen, um den Wirkungsgrad des Elektrolyseurs zu bestimmen. 
-\begin{figure}[H]
+\begin{figure}[t]
 	\centering
 	\includegraphics[width = 0.8\textwidth]{Wirkungsgrad.jpeg}
 	\caption{Wirkungsgrad des Elektrolyseurs}
 	\label{fig:wirk}
 \end{figure}
-\noindent Der Versuchsaufbau wird hierzu wie in Abbildung \ref{fig:wirk} erweitert. \"Uber zwei mit  Wasser gef\"ullten Erlenmeyerkolben werden verschlossene Messzylinder gesetzt. Die Schl\"auche der Auslassstutzen werden mit den Messzylindern \"uber ein T-Ventil verbunden. Am Netger\"at wird die Spannung $U_{\text{max}}$  angelegt. Die Zeitmessung erfolgt in drei Durchl\"aufen. Gemessen wird jeweils sobald 25ml Wasserstoff im Messzylinder vorhanden sind. Die Messungen werden bei $T_{\text{Raum}}$ = 20°C und $P_{\text{Raum}}$ = \SI{1022}{\hecto\pascal} durchgef\"uhrt.
+\noindent Der Versuchsaufbau wird hierzu wie in Abbildung \ref{fig:wirk} erweitert. \"Uber zwei mit  Wasser gef\"ullten Erlenmeyerkolben werden verschlossene Messzylinder gesetzt. Die Schl\"auche der Auslassstutzen werden mit den Messzylindern \"uber ein T-Ventil verbunden. Am Netger\"at wird die Spannung $U_{\text{max}}$  angelegt. Die Zeitmessung erfolgt in drei Durchl\"aufen. Gemessen wird jeweils sobald 25ml Wasserstoff im Messzylinder vorhanden sind. 
 
-\newpage
 \subsection{Brennstoffzelle}
-F\"ur den folgenden Versuchsaufbau wird der Elektrolyseurs zur st\"andigen Gasversorgung direkt an das Netzger\"at angeschlossen. Das entstehende Gas wird \"uber Schl\"auche mit einem Drei-Wege-Ventil verbunden. Hierr\"uber sind sowohl die Auffangbeh\"alter als auch die Brennstoffzelle an die Ga{\ss}produktion angeschlossen. \newline
+Im folgenden Versuchsaufbau wird der Elektrolyseurs zur st\"andigen Gasversorgung direkt an das Netzger\"at angeschlossen. Das entstehende Gas wird \"uber Schl\"auche mit einem Drei-Wege-Ventil verbunden. Hierr\"uber sind sowohl die Auffangbeh\"alter als auch die Brennstoffzelle an die Ga{\ss}produktion angeschlossen. \newline
 
-\begin{figure}[H]
+\begin{figure}[hthb]
     \centering
     \includegraphics[width=0.8\textwidth]{Aufbau3-3.jpeg}
     \caption{Versuchsaufbau Brennstoffzelle.}
@@ -203,14 +214,45 @@ F\"ur den folgenden Versuchsaufbau wird der Elektrolyseurs zur st\"andigen Gasve
 	\end{tabular}
 \end{table}
 
-\noindent Das Netzger\"at wird auf 3,3 \si{\volt} und 2 A eingestellt, woraufhin das gesamte System f\"ur mindestens. drei Minuten mit Gas gesp\"ult wird. Um einen stabilen Zustand des Systems sicherzustellen wird vor Aufnahme der Kennlinie die Brennstoffzelle zun\"achst f\"ur f\"unf Minuten im Leerlauf und dann f\"ur weitere f\"unf Minuten mti einem Lastwiderstand von 2 \si{\ohm} betrieben.
+\noindent Das Netzger\"at wird auf 3,3 \si{\volt} und 2 A eingestellt, woraufhin das gesamte System f\"ur mindestens. drei Minuten mit Gas gesp\"ult wird. Um einen stabilen Zustand des Systems sicherzustellen wird vor Aufnahme der Kennlinie die Brennstoffzelle zun\"achst f\"ur f\"unf Minuten im Leerlauf und dann f\"ur weitere f\"unf Minuten mit einem Lastwiderstand von 2 \si{\ohm} betrieben.
 % ---------------------------------------------------
 % 4 Auswertung und Diskussion
 % ---------------------------------------------------
+\newpage
 \section{Auswertung und Diskussion}
 
 In diesem Abschnitt werden die Messdaten ausgewertet, Unsicherheiten bestimmt und die Ergebnisse mit Literaturwerten verglichen.
-\subsection{Wirkungsgrad}
+\subsection{Kennlinie PEM-Elektrolyseur}
+\begin{figure}[hthb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Kennlinie_PEM-Elektrolyseur.png}
+    \caption{Strom-Spannungs-Kennlinie des Elektrolyseurs}
+    \label{fig:kennlinie-elektrolyseur}
+\end{figure}
+\noindent Abbildung \ref{fig:kennlinie-elektrolyseur} zeigt die aufgenommene Strom-Spannungs-Kennlinie des PEM-Elektrolyseurs. Unterhalb der Zersetzungsspannung fließt nahezu kein Strom, da die angelegte Spannung nicht ausreicht, um die Elektrolyse zu initiieren. Ab der experimentell bestimmten Zersetzungsspannung von $U_Z = \SI{3.078}{\volt}$, ermittelt über den Schnittpunkt der Tangente an den linearen Bereich mit der Spannungsachse, steigt die Stromstärke annähernd linear mit der Spannung an. Dieses lineare Verhalten wird durch den ohmschen Innenwiderstand der Zelle dominiert. Bei höheren Spannungen flacht die Kennlinie leicht ab und weicht von der linearen Extrapolation ab, was auf einsetzende Konzentrationsüberspannungen hindeutet: Die Reaktanten an den Elektroden werden schneller verbraucht als sie nachgeliefert werden können, sodass der Stromanstieg gedämpft wird.Da es sich um einen Doppelzellen-Elektrolyseur handelt, ergibt sich thermodynamisch eine erwartete Mindestzersetzungsspannung von
+\begin{equation}
+U_{Z,\text{theo}} = 2 \cdot U_{\text{rev}} = 2 \cdot \SI{1.23}{\volt} = \SI{2.46}{\volt}.
+\label{eq:zersetzung_theo}
+\end{equation}
+\noindent Die experimentell bestimmte Zersetzungsspannung von $U_Z = \SI{3.078}{\volt}$ liegt um $\Delta U = \SI{0.618}{\volt}$ oberhalb dieses theoretischen Wertes. Diese Abweichung ist auf Aktivierungsüberspannungen an den Platinelektroden sowie auf ohmsche Verluste durch den Membran- und Elektrodenwiderstand zurückzuführen, die in einem realen Elektrolyseur stets auftreten und die notwendige Betriebsspannung gegenüber dem reversiblen Wert erhöhen.
+
+\subsection{Wirkungsgrad PEM-Elektrolyseur}
+Im Mittel hat der PEM-Elektrolyseur $t = \SI{23.29}{\second}$ für die 
+Herstellung von $V = \SI{25}{\milli\litre}$ Wasserstoff benötigt. 
+Mit einer Spannung $U = \SI{3.616}{\volt}$, einer Stromstärke  $I = \SI{4.34}{\ampere}$, der Enthalpie $\Delta H_{\text{u}} = \SI{286}{\kilo\joule\per\mol}$, der Raumtemperatur $T_{\text{Raum}} = \SI{293.15}{\kelvin}$, dem Umgebungsdruck $p_{\text{Raum}} = \SI{1022}{\hecto\pascal}$ sowie der idealen Gaskonstante $R = \SI{8.314}{\joule\per\mol\per\kelvin}$ \cite{NIST_R} berechnet sich 
+der Wirkungsgrad des Elektrolyseurs:
+
+\begin{equation}
+\eta_{\text{EL}} = \frac{p \cdot \Delta H \cdot V}{R \cdot T \cdot U \cdot I \cdot t}
+= \frac{\SI{102200}{\pascal} \cdot \SI{286000}{\joule\per\mol} \cdot \SI{25e-6}{\cubic\metre}}
+{\SI{8{,}314}{\joule\per\mol\per\kelvin} \cdot \SI{293{,}15}{\kelvin} \cdot \SI{3{,}616}{\volt} \cdot \SI{4{,}34}{\ampere} \cdot \SI{23{,}29}{\second}}
+\approx 0{,}820 \;\widehat{=}\; 82{,}0\,\%
+\label{eq:wirkungsgrad_el}
+\end{equation}
+
+\noindent Der berechnete Wirkungsgrad von $\eta_{\text{EL}} \approx 82{,}0\,\%$ liegt oberhalb des typischen Systemwirkungsgrades industrieller PEM-Elektrolyseure, der aktuell bei etwa $65\,\%$ bis $70\,\%$ (LHV) liegt \cite{VCI_Fraunhofer2024}. Stack-Wirkungsgrade moderner Anlagen erreichen bis zu $70\,\%$--$75\,\%$ (LHV), wobei ambitionierte Entwicklungsziele für 2026 auf $69\,\%$ auf Systemebene abzielen \cite{DOE2024}. Der im Versuch ermittelte Wert ist daher vermutlich auf systematische Messungenauigkeiten zurückzuführen, insbesondere auf die kurze Messzeit von $t = \SI{23.29}{\second}$, bei der bereits kleine Abweichungen die Berechnung merklich beeinflussen.
+
+\subsection{Kennlinie PEM-Brennstoffzelle}
 
 
 
@@ -238,6 +280,16 @@ Fügen Sie hier eine gut lesbare digitale Kopie der Laborbuchseiten ein, auf den
 
 \bibitem{Demtroeder1}
 W.~Demtröder, \emph{Experimentalphysik 1: Mechanik und Wärme}, Springer, 2003.
+\bibitem{VCI_Fraunhofer2024}
+VCI und Fraunhofer-Gesellschaft, \emph{Wasserstoff -- Schlüsselelement der 
+Energiewende}, Schlussbericht, 2024.
+\url{https://www.nordostchemie.de/files/Zahlen,\%20Daten\%20\%26\%20Fakten/Berichte/2024-Schlussbericht-Wasserstoff-VCI-Fraunhofer.pdf}
+
+\bibitem{DOE2024}
+U.S.\ Department of Energy, \emph{Hydrogen Shot: Water Electrolysis 
+Technology Assessment}, 2024.
+\url{https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf}
+
 
 \end{thebibliography}
 
