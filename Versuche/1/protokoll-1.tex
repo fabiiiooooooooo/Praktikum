@@ -133,7 +133,7 @@ p \cdot V=n \cdot R \cdot T
 erh\"alt man f\"ur den Wirkungsgrad  
 \begin{equation}
 \eta_\text{EL} = \frac{p \cdot \Delta H \cdot V}{R \cdot U \cdot I \cdot t}
-\label{eq:wirkungBrennVoll}
+\label{eq:wirkungELVoll}
 \end{equation}
 U und I entsprechen Spannung und Strom während des Umwandlungsprozess, t der benötigten Zeit und n der Stoffmenge des erzeugten Wasserstoffs. Weiter entspricht p dem Umgebungsdruck, T der Umgebungstemperatur, R der idealen Gaskonstante und V dem Volumen des erzeugten Wasserstoffs.
 \subsection{PEM-Brennstoffzelle}
@@ -147,8 +147,8 @@ verbrannten chemischen Energie $E_{\text{chem}} =  \Delta H$ . Die Kondensations
 Setzt man auch hier das idealen Gasgesetzes \ref{eq:ideal} ein, so ergibt sich f\"ur die Berechnung des Wirkungsgrades $\eta_{\text{EL}}$ folgende Gleichung:
 
 \begin{equation}
-\eta_\text{EL} = \frac{E_\text{chem}}{E_\text{el}} = \frac{U \cdot I \cdot t}{n \cdot \Delta H_{\text{u}}} = \frac{p \cdot \Delta H_{\text{u}} \cdot V}{R \cdot T \cdot U \cdot I \cdot t} 
-\label{eq:wirkungBrenn}
+\eta_\text{BZ} = \frac{E_\text{chem}}{E_\text{el}} = \frac{U \cdot I \cdot t}{n \cdot \Delta H_{\text{u}}} = \frac{p \cdot \Delta H_{\text{u}} \cdot V}{R \cdot T \cdot U \cdot I \cdot t} 
+\label{eq:wirkungBZ}
 \end{equation}
 \newline 
 
@@ -179,8 +179,7 @@ Anschlie{\ss}end wird  die Zeit gemessen, die ben\"otigt wird um 25 ml Wassersto
 \noindent Der Versuchsaufbau wird hierzu wie in Abbildung \ref{fig:wirk} erweitert. \"Uber zwei mit  Wasser gef\"ullten Erlenmeyerkolben werden verschlossene Messzylinder gesetzt. Die Schl\"auche der Auslassstutzen werden mit den Messzylindern \"uber ein T-Ventil verbunden. Am Netger\"at wird die Spannung $U_{\text{max}}$  angelegt. Die Zeitmessung erfolgt in drei Durchl\"aufen. Gemessen wird jeweils sobald 25ml Wasserstoff im Messzylinder vorhanden sind. 
 
 \subsection{Brennstoffzelle}
-Im folgenden Versuchsaufbau wird der Elektrolyseurs zur st\"andigen Gasversorgung direkt an das Netzger\"at angeschlossen. Das entstehende Gas wird \"uber Schl\"auche mit einem Drei-Wege-Ventil verbunden. Hierr\"uber sind sowohl die Auffangbeh\"alter als auch die Brennstoffzelle an die Ga{\ss}produktion angeschlossen. \newline
-
+Im folgenden Versuchsaufbau wird der Elektrolyseurs zur st\"andigen Gasversorgung direkt an das Netzger\"at angeschlossen. Das entstehende Gas wird \"uber Schl\"auche mit einem Drei-Wege-Ventil verbunden. Hierr\"uber sind sowohl die Auffangbeh\"alter als auch die Brennstoffzelle an die Ga{\ss}produktion angeschlossen. 
 \begin{figure}[hthb]
     \centering
     \includegraphics[width=0.8\textwidth]{Aufbau3-3.jpeg}
@@ -188,7 +187,7 @@ Im folgenden Versuchsaufbau wird der Elektrolyseurs zur st\"andigen Gasversorgun
     \label{fig:brennstoffzelle}
 \end{figure}
 
-\noindent Wie in  Abbildung \ref{fig:brennstoffzelle} zu sehen ist, wird der Versuchsaufbau mit zwei Multimetern und einer Widerstandsdekade verschalten, sodass Strom und Spannung an der Brennstoffzelle gemessen gemessen werden können. Die Widerstandsdekade verf\"ugt \"uber zwei Reihen an Widerst\"anden, welche in Tabelle ~\ref{tab:widerstaende} aufgetragen sind.
+\noindent Wie in Abbildung \ref{fig:brennstoffzelle} zu sehen ist, wird der Versuchsaufbau mit zwei Multimetern und einer Widerstandsdekade verschalten, sodass Strom und Spannung an der Brennstoffzelle gemessen gemessen werden können. Die Widerstandsdekade verf\"ugt \"uber zwei Reihen an Widerst\"anden, welche in Tabelle ~\ref{tab:widerstaende} aufgetragen sind.
 
 \begin{table}[H]
     \centering
@@ -197,7 +196,7 @@ Im folgenden Versuchsaufbau wird der Elektrolyseurs zur st\"andigen Gasversorgun
     \begin{tabular}{ll|ll}
         \toprule
         		\textbf{1. Dekade (Aufw\"arts)} & \textbf{R [\si{\ohm}]} &
-	        \textbf{2. Dekade (Abw\"arts)} & \textbf{R [ \si{\ohm}]} \\
+	        \textbf{2. Dekade (Abw\"arts)} & \textbf{R [\si{\ohm}]} \\
         		\midrule
         		$R_1$    & 10    & $R_1$    & 10   \\
         		$R_2$    & 28    & $R_2$    & 8.5  \\
@@ -215,6 +214,7 @@ Im folgenden Versuchsaufbau wird der Elektrolyseurs zur st\"andigen Gasversorgun
 \end{table}
 
 \noindent Das Netzger\"at wird auf 3,3 \si{\volt} und 2 A eingestellt, woraufhin das gesamte System f\"ur mindestens. drei Minuten mit Gas gesp\"ult wird. Um einen stabilen Zustand des Systems sicherzustellen wird vor Aufnahme der Kennlinie die Brennstoffzelle zun\"achst f\"ur f\"unf Minuten im Leerlauf und dann f\"ur weitere f\"unf Minuten mit einem Lastwiderstand von 2 \si{\ohm} betrieben.
+\newline Anschlie{\ss}end werden die Schlauchklemmen zwischen Wasserstoffreservoir und Brennstoffzelle geschlossen bis175ml Wasserstoff angesammelt sind. Daraufhin wird das System mit dem Wasserstoff gesp\"uhlt, bis noch 50ml vorhanden sind. Ab diesem Zeitpunkt wird die Zeit f\"ur den Verbrauch von 25ml \ce{H2} gemessen. In dieser Zeit werden Strom und Spannung in regelm\"a{\ss}igen Abst\"anden bei einem Widerstand von 2\si{\ohm} aufgetragen.
 % ---------------------------------------------------
 % 4 Auswertung und Diskussion
 % ---------------------------------------------------
@@ -252,25 +252,29 @@ der Wirkungsgrad des Elektrolyseurs:
 
 \noindent Der berechnete Wirkungsgrad von $\eta_{\text{EL}} \approx 82{,}0\,\%$ liegt oberhalb des typischen Systemwirkungsgrades industrieller PEM-Elektrolyseure, der aktuell bei etwa $65\,\%$ bis $70\,\%$ (LHV) liegt \cite{VCI_Fraunhofer2024}. Stack-Wirkungsgrade moderner Anlagen erreichen bis zu $70\,\%$--$75\,\%$ (LHV), wobei ambitionierte Entwicklungsziele für 2026 auf $69\,\%$ auf Systemebene abzielen \cite{DOE2024}. Der im Versuch ermittelte Wert ist daher vermutlich auf systematische Messungenauigkeiten zurückzuführen, insbesondere auf die kurze Messzeit von $t = \SI{23.29}{\second}$, bei der bereits kleine Abweichungen die Berechnung merklich beeinflussen.
 
-\subsection{Kennlinie PEM-Brennstoffzelle}
-
-\subsection{Kennlinie der Brennstoffzelle}
-
-Die aufgenommene Strom-Spannungs-Kennlinie der Brennstoffzelle ist in Abbildung~\ref{fig:kennlinie_bz} dargestellt. Da die beiden Messreihen unterschiedliche Strombereiche abdecken, sind die charakteristischen Bereiche der Kennlinie auf die Messreihen aufgeteilt:
-
-\begin{table}[hthb]
+\subsection{Kennlinie PEM-Brennstoffzelle} 
+%Neue Grafik erstellen. Wahrschienlioch alles eher im OhmschenBereich??
+\begin{figure}[H]
     \centering
-    \caption{Strombereiche und sichtbare Kennlinienbereiche der beiden Messreihen.}
-    \label{tab:kennlinie_bereiche}
-    \begin{tabular}{lll}
-        \toprule
-        \textbf{Messreihe} & \textbf{Strombereich} & \textbf{Sichtbare Bereiche} \\
-        \midrule
-        Aufwärts & \SIrange{0.38}{61.8}{\milli\ampere} & A (nichtlinear) + Beginn B (linear) \\
-        Abwärts  & \SIrange{61.4}{245.3}{\milli\ampere} & Ende B (linear) + C (Diffusion) \\
-        \bottomrule
-    \end{tabular}
-\end{table}
+    \includegraphics[width=0.8\textwidth]{I-Ukennlinie_kombiniert.png}
+    \caption{Strom-Spannungs-Kennlinie der Brennstoffzelle}
+    \label{fig:kennlinie-bz}
+\end{figure}
+Die aufgenommene Strom-Spannungs-Kennlinie der Brennstoffzelle ist in Abbildung~\ref{fig:kennlinie-bz} dargestellt. Da die beiden Messreihen unterschiedliche Strombereiche abdecken, sind die charakteristischen Bereiche der Kennlinie auf die Messreihen aufgeteilt:
+
+%\begin{table}[]
+%    \centering
+%    \caption{Strombereiche und sichtbare Kennlinienbereiche der beiden Messreihen.}
+%    \label{tab:kennlinie_bereiche}
+%    \begin{tabular}{lll}
+%        \toprule
+%        \textbf{Messreihe} & \textbf{Strombereich} & \textbf{Sichtbare Bereiche} \\
+%        \midrule
+%        Aufwärts & \SIrange{0.38}{61.8}{\milli\ampere} & A (nichtlinear) + Beginn B (linear) \\
+%        Abwärts  & \SIrange{61.4}{245.3}{\milli\ampere} & Ende B (linear) + C (Diffusion) \\
+%        \bottomrule
+%    \end{tabular}
+%\end{table}
 
 \noindent Die Leerlaufspannung liegt bei $U_L \approx \SI{0.9}{\volt}$, was nahe am thermodynamischen Gleichgewichtswert von $U_{\text{rev}} = \SI{1.23}{\volt}$ abzüglich irreversibler Verluste liegt. Im Folgenden werden die drei Bereiche der Kennlinie diskutiert.
 
@@ -297,6 +301,14 @@ Bei hohen Strömen wird Sauerstoff an der Kathode schneller verbraucht als er na
     \label{eq:nernst}
 \end{equation}
 \noindent mit dem Grenzstrom $I_L$ und der Ausgangskonzentration $c_0$. In den Messdaten zeigt sich ab $I \approx \SI{160}{\milli\ampere}$ eine leicht zunehmende Krümmung der Kennlinie. Der Übergang ist jedoch weich ausgeprägt, da der Diffusionsbereich bei der verwendeten kleinen Laborzelle weniger stark ausgebildet ist als bei industriellen Anlagen.
+
+\subsection{Wirkungsgrad PEM-Brennstoffzelle}
+Die aufgenommenen Werte f\"ur den Verbrauch von 25 ml \ce{H2} bei einer Raumtemperatur $T_{\text{Raum}}$ = 292,65 \si{\kelvin} f\"uhren nach der Formel \ref{eq:wirkungBZ} zu einem Wirkungsgrad 
+\begin{align}
+    \eta_{\mathrm{BZ}} 
+    &= \frac{8{,}314 \cdot 292{,}65 \cdot 126{,}68} {102200 \cdot 242000 \cdot 25 \times 10^{-6}} \\ \nonumber
+    &\approx 49{,}9\,\%
+\end{align}
 
 
 % ---------------------------------------------------

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  13 MAR 2026 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  14 MAR 2026 18:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -635,10 +635,6 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./protokoll-1.aux
 Package babel Info: 'ngerman' activates 'german' shorthands.
 (babel)             Reported on input line 8.
-
-
-LaTeX Warning: Label `eq:wirkungBrenn' multiply defined.
-
 )
 \openout1 = `protokoll-1.aux'.
 
@@ -859,15 +855,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3 <./Aufbau3-2.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
-
 <Aufbau3-3.jpeg, id=107, 1376.0208pt x 1032.0156pt>
 File: Aufbau3-3.jpeg Graphic file (type jpg)
 <use Aufbau3-3.jpeg>
-Package pdftex.def Info: Aufbau3-3.jpeg  used on input line 186.
+Package pdftex.def Info: Aufbau3-3.jpeg  used on input line 185.
 (pdftex.def)             Requested size: 364.19667pt x 273.13638pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -902,10 +895,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: Citation `NIST_R' on page 7 undefined on input line 242.
 
-
-LaTeX Warning: Reference `fig:kennlinie_bz' on page 7 undefined on input line 2
-59.
-
+<I-Ukennlinie_kombiniert.png, id=135, 426.1521pt x 354.123pt>
+File: I-Ukennlinie_kombiniert.png Graphic file (type png)
+<use I-Ukennlinie_kombiniert.png>
+Package pdftex.def Info: I-Ukennlinie_kombiniert.png  used on input line 259.
+(pdftex.def)             Requested size: 364.19667pt x 302.654pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -921,9 +915,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8]
+[8 <./I-Ukennlinie_kombiniert.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-29.
+41.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -932,13 +934,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--335
+Underfull \hbox (badness 10000) in paragraph at lines 344--347
 []\T1/lmr/m/n/10.95 (+20) U.S. De-part-ment of Ener-gy, \T1/lmr/m/it/10.95 (+20
 ) Hy-dro-gen Shot: Wa-ter Elec-tro-ly-sis Tech-no-lo-gy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--335
+Underfull \hbox (badness 10000) in paragraph at lines 344--347
 \T1/lmr/m/it/10.95 (+20) As-sess-ment\T1/lmr/m/n/10.95 (+20) , 2024. []$\T1/lmt
 t/m/n/10.95 https : / / www . energy . gov / sites / default / files / 2024-[]1
 2 /
@@ -951,7 +953,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9] (./protokoll-1.aux)
+[10] (./protokoll-1.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -960,17 +962,14 @@ L3 programming layer <2026-01-19>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `protokoll-1.out' has not changed.
-(rerunfilecheck)             Checksum: 2AE479AC66748DF328063ACDD2C1C191;2317.
+(rerunfilecheck)             Checksum: DEEF27D13C7E8CB4E18323AF9D50081F;2329.
  ) 
 Here is how much of TeX's memory you used:
- 21763 strings out of 467525
- 419566 string characters out of 5418982
- 867375 words of memory out of 5000000
- 50176 multiletter control sequences out of 15000+600000
+ 21773 strings out of 467525
+ 419818 string characters out of 5418982
+ 866359 words of memory out of 5000000
+ 50184 multiletter control sequences out of 15000+600000
  707337 words of font info for 173 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,18n,80p,1075b,1249s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -987,10 +986,10 @@ texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist
 /fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
 1/public/lm/lmtt10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on protokoll-1.pdf (10 pages, 9795622 bytes).
+Output written on protokoll-1.pdf (11 pages, 9906820 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 47757 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 268 PDF objects out of 1000 (max. 8388607)
+ 212 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 47762 words of extra memory for PDF output out of 51595 (max. 10000000)
 
