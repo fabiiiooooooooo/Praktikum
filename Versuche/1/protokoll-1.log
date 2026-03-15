@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  14 MAR 2026 18:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  15 MAR 2026 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -627,7 +627,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 64
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 63
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -638,24 +638,24 @@ Package babel Info: 'ngerman' activates 'german' shorthands.
 )
 \openout1 = `protokoll-1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -691,13 +691,13 @@ LaTeX Font Info:    ... okay on input line 64.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 64.
-Package microtype Info: Applying patch `item' on input line 64.
-Package microtype Info: Applying patch `toc' on input line 64.
-Package microtype Info: Applying patch `eqnum' on input line 64.
-Package microtype Info: Applying patch `footnote' on input line 64.
-Package microtype Info: Applying patch `verbatim' on input line 64.
-LaTeX Info: Redefining \microtypesetup on input line 64.
+LaTeX Info: Redefining \microtypecontext on input line 63.
+Package microtype Info: Applying patch `item' on input line 63.
+Package microtype Info: Applying patch `toc' on input line 63.
+Package microtype Info: Applying patch `eqnum' on input line 63.
+Package microtype Info: Applying patch `footnote' on input line 63.
+Package microtype Info: Applying patch `verbatim' on input line 63.
+LaTeX Info: Redefining \microtypesetup on input line 63.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -744,51 +744,50 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 64.
-Package hyperref Info: Link coloring OFF on input line 64.
+or `german'. on input line 63.
+Package hyperref Info: Link coloring OFF on input line 63.
  (./protokoll-1.out) (./protokoll-1.out)
 \@outlinefile=\write3
 \openout3 = `protokoll-1.out'.
 
 
-Package chemgreek Info: Activating mapping `default' on line 64.
+Package chemgreek Info: Activating mapping `default' on line 63.
 
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-15.
+al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] (./protokoll-1.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
+.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-15.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-115.
+4.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-115.
+4.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 115.
+(Font)              <10.95> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 115.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 115.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 115
-.
+(Font)              <6> on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -796,164 +795,102 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 115
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Package babel Info: 'ngerman' activates 'german' shorthands.
-(babel)             Reported on input line 137.
+))
+\tf@toc=\write4
+\openout4 = `protokoll-1.toc'.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.98 \newpage
+              [1]
+Underfull \hbox (badness 10000) in paragraph at lines 137--140
+
+ []
 
 [1{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
 26/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-45.
+51.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-<Aufbau3-2.jpeg, id=96, 3498.06876pt x 3535.2075pt>
+<Aufbau3-2.jpeg, id=120, 3498.06876pt x 3535.2075pt>
 File: Aufbau3-2.jpeg Graphic file (type jpg)
 <use Aufbau3-2.jpeg>
-Package pdftex.def Info: Aufbau3-2.jpeg  used on input line 164.
+Package pdftex.def Info: Aufbau3-2.jpeg  used on input line 180.
 (pdftex.def)             Requested size: 364.19667pt x 368.0521pt.
-<Wirkungsgrad.jpeg, id=98, 5733.42pt x 4300.065pt>
+<Wirkungsgrad.jpeg, id=122, 5733.42pt x 4300.065pt>
 File: Wirkungsgrad.jpeg Graphic file (type jpg)
 <use Wirkungsgrad.jpeg>
-Package pdftex.def Info: Wirkungsgrad.jpeg  used on input line 175.
+Package pdftex.def Info: Wirkungsgrad.jpeg  used on input line 191.
 (pdftex.def)             Requested size: 364.19667pt x 273.08391pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[3 <./Aufbau3-2.jpeg>]
-<Aufbau3-3.jpeg, id=107, 1376.0208pt x 1032.0156pt>
+ [3 <./Aufbau3-2.jpeg>]
+<Aufbau3-3.jpeg, id=130, 1376.0208pt x 1032.0156pt>
 File: Aufbau3-3.jpeg Graphic file (type jpg)
 <use Aufbau3-3.jpeg>
-Package pdftex.def Info: Aufbau3-3.jpeg  used on input line 185.
+Package pdftex.def Info: Aufbau3-3.jpeg  used on input line 201.
 (pdftex.def)             Requested size: 364.19667pt x 273.13638pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[4 <./Wirkungsgrad.jpeg>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[5 <./Aufbau3-3.jpeg>]
-<Kennlinie_PEM-Elektrolyseur.png, id=121, 578.16pt x 433.62pt>
+ [4 <./Wirkungsgrad.jpeg>] [5 <./Aufbau3-3.jpeg>]
+<Kennlinie_PEM-Elektrolyseur.png, id=145, 578.16pt x 433.62pt>
 File: Kennlinie_PEM-Elektrolyseur.png Graphic file (type png)
 <use Kennlinie_PEM-Elektrolyseur.png>
-Package pdftex.def Info: Kennlinie_PEM-Elektrolyseur.png  used on input line 22
-8.
+Package pdftex.def Info: Kennlinie_PEM-Elektrolyseur.png  used on input line 24
+4.
 (pdftex.def)             Requested size: 364.19667pt x 273.14235pt.
+ [6 <./Kennlinie_PEM-Elektrolyseur.png>]
+
+LaTeX Warning: Citation `NIST_R' on page 7 undefined on input line 258.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+LaTeX Warning: Citation `VCI_Fraunhofer2024' on page 7 undefined on input line 
+269.
 
-[6 <./Kennlinie_PEM-Elektrolyseur.png>]
 
-LaTeX Warning: Citation `NIST_R' on page 7 undefined on input line 242.
+LaTeX Warning: Citation `DOE2024' on page 7 undefined on input line 269.
 
-<I-Ukennlinie_kombiniert.png, id=135, 426.1521pt x 354.123pt>
+[7]
+<I-Ukennlinie_kombiniert.png, id=162, 426.1521pt x 354.123pt>
 File: I-Ukennlinie_kombiniert.png Graphic file (type png)
 <use I-Ukennlinie_kombiniert.png>
-Package pdftex.def Info: I-Ukennlinie_kombiniert.png  used on input line 259.
+Package pdftex.def Info: I-Ukennlinie_kombiniert.png  used on input line 275.
 (pdftex.def)             Requested size: 364.19667pt x 302.654pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[7{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[8 <./I-Ukennlinie_kombiniert.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[9]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-41.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 10000) in paragraph at lines 344--347
-[]\T1/lmr/m/n/10.95 (+20) U.S. De-part-ment of Ener-gy, \T1/lmr/m/it/10.95 (+20
-) Hy-dro-gen Shot: Wa-ter Elec-tro-ly-sis Tech-no-lo-gy
+ [8{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./I-U
+kennlinie_kombiniert.png>] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 369--373
+[]\T1/lmr/m/n/10.95 (+20) VCI und Fraunhofer-Gesellschaft, \T1/lmr/m/it/10.95 (
++20) Was-ser-stoff -- Schlüs-sel-ele-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--347
-\T1/lmr/m/it/10.95 (+20) As-sess-ment\T1/lmr/m/n/10.95 (+20) , 2024. []$\T1/lmt
-t/m/n/10.95 https : / / www . energy . gov / sites / default / files / 2024-[]1
-2 /
+Underfull \hbox (badness 10000) in paragraph at lines 369--373
+\T1/lmr/m/it/10.95 (+20) ment der Ener-gie-wen-de\T1/lmr/m/n/10.95 (+20) , Schl
+uss-be-richt, 2024. [On-li-ne]. Ver-füg-bar:
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+Underfull \hbox (badness 10000) in paragraph at lines 369--373
+\T1/lmr/m/n/10.95 (+20) https://www.nordostchemie.de/files/Zahlen,%20Daten%20%2
+6%20Fakten/Berichte/2024-
+ []
 
-[10] (./protokoll-1.aux)
+[11] (./protokoll-1.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -966,13 +903,13 @@ Package rerunfilecheck Info: File `protokoll-1.out' has not changed.
 (rerunfilecheck)             Checksum: DEEF27D13C7E8CB4E18323AF9D50081F;2329.
  ) 
 Here is how much of TeX's memory you used:
- 21773 strings out of 467525
- 419818 string characters out of 5418982
- 866359 words of memory out of 5000000
- 50184 multiletter control sequences out of 15000+600000
- 707337 words of font info for 173 fonts, out of 8000000 for 9000
+ 21750 strings out of 467525
+ 419260 string characters out of 5418982
+ 867339 words of memory out of 5000000
+ 50147 multiletter control sequences out of 15000+600000
+ 708039 words of font info for 178 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,18n,80p,1075b,1249s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,18n,80p,1075b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
 e/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2026/tex
@@ -984,12 +921,11 @@ sr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/tex
 live/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026/
 texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist
 /fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
-1/public/lm/lmtt10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msam10.pfb>
-Output written on protokoll-1.pdf (11 pages, 9906820 bytes).
+1/public/amsfonts/symbols/msam10.pfb>
+Output written on protokoll-1.pdf (13 pages, 9885542 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 212 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 47762 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 288 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 51346 words of extra memory for PDF output out of 51595 (max. 10000000)
 

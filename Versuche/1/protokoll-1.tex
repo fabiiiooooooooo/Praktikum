@@ -34,7 +34,6 @@
 % --- Kopf- und Fußzeile ---
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\nouppercase{\leftmark}}
 \fancyfoot[C]{\thepage}
 \renewcommand{\sectionmark}[1]{%
   \markboth{\thesection\ #1}{}%
@@ -91,6 +90,12 @@
     \vfill
 \end{titlepage}
 
+%------------------------
+%Inhaltsverzeichnis
+%------------------------
+
+\tableofcontents
+\newpage
 % ab hier Seitenzahlen normal
 \pagenumbering{arabic}
 
@@ -131,6 +136,7 @@ p \cdot V=n \cdot R \cdot T
 \label{eq:ideal}
 \end{equation}
 erh\"alt man f\"ur den Wirkungsgrad  
+\newline
 \begin{equation}
 \eta_\text{EL} = \frac{p \cdot \Delta H \cdot V}{R \cdot U \cdot I \cdot t}
 \label{eq:wirkungELVoll}
@@ -151,6 +157,16 @@ Setzt man auch hier das idealen Gasgesetzes \ref{eq:ideal} ein, so ergibt sich f
 \label{eq:wirkungBZ}
 \end{equation}
 \newline 
+
+\noindent Die maximale elektrische Energie pro Mol Wasserstoff ist durch die freie Enthalpie gegeben:
+\begin{equation}
+\Delta G = \Delta H - T \Delta S = 237\,\text{kJ/mol (bei 25\,\textdegree C)}.
+\end{equation}
+Daraus ergibt sich die reversible Zellspannung:
+\begin{equation}
+U_\text{rev} = \frac{\Delta G}{2F} = 1{,}23\,\text{V},
+\end{equation}
+wobei $F = 96485$\,C/mol die Faraday-Konstante ist \cite{4}.
 
 % ---------------------------------------------------
 % 3 Versuchsbeschreibung
@@ -243,15 +259,15 @@ Mit einer Spannung $U = \SI{3.616}{\volt}$, einer Stromstärke  $I = \SI{4.34}{\
 der Wirkungsgrad des Elektrolyseurs:
 
 \begin{equation}
-\eta_{\text{EL}} = \frac{p \cdot \Delta H \cdot V}{R \cdot T \cdot U \cdot I \cdot t}
+\eta_{\text{EL}} 
 = \frac{\SI{102200}{\pascal} \cdot \SI{286000}{\joule\per\mol} \cdot \SI{25e-6}{\cubic\metre}}
 {\SI{8{,}314}{\joule\per\mol\per\kelvin} \cdot \SI{293{,}15}{\kelvin} \cdot \SI{3{,}616}{\volt} \cdot \SI{4{,}34}{\ampere} \cdot \SI{23{,}29}{\second}}
-\approx 0{,}820 \;\widehat{=}\; 82{,}0\,\%
+\approx 82{,}0\,\%
 \label{eq:wirkungsgrad_el}
 \end{equation}
 
 \noindent Der berechnete Wirkungsgrad von $\eta_{\text{EL}} \approx 82{,}0\,\%$ liegt oberhalb des typischen Systemwirkungsgrades industrieller PEM-Elektrolyseure, der aktuell bei etwa $65\,\%$ bis $70\,\%$ (LHV) liegt \cite{VCI_Fraunhofer2024}. Stack-Wirkungsgrade moderner Anlagen erreichen bis zu $70\,\%$--$75\,\%$ (LHV), wobei ambitionierte Entwicklungsziele für 2026 auf $69\,\%$ auf Systemebene abzielen \cite{DOE2024}. Der im Versuch ermittelte Wert ist daher vermutlich auf systematische Messungenauigkeiten zurückzuführen, insbesondere auf die kurze Messzeit von $t = \SI{23.29}{\second}$, bei der bereits kleine Abweichungen die Berechnung merklich beeinflussen.
-
+\newpage
 \subsection{Kennlinie PEM-Brennstoffzelle} 
 %Neue Grafik erstellen. Wahrschienlioch alles eher im OhmschenBereich??
 \begin{figure}[H]
@@ -305,19 +321,31 @@ Bei hohen Strömen wird Sauerstoff an der Kathode schneller verbraucht als er na
 \subsection{Wirkungsgrad PEM-Brennstoffzelle}
 Die aufgenommenen Werte f\"ur den Verbrauch von 25 ml \ce{H2} bei einer Raumtemperatur $T_{\text{Raum}}$ = 292,65 \si{\kelvin} f\"uhren nach der Formel \ref{eq:wirkungBZ} zu einem Wirkungsgrad 
 \begin{align}
-    \eta_{\mathrm{BZ}} 
-    &= \frac{8{,}314 \cdot 292{,}65 \cdot 126{,}68} {102200 \cdot 242000 \cdot 25 \times 10^{-6}} \\ \nonumber
-    &\approx 49{,}9\,\%
+    \eta_{\text{BZ}} 
+    &= \frac{
+        8{,}314\,\frac{\text{J}}{\text{mol}\,\text{K}}
+        \cdot 292{,}65\,\text{K}
+        \cdot 126{,}68\,\text{J}
+    }{
+        102200\,\text{Pa}
+        \cdot 242000\,\frac{\text{J}}{\text{mol}}
+        \cdot 25 \times 10^{-6}\,\text{m}^3
+    } \\[4pt]
+    &\approx 49{,}9\,\% \nonumber
 \end{align}
 
+
+\noindent Der im Rahmen des Versuchs erreichte Wirkungsgrad liegt etwas unter den Wirkungsgraden industrieller PEM‑Brennstoffzellen, die je nach Auslegung und Betriebspunkt typischerweise etwa 60 \%  erreichen \cite{4}. Der Unterschied l\"asst sich durch stärkeren ohmsche Verluste sowie höhere Aktivierungs- und Konzentrationsüberspannungen erklären, die aus der nicht optimierten Elektroden- und Membrangeometrie, der einfachen Gasversorgung und fehlender Regelung des optimalen Betriebspunkts resultieren. Zusätzlich führen praktische Einflüsse wie Gasverunreinigungen, nicht ideale Temperaturführung und Messunsicherheiten zu einer weiteren Verringerung des gemessenen Wirkungsgrads.
 
 % ---------------------------------------------------
 % 5 Zusammenfassung
 % ---------------------------------------------------
 \section{Zusammenfassung}
 
-Hier werden die wichtigsten Ergebnisse und Erkenntnisse des Versuchs kurz zusammengefasst und ein Ausblick gegeben.
+Im Rahmen dieses Versuchs wurden PEM-Elektrolyseur und PEM-Brennstoffzelle als zentralen Energiewandler wasserstoffbasierter Energiesysteme experimentell charakterisiert. Die Strom-Spannungs-Kennlinien beider Systeme zeigen die charakteristischen Verlustmechanismen: Aktivierungsüberspannungen im niedrigen Strombereich, linearen ohmschen Abfall im mittleren Bereich und Konzentrationsüberspannungen bei hohen Strömen.
+\newline Der gemessene energetische Wirkungsgrad der Brennstoffzelle $\eta_\text{BZ} = 49{,}9\,\%$ bestätigt die thermodynamischen Grenzen der freien Enthalpie ($\Delta G = 237$\,kJ/mol, $U_\text{rev} = 1{,}23$\,V) und liegt im unteren Bereich industrieller Referenzwerte (50--60\,\%) \cite{4}. Die Ergebnisse verdeutlichen das Potenzial der Technologie für erneuerbare Energiesysteme sowie die Optimierungsbedarfe bei Materialien und Betriebsführung.
 
+\newpage
 % ---------------------------------------------------
 % 6 Laborbuch (Anhang)
 % ---------------------------------------------------
@@ -333,19 +361,28 @@ Fügen Sie hier eine gut lesbare digitale Kopie der Laborbuchseiten ein, auf den
 
 \begin{thebibliography}{9}
 
-\bibitem{Demtroeder1}
-W.~Demtröder, \emph{Experimentalphysik 1: Mechanik und Wärme}, Springer, 2003.
-\bibitem{VCI_Fraunhofer2024}
-VCI und Fraunhofer-Gesellschaft, \emph{Wasserstoff -- Schlüsselelement der 
-Energiewende}, Schlussbericht, 2024.
-\url{https://www.nordostchemie.de/files/Zahlen,\%20Daten\%20\%26\%20Fakten/Berichte/2024-Schlussbericht-Wasserstoff-VCI-Fraunhofer.pdf}
+\bibitem{1}
+W. Demtröder, \emph{Experimentalphysik 1: Mechanik und Wärme}, 23. Aufl., 
+Berlin, Germany: Springer, 2003.
 
-\bibitem{DOE2024}
-U.S.\ Department of Energy, \emph{Hydrogen Shot: Water Electrolysis 
-Technology Assessment}, 2024.
-\url{https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf}
+\bibitem{2}
+VCI und Fraunhofer-Gesellschaft, \emph{Wasserstoff -- Schlüsselelement der Energiewende}, 
+Schlussbericht, 2024. [Online]. Verfügbar: 
+https://www.nordostchemie.de/files/Zahlen,\%20Daten\%20\%26\%20Fakten/Berichte/2024-Schlussbericht-Wasserstoff-VCI-Fraunhofer.pdf. 
+[Zugriff: März 2026].
 
+\bibitem{3}
+U.S. Department of Energy, \emph{Hydrogen Shot: Water Electrolysis Technology Assessment}, 
+Tech. Rep., 2024. [Online]. Verfügbar: 
+https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf. 
+[Zugriff: März 2026].
+
+\bibitem{4}
+PowerPAC ETH Zürich, \emph{Technologie der PEM-Brennstoffzelle}, [Online]. Verfügbar: 
+https://www.powerpac.ethz.ch/technologie/technologie0.pdf. 
+[Zugriff: März 2026].
 
 \end{thebibliography}
+
 
 \end{document}

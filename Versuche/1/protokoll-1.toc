@@ -1,0 +1,19 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theoretische Grundlagen}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}PEM-Elektrolyseur}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}PEM-Brennstoffzelle}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Versuchsbeschreibung}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}PEM Elektrolyseur}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Brennstoffzelle}{4}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Auswertung und Diskussion}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Kennlinie PEM-Elektrolyseur}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Wirkungsgrad PEM-Elektrolyseur}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Kennlinie PEM-Brennstoffzelle}{8}{subsection.4.3}%
+\contentsline {paragraph}{Bereich A -- Aktivierungsüberspannung ($I \lesssim \SI {20}{\milli \ampere }$)}{8}{section*.8}%
+\contentsline {paragraph}{Bereich B -- Ohmscher Widerstand ($\SI {20}{\milli \ampere } \lesssim I \lesssim \SI {160}{\milli \ampere }$)}{9}{section*.9}%
+\contentsline {paragraph}{Bereich C -- Diffusionslimitierung ($I \gtrsim \SI {160}{\milli \ampere }$)}{9}{section*.10}%
+\contentsline {subsection}{\numberline {4.4}Wirkungsgrad PEM-Brennstoffzelle}{9}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Zusammenfassung}{10}{section.5}%
+\contentsline {section}{\numberline {A}Laborbuch}{11}{appendix.A}%
+\contentsline {section}{\numberline {B}Literaturverzeichnis}{11}{appendix.B}%
