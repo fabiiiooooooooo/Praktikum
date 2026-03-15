@@ -40,7 +40,6 @@
 \captionsetup{font=small,labelfont=bf}
 
 % Kopfzeile: links aktueller Abschnitt
-\fancyhead[L]{\nouppercase{\leftmark}}
 \fancyfoot[C]{\thepage}
 
 % Section-Mark definieren, damit \leftmark das Richtige enthält
@@ -52,10 +51,10 @@
 \newcommand{\Lehrveranstaltung}{Praktikum Physikalische Eigenschaften der Materialien}
 \newcommand{\Universitaet}{Universität Augsburg}
 \newcommand{\Semester}{Wintersemester 2025/2026}
-\newcommand{\Versuchsnummer}{Nummer}
-\newcommand{\Versuchstitel}{Versuch}
+\newcommand{\Versuchsnummer}{2}
+\newcommand{\Versuchstitel}{Solarzelle}
 \newcommand{\Gruppe}{C}
-\newcommand{\Versuchsdatum}{TT.MM.JJJJ}
+\newcommand{\Versuchsdatum}{02.03.2026}
 \newcommand{\Abgabedatum}{TT.MM.JJJJ}
 % Bei Einzelabgabe:
 %\newcommand{\Abgabeart}{Versuchsprotokoll}
@@ -95,6 +94,10 @@
     \vfill
 \end{titlepage}
 
+
+%Inhaltsverzeichnis
+\tableofcontents
+\newpage
 % ab hier Seitenzahlen normal
 \pagenumbering{arabic}
 
@@ -106,8 +109,10 @@
 % - Warum ist der Versuch interessant/wichtig?
 % - Welcher theoretische Hintergrund?
 % - Was soll konkret untersucht werden?
-
-Hier folgt die Einleitung zum Versuch. Sie ordnet den Versuch in einen aktuellen Kontext ein, beschreibt die Relevanz und formuliert das Ziel der Messungen. [file:1]
+Die globale Energieversorgung ist f\"ur einen Gro{\ss}teil der Treibhausgasemissionen verantwortlich. Rund 80 \% des globalen Energiebedarfs werden aus fossilen Energietr\"agern gewonnen \cite{statis1}. Um der Klimakrise entgegenzuwirken und eine langfristig nachhaltige Energieversorgung zu gew\"ahrleisten werden Erneuerbare Energiequellen immer wichtiger. Im Vergleich der vier leistungsst\"arksten Quellen erneuerbarer Energie (Solar-, Wasser-, Windenergie und Biomasse) zeichnet sich ein deutlich Trend fort: Der Ausbau der installierten Leistung nimmt \"uber alle hinweg zu, den gr\"o{\ss}te Anstieg verzeichnet die Solarenergie \cite{iea2024}. \newline
+Solarzellen k\"onnen die Strahlungsleistung der Sonne direkt nutzbar machen. Abhängig von Standort und Atmosphäre liefert die Solarstrahlung in Deutschland 900 bis 1200 Kilowattstunden pro Quadratmeter und Jahr \cite{weltphysik}. \newline
+In diesem Versuch wird die Erzeugung elektrischer Energie mittels Solarzellen untersucht. Dazu geh\"oren die Bestimmung des Wirkungsgrades, das Auftragen der irreversiblen Verluste in einer U-I-Kennlinie, sowie die Untersuchung der Empfindlichkeit f\"ur unterschiedliche Wellenl\"angen.
+Abschlie{\ss}end soll in einem kleinen Beispiel gezeigt werden, wie die gewonnene Energie genutzt werden kann.
 \newpage
 
 % ---------------------------------------------------
@@ -200,6 +205,18 @@ Fügen Sie hier eine gut lesbare digitale Kopie der Laborbuchseiten ein, auf den
 
 \bibitem{Demtroeder1}
 W.~Demtröder, \emph{Experimentalphysik 1: Mechanik und Wärme}, Springer, 2003. [file:1]
+
+\bibitem{statis1}
+Bundesamt, ``Erneuerbare Energien global'', Destatis, \url{https://www.destatis.de/DE/Themen/Laender-Regionen/Internationales/Thema/umwelt-energie/energie/ErneuerbareEnergienGlobal.html}. [Online]. Abgerufen:  März 2026.
+
+\bibitem{iea2024}
+International Energy Agency (IEA), \emph{World Energy Outlook 2024}, Paris, Frankreich: IEA, 2024. [Online]. Verfügbar: \url{https://iea.blob.core.windows.net/assets/efba04ce-2472-4df1-9873-fb170c055259/WorldEnergyOutlook2024.pdf}. [Abgerufen: März 2026.]
+
+\bibitem{weltphysik}
+``Sonnenenergie'', Welt der Physik, \url{https://www.weltderphysik.de/gebiet/technik/energie/solarenergie/sonnenenergie/}. [Online]. Abgerufen: März 2026.
+
+% Weitere Einträge hier...
+
 
 % weitere Quellen nach Bedarf
 
