@@ -26,12 +26,16 @@
 \usepackage{booktabs}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
+\usepackage{mhchem}
 
 % --- Kopf- und Fußzeile ---
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{Abschnitt \leftmark}
 \fancyfoot[C]{\thepage}
+\renewcommand{\sectionmark}[1]{%
+  \markboth{\thesection\ #1}{}%
+}
+
 
 % --- Nummerierte Gleichungen ---
 \numberwithin{equation}{section}
@@ -39,13 +43,6 @@
 % --- Abbildungs- und Tabellenbeschriftungen ---
 \captionsetup{font=small,labelfont=bf}
 
-% Kopfzeile: links aktueller Abschnitt
-\fancyfoot[C]{\thepage}
-
-% Section-Mark definieren, damit \leftmark das Richtige enthält
-\renewcommand{\sectionmark}[1]{%
-  \markboth{\thesection\ #1}{}%
-}
 
 % --- Metadaten (für Titelseite) ---
 \newcommand{\Lehrveranstaltung}{Praktikum Physikalische Eigenschaften der Materialien}
@@ -77,13 +74,13 @@
     \vspace{0.5cm}
     {\large \Semester\par}
     \vspace{1.5cm}
-    {\LARGE \Abgabeart\par}
+    {\Large Versuchsnummer: \Versuchsnummer\par}
     \vspace{0.5cm}
-    {\Large \Versuchsnummer: \Versuchsnummer\par}
-    \vspace{0.5cm}
-    {\Large \Versuchstitel: \Versuchstitel\par}
+    {\Large Versuchstitel: \Versuchstitel\par}
     \vspace{1.5cm}
     {\large Gruppe \Gruppe\par}
+    \vspace{0.5cm}
+    {\LARGE \Abgabeart\par}
     \vspace{0.5cm}
     {\large Autor(en): \Autor\par}
     \vspace{1.5cm}
@@ -121,15 +118,62 @@ Abschlie{\ss}end soll in einem kleinen Beispiel gezeigt werden, wie die gewonnen
 \section{Theoretische Grundlagen}
 % Nur das, was für Verständnis und Auswertung nötig ist. [file:1]
 % Herleitungen ggf. gekürzt und mit Literaturangaben.
+Um die Funktionsweise einer Solarzelle zu verstehen muss man sich 
+\subsection{Aufbau einer Solarzelle}
 
-In diesem Abschnitt werden die für den Versuch relevanten physikalischen Größen und Zusammenhänge erläutert. [file:1]
+\begin{figure}[hthb]
+	\centering
+	\includegraphics[width=0.7\textwidth]{solarzelle.png}
+	\caption{Aufbau einer Silizium Solarzelle}
+	\label{fig:aufbauSZ}
+\end{figure}
 
-Als Beispiel für eine Gleichung mit erklärten Variablen:
+	
+\noindent Klassische Solarzellen bestehen aus Silizium, welches durch Dotierung leitfähig gemacht wird. Der Aufbau (Abb.\ref{fig:aufbauSZ}) entspricht wesentlich dem einer Halbleiterdiode: Eine dünne, oberflächennahe n-dotiere Schicht (ca. 1 µm, Phosphor-Dotierung) liegt auf einem deutlich dickeren p-dotierten Substrat (ca. 0,6 mm, Bor-Dotierung). In der n-Schicht sind Elektronen die Mehrheitsladungsträger, während im p-Bereich Löcher diese Rolle übernehmen.\newline
+Am p-n-Übergang diffundieren zunächst Elektronen aus dem n-Gebiet ins p-Gebiet und Löcher umgekehrt, bis die Rekombination eine Raumladungszone (Verarmungszone) bildet. Diese erzeugt ein internes elektrisches Feld, das weitere Diffusion verhindert. Bei Beleuchtung entstehen in oder nahe dieser Zone Elektron-Loch-Paare, das Feld trennt sie gerichtet (Elektronen zur n-Seite, Löcher zur p-Seite) und baut eine Spannung zwischen den Kontakten auf.\newline
+Die Kontaktierung erfolgt durch einen vollflächigen Metallkontakt auf der Rückseite (p-Substrat) und einem feinen Metallgitter auf der Vorderseite (n-Schicht), um Lichtverluste zu minimieren. Bei geschlossenem Stromkreis fließen Elektronen extern zurück und rekombinieren, wodurch die Zelle Strom liefert.
+\subsection{Wirkungsgrad der Solarzelle}
+Nur ein beschränkter Teil der einfallenden Strahlungsleistung wird von Solarzellen in elektrische Leistung umgewandelt. Das liegt hauptsächlich an dem breiten Spektrum des Sonnenlichts. Kurzwelliges UV-Licht trägt viel Energie pro Photon, langwelliges Infrarot-Licht entsprechend wenig. In der Siliziumsolarzelle können nur Photonen Elektron-Loch-Paare erzeugen, deren Energie größer als die Bandlücke von \(E_g = 1{,}12\,\text{eV}\) (bei Raumtemperatur) ist \cite{wiki-bandluecke}\cite{leistungselektronik}. Liegt die Energie unterhalb der Bandlücke, werden die Photonen nicht absorbiert,
+\"ubersch\"ussige Energie oberhalb der Bandl\"ucke wird thermisch dissipiert.
+Zur Berechnung des Wirkungsgrades $\eta_{\text{SZ}}$ wird die maximal abgegebene elektrische Leistung $P_{\text{el,max}}$ ins Verh\"altnis zur einfallenden Strahlungsleistung $W_{\text{Str}}$ gestellt.
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.7\textwidth]{kennlinie-sz.png}
+	\caption{Kennlinie einer Solarzelle}
+	\label{fig:kennlinie-SZ}
+\end{figure}
+$P_{\text{el,max}}$ l\"asst sich aus der Strom-Spannungs-Kennlinie bestimmen (Abb. \ref{fig:kennlinie-SZ}), er ist \"uber der Punkt maximaler Leistung (MPP)  durch die Komponenten $I_{\text{mpp}}$ und $U_{\text{mpp}}$ gegeben, sodass $P_{\text{el,max}} = I_{\text{mpp}} \cdot U_{\text{mpp}}$
+%Je mehr die Kennlinie dem idealen Rechteck \"ahnlet, welches durch die Leerlaufspannung $U_{\text{L}}$ und dem Kurzschlussstrom $I_{\text{K}}$
+%aufgespannt wird, desto 
+Der F\"ullfaktor 
 \begin{equation}
-    \Delta T = T_{\text{Raum}} - T_{\text{H2O}}.
+\textit{f} = \frac{U_{\text{mpp}} \cdot I_{\text{mpp}}}{U_{\text{L}} \cdot I_{\text{K}}}
+\label{eq:ff}
 \end{equation}
-Hier bezeichnet \(T_{\text{Raum}}\) die Raumtemperatur und \(T_{\text{H2O}}\) die Wassertemperatur. [file:1]
-\newpage
+
+\noindent charakterisiert das Ideale Rechteck. Je n\"aher die Kennlinie diesem Rechteck gleicht, desto g\"unstiger liegt MPP. F\"ur den Wirkungsgrad ergibt sich 
+
+\begin{equation}
+\eta_\text{SZ} = \frac{U_\text{mpp} \cdot I_\text{mpp}}{W_\text{Str}} = \textit{f} \cdot \frac{U_\text{L} \cdot I_\text{K}}{W_\text{Str}}.
+\label{eq:wkSZ}
+\end{equation}
+
+\subsection{Spektrale Empfindlichkeit }
+
+Die spektrale Empfindlichkeit $S(\lambda)$ setzt den Kurzschlussstrom ins Verh\"altnis zur monochromatischen Bestrahlungsst\"arke W 
+\begin{equation}
+S(\lambda) = \frac{I_{\text{K}}(\lambda)}{W(\lambda)}.
+\label{eq:spek}
+\end{equation}
+\noindent Um sie experimentell zu Bestimmen, kann eine Solarzelle mit licht verschiedener Wellenl\"angen beleutet werden. Die Aufspaltung des Lichts erfolgt \"uber die Beugung an einem Gitter \cite{demtroeder2017}
+Für die Bestimmung der zugehörigen spektralen Strahlungsleistung $W(\lambda)$ ist das Flächenverhältnis der Solarzelle zur beleuchteten Gesamtfläche sowie das Emissionsspektrum der Lampe erforderlich. Dieses lässt sich näherungsweise als Schwarzkörperstrahlung modellieren \cite{demtroeder2017}. Die spektrale Energiedichte $u_\lambda(\lambda,T)$ beschreibt die Strahlungsenergie pro Wellenlänge $\lambda$ und folgt der Planckschen Strahlungsformel
+
+\begin{equation}
+u_\lambda(\lambda,T) = \frac{8\pi h c}{\lambda^5}\frac{1}{e^{hc/(\lambda k_B T)}-1} \label{eq:planck},
+\end{equation}
+
+\noindent mit der Strahler-Temperatur $T$, Planck-Konstante $h$, Lichtgeschwindigkeit $c$ und Boltzmann-Konstante $k_\text{B}$ \cite{demtroeder2017}.
+\noindent Für relative Spektren berechnet man $u_\lambda(\lambda,T)$ über relevante $\lambda$ und normiert auf den Maximalwert.
 
 % ---------------------------------------------------
 % 3 Versuchsbeschreibung
@@ -214,6 +258,16 @@ International Energy Agency (IEA), \emph{World Energy Outlook 2024}, Paris, Fran
 
 \bibitem{weltphysik}
 ``Sonnenenergie'', Welt der Physik, \url{https://www.weltderphysik.de/gebiet/technik/energie/solarenergie/sonnenenergie/}. [Online]. Abgerufen: März 2026.
+\bibitem{wiki-bandluecke}
+``Bandlücke'', Wikipedia, [Online]. Verfügbar: \url{https://de.wikipedia.org/wiki/Bandl\%C3\%BCcke}. [Abgerufen: März 2026.]
+
+\bibitem{leistungselektronik}
+``Bandlücke'', Leistungselektronik, [Online]. Verfügbar: \url{https://www.leistungselektronik.de/bandluecke-a-c6bef4222bde07af45faeb7b2f1e4ef4/}. [Abgerufen: 15. März 2026.] [web:43]
+
+\bibitem{demtroeder2017}
+W. Demtröder, ``Interferenz, Beugung und Streuung'', in \emph{Struktur der Materie}, Springer-Lehrbuch, Berlin, Heidelberg: Springer Berlin Heidelberg, 2017, Kap.~10. [Online]. DOI: 10.1007/978-3-662-55790-7\_10. [Abgerufen: März 2026.]
+
+
 
 % Weitere Einträge hier...
 
