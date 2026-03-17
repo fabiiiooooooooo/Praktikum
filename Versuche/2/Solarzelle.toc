@@ -5,7 +5,9 @@
 \contentsline {subsection}{\numberline {2.2}Wirkungsgrad der Solarzelle}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Spektrale Empfindlichkeit }{3}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Versuchsbeschreibung}{4}{section.3}%
-\contentsline {section}{\numberline {4}Auswertung und Diskussion}{5}{section.4}%
-\contentsline {section}{\numberline {5}Zusammenfassung}{6}{section.5}%
-\contentsline {section}{\numberline {A}Anhang}{7}{appendix.A}%
-\contentsline {section}{\numberline {B}Literaturverzeichnis}{8}{appendix.B}%
+\contentsline {subsection}{\numberline {3.1}Kennlinie der Solarzelle}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Bestimmung der spektralen Empfindlichkeit}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Auswertung und Diskussion}{6}{section.4}%
+\contentsline {section}{\numberline {5}Zusammenfassung}{7}{section.5}%
+\contentsline {section}{\numberline {A}Anhang}{8}{appendix.A}%
+\contentsline {section}{\numberline {B}Literaturverzeichnis}{9}{appendix.B}%

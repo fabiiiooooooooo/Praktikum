@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  15 MAR 2026 16:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  17 MAR 2026 14:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,6 +603,10 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./Solarzelle.aux
 Package babel Info: 'ngerman' activates 'german' shorthands.
 (babel)             Reported on input line 8.
+
+
+LaTeX Warning: Label `fig:versuchSZ' multiply defined.
+
 )
 \openout1 = `Solarzelle.aux'.
 
@@ -781,7 +785,7 @@ een already used, duplicate ignored
                    \relax 
 l.97 \newpage
               [1] [1]
-<solarzelle.png, id=78, 2007.5pt x 1204.5pt>
+<solarzelle.png, id=88, 2007.5pt x 1204.5pt>
 File: solarzelle.png Graphic file (type png)
 <use solarzelle.png>
 Package pdftex.def Info: solarzelle.png  used on input line 126.
@@ -792,7 +796,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<kennlinie-sz.png, id=83, 614.295pt x 454.69875pt>
+<kennlinie-sz.png, id=93, 614.295pt x 454.69875pt>
 File: kennlinie-sz.png Graphic file (type png)
 <use kennlinie-sz.png>
 Package pdftex.def Info: kennlinie-sz.png  used on input line 141.
@@ -801,11 +805,35 @@ Package pdftex.def Info: kennlinie-sz.png  used on input line 141.
 l/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/
 2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./solarzelle.png>] [3{/usr/local
 /texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./kennlinie-sz.png>
-] [4] [5] [6]
-[7]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+<Solarzelle.jpeg, id=123, 779.0706pt x 698.1282pt>
+File: Solarzelle.jpeg Graphic file (type jpg)
+<use Solarzelle.jpeg>
+Package pdftex.def Info: Solarzelle.jpeg  used on input line 190.
+(pdftex.def)             Requested size: 318.66948pt x 285.55264pt.
+
+Package caption Warning: \label without proper reference on input line 229.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:versuchSZ' on page 4 undefined on input line 195.
+
+
+[4 <./Solarzelle.jpeg>]
+<spektral.jpeg, id=136, 1376.0208pt x 1032.0156pt>
+File: spektral.jpeg Graphic file (type jpg)
+<use spektral.jpeg>
+Package pdftex.def Info: spektral.jpeg  used on input line 230.
+(pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
+ [5 <./spektral.jpeg>] [6] [7] [8]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-54.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
+95.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -813,43 +841,50 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 6542) in paragraph at lines 254--255
+Underfull \hbox (badness 6542) in paragraph at lines 295--296
 []\T1/lmr/m/n/10.95 (+20) Bundesamt, ``Er-neu-er-ba-re Ener-gi-en glo-bal'', De
 -sta-tis, []$\T1/lmtt/m/n/10.95 https : / / www . destatis . de /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 \T1/lmtt/m/n/10.95 DE / Themen / Laender-[]Regionen / Internationales / Thema /
  umwelt-[]energie / energie /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 \T1/lmr/m/n/10.95 (+20) IEA, 2024. [On-li-ne]. Ver-füg-bar: []$\T1/lmtt/m/n/10.
 95 https : / / iea . blob . core . windows . net / assets /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 \T1/lmtt/m/n/10.95 efba04ce-[]2472-[]4df1-[]9873-[]fb170c055259 / WorldEnergyOu
 tlook2024 . pdf$[]\T1/lmr/m/n/10.95 (+20) . [Ab-ge-ru-fen:
  []
 
-[8] (./Solarzelle.aux)
+[9] (./Solarzelle.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Solarzelle.out' has not changed.
-(rerunfilecheck)             Checksum: E05A80884E8A3CA5D4FB1FBC1E58FE70;1477.
+(rerunfilecheck)             Checksum: A05993871B2393310CE7316D949C9D9F;1933.
  ) 
 Here is how much of TeX's memory you used:
- 21421 strings out of 467525
- 413916 string characters out of 5418982
- 858338 words of memory out of 5000000
- 49917 multiletter control sequences out of 15000+600000
- 693117 words of font info for 134 fonts, out of 8000000 for 9000
+ 21456 strings out of 467525
+ 414501 string characters out of 5418982
+ 859456 words of memory out of 5000000
+ 49938 multiletter control sequences out of 15000+600000
+ 693803 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,80p,1007b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
@@ -863,10 +898,10 @@ r/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texl
 ive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026/t
 exmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist/
 fonts/type1/public/lm/lmtt10.pfb>
-Output written on Solarzelle.pdf (10 pages, 877599 bytes).
+Output written on Solarzelle.pdf (11 pages, 5131752 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 39515 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 41589 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -1,0 +1,29 @@
+Erstellt im Programm-Modus
+Erstellungsdatum    :04.03.2026
+Erstellungszeit     :13:43:38
+Kommentar           :
+Sachbearbeiter      :1
+Anzahl Werte RP     :0
+Anzahl Werte        :1199
+Zeitskala           :t/s
+BE-Korrekturwert/mV :0.000000
+Probenfläche/mm²    :150
+Kanalzahl           :1
+I-Bereich           :I/mA
+S-Bereich           :S/[A/m²]
+SEQ-FILE            :S
+Pruefstand 	    : 
+(null)               :(null)
+(null)               :(null)
+(null):              :(null)
+(null):              :(null)
+(null):              :(null)
+(null):              :(null)
+(null):              :(null)
+(null):              :(null)
+(null):              :(null)
+(null):              :(null)
+P1Lbl1  Time/s
+P1Lbl2  Potential/mV
+P1Lbl3  I/mA
+P1Lbl4  S/[A/m²]

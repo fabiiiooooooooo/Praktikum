@@ -179,20 +179,61 @@ u_\lambda(\lambda,T) = \frac{8\pi h c}{\lambda^5}\frac{1}{e^{hc/(\lambda k_B T)}
 % 3 Versuchsbeschreibung
 % ---------------------------------------------------
 \section{Versuchsbeschreibung}
-% Versuchsaufbau und -durchführung so beschreiben,
-% dass der Versuch ohne Anleitung nachvollziehbar ist. [file:1]
 
-In diesem Abschnitt werden der Versuchsaufbau und die Versuchsdurchführung detailliert beschrieben, sodass der Versuch ohne zusätzliche Anleitung reproduzierbar ist. [file:1]
-% Beispiel für eine Abbildung mit eindeutiger Nummer:
-\begin{figure}[h]
-    \centering
-    %\includegraphics[width=0.7\textwidth]{aufbau.png}
-    \caption{Schematische Darstellung des Versuchsaufbaus.}
-    \label{fig:aufbau}
+Bei der Durchf\"uhrung aller Messungen finden im Dunkeln statt, um Messungenauigkeiten durch Streulicht zu auszuschließendem.\newline
+
+\subsection{Kennlinie der Solarzelle}
+
+\begin{figure}[hthb]
+\centering
+\label{fig:versuchSZ}
+\includegraphics[width=0.7\textwidth]{Solarzelle.jpeg}
+\caption Aufbau der Solarzelle 
 \end{figure}
 
-Im Text wird auf die Abbildung \ref{fig:aufbau} verwiesen und deren Inhalt beschrieben. [file:1]
-\newpage
+
+\noindent Das Solarzellenmodul wird wie in Abb. \ref{fig:versuchSZ} mit dem Strahler ausgerichtet. Dieser wird an einem regelbaren Transformator angeschlossen. Der Versuchsaufbau wird mit zwei Multimetern, f\"ur Strom- und Spannungsmessung sowie einer Widerstandsdekade verschalten.
+Die Widerstandsdekade verf\"ugt \"uber zwei Reihen an Widerst\"anden, welche in Tabelle \ref{tab:widerstaende} aufgetragen sind.
+
+\begin{table}[hthb]
+    \centering
+    \caption{Widerstandsdekaden.}
+    \label{tab:widerstaende}
+    \begin{tabular}{ll|ll}
+        \toprule
+        		\textbf{1. Dekade (Aufw\"arts)} & \textbf{R [\si{\ohm}]} &
+	        \textbf{2. Dekade (Abw\"arts)} & \textbf{R [\si{\ohm}]} \\
+        		\midrule
+        		$R_1$    & 10    & $R_1$    & 10   \\
+        		$R_2$    & 28    & $R_2$    & 8.5  \\
+	        $R_3$    & 38    & $R_3$    & 7    \\
+	        $R_4$    & 50    & $R_4$    & 5.2  \\
+	        $R_5$    & 65    & $R_5$    & 3    \\
+	        $R_6$    & 80    & $R_6$    & 1.8  \\
+	        $R_7$    & 113   & $R_7$    & 1.24 \\
+	        $R_8$    & 146   & $R_8$    & 0.91 \\
+	        $R_9$    & 366   & $R_9$    & 0.52 \\
+	        $R_{10}$ & 756   & $R_{10}$ & 0.37 \\
+	        $R_{11}$ & 1956 & $R_{11}$ & 0.1 \\
+	        \bottomrule
+	\end{tabular}
+\end{table}
+ 
+\noindent Zur Bestimmung der Kennlinie der Solarzelle werden bei konstanter Temperatur  Kurzschlussstrom $I_{\text{K}}$, Leerlaufspannung $U_{\text{L}}$, sowie Spannungs- und Stromstärkepaare f\"ur jeden Widerstand $R_{\text{i}}$ bei 50 \% und 100 \% der Strahlungsleistung der Lampe gemessen. \newline
+Der Dunkelstrom der Solarzelle wird vor jedem Dekadendurchlauf, sowie abschlie{\ss}end nach der Erw\"ahrmung der Solarzelle aufgenommen.
+
+\subsection{Bestimmung der spektralen Empfindlichkeit}
+
+\begin{figure}[hthb]
+\centering
+\label{fig:spektralSZ}
+\includegraphics[width=0.7\textwidth]{spektral.jpeg}
+\caption  platzhalter
+\end{figure}
+
+
+
+\newpage 
 % ---------------------------------------------------
 % 4 Auswertung und Diskussion
 % ---------------------------------------------------
