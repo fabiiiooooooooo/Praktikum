@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  17 MAR 2026 15:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  21 MAR 2026 14:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -781,7 +781,7 @@ een already used, duplicate ignored
                    \relax 
 l.97 \newpage
               [1] [1]
-<solarzelle.png, id=93, 2007.5pt x 1204.5pt>
+<solarzelle.png, id=108, 2007.5pt x 1204.5pt>
 File: solarzelle.png Graphic file (type png)
 <use solarzelle.png>
 Package pdftex.def Info: solarzelle.png  used on input line 126.
@@ -792,7 +792,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<kennlinie-sz.png, id=98, 614.295pt x 454.69875pt>
+<kennlinie-sz.png, id=113, 614.295pt x 454.69875pt>
 File: kennlinie-sz.png Graphic file (type png)
 <use kennlinie-sz.png>
 Package pdftex.def Info: kennlinie-sz.png  used on input line 141.
@@ -802,39 +802,64 @@ l/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/
 2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./solarzelle.png>] [3{/usr/local
 /texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./kennlinie-sz.png>
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
-<Solarzelle.jpeg, id=128, 779.0706pt x 698.1282pt>
+<Solarzelle.jpeg, id=145, 779.0706pt x 698.1282pt>
 File: Solarzelle.jpeg Graphic file (type jpg)
 <use Solarzelle.jpeg>
-Package pdftex.def Info: Solarzelle.jpeg  used on input line 190.
+Package pdftex.def Info: Solarzelle.jpeg  used on input line 196.
 (pdftex.def)             Requested size: 318.66948pt x 285.55264pt.
 
 Package caption Warning: \label without proper reference on input line 189.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:versuchSZ' on page 4 undefined on input line 195.
+LaTeX Warning: Reference `fig:versuchSZ' on page 4 undefined on input line 201.
 
 
 [4 <./Solarzelle.jpeg>]
-<spektral.jpeg, id=140, 1376.0208pt x 1032.0156pt>
+<spektral.jpeg, id=156, 1376.0208pt x 1032.0156pt>
 File: spektral.jpeg Graphic file (type jpg)
 <use spektral.jpeg>
-Package pdftex.def Info: spektral.jpeg  used on input line 229.
+Package pdftex.def Info: spektral.jpeg  used on input line 235.
 (pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
  [5 <./spektral.jpeg>]
-<hydrocar.jpeg, id=149, 1376.0208pt x 1032.0156pt>
+<hydrocar.jpeg, id=166, 1376.0208pt x 1032.0156pt>
 File: hydrocar.jpeg Graphic file (type jpg)
 <use hydrocar.jpeg>
-Package pdftex.def Info: hydrocar.jpeg  used on input line 241.
+Package pdftex.def Info: hydrocar.jpeg  used on input line 247.
 (pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
- [6 <./hydrocar.jpeg>] [7]
-[8] [9]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-12.
+ [6 <./hydrocar.jpeg>]
+<kennlinie_IV_50.png, id=173, 498.1812pt x 353.4003pt>
+File: kennlinie_IV_50.png Graphic file (type png)
+<use kennlinie_IV_50.png>
+Package pdftex.def Info: kennlinie_IV_50.png  used on input line 275.
+(pdftex.def)             Requested size: 218.51521pt x 155.01128pt.
+<kennlinie_IV_100.png, id=174, 497.57895pt x 353.4003pt>
+File: kennlinie_IV_100.png Graphic file (type png)
+<use kennlinie_IV_100.png>
+Package pdftex.def Info: kennlinie_IV_100.png  used on input line 282.
+(pdftex.def)             Requested size: 218.51521pt x 155.20001pt.
+
+
+Package caption Warning: \label without proper reference on input line 291.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:messwerteSZ' on page 7 undefined on input line 31
+0.
+
+[7 <./kennlinie_IV_50.png> <./kennlinie_IV_100.png>]
+<leistung_50_100.png, id=187, 498.1812pt x 353.4003pt>
+File: leistung_50_100.png Graphic file (type png)
+<use leistung_50_100.png>
+Package pdftex.def Info: leistung_50_100.png  used on input line 352.
+(pdftex.def)             Requested size: 318.66948pt x 226.06755pt.
+ [8 <./leistung_50_100.png>] [9] [10] [11]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
+16.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -843,30 +868,30 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 6542) in paragraph at lines 312--313
+Underfull \hbox (badness 6542) in paragraph at lines 416--417
 []\T1/lmr/m/n/10.95 (+20) Bundesamt, ``Er-neu-er-ba-re Ener-gi-en glo-bal'', De
 -sta-tis, []$\T1/lmtt/m/n/10.95 https : / / www . destatis . de /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
 \T1/lmtt/m/n/10.95 DE / Themen / Laender-[]Regionen / Internationales / Thema /
  umwelt-[]energie / energie /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
 \T1/lmr/m/n/10.95 (+20) IEA, 2024. [On-li-ne]. Ver-füg-bar: []$\T1/lmtt/m/n/10.
 95 https : / / iea . blob . core . windows . net / assets /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
 \T1/lmtt/m/n/10.95 efba04ce-[]2472-[]4df1-[]9873-[]fb170c055259 / WorldEnergyOu
 tlook2024 . pdf$[]\T1/lmr/m/n/10.95 (+20) . [Ab-ge-ru-fen:
  []
 
-[10] (./Solarzelle.aux)
+[12] (./Solarzelle.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -875,17 +900,20 @@ L3 programming layer <2026-01-19>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Solarzelle.out' has not changed.
-(rerunfilecheck)             Checksum: 53486DAC468238E0F631C27BC953B526;2031.
+(rerunfilecheck)             Checksum: 74B07E1E37A49401C2C328552C28AB25;2606.
  ) 
 Here is how much of TeX's memory you used:
- 21466 strings out of 467525
- 414689 string characters out of 5418982
- 859484 words of memory out of 5000000
- 49947 multiletter control sequences out of 15000+600000
- 693720 words of font info for 138 fonts, out of 8000000 for 9000
+ 21514 strings out of 467525
+ 415614 string characters out of 5418982
+ 859794 words of memory out of 5000000
+ 49973 multiletter control sequences out of 15000+600000
+ 693630 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,80p,1007b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,80p,1007b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
 e/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/tex
@@ -897,10 +925,10 @@ r/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texl
 ive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026/t
 exmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist/
 fonts/type1/public/lm/lmtt10.pfb>
-Output written on Solarzelle.pdf (12 pages, 8998914 bytes).
+Output written on Solarzelle.pdf (14 pages, 9731607 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 41602 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 39593 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -33,34 +33,34 @@ def main():
     i_sc_50_uA = i_sc_50 * 1000.0
     i_mpp_50_uA = i_mpp_50 * 1000.0
 
-    ax1.plot(df_50_plot['U [V]'], I_50_uA, color='black', linewidth=2.0, zorder=3)
+    ax1.plot(df_50_plot['U [V]'], df_50_plot['I [mA]'], color='black', linewidth=2.0, zorder=3)
 
-    ax1.add_patch(plt.Rectangle((0, 0), u_oc_50, i_sc_50_uA,
+    ax1.add_patch(plt.Rectangle((0, 0), u_oc_50, i_sc_50,
                                 fill=False, edgecolor='gray', linestyle='--',
                                 linewidth=1.2, zorder=2))
-    ax1.add_patch(plt.Rectangle((0, 0), u_mpp_50, i_mpp_50_uA,
+    ax1.add_patch(plt.Rectangle((0, 0), u_mpp_50, i_mpp_50,
                                 fill=True, facecolor='lightgray', alpha=0.5,
                                 edgecolor='black', linestyle='-', linewidth=1.0, zorder=1))
 
     u_min_50 = df_50_plot['U [V]'].min()
     u_max_50 = df_50_plot['U [V]'].max()
-    i_max_50 = max(i_sc_50_uA, I_50_uA.max())
+    i_max_50 = df_50_plot['I [mA]'].max()
 
     ax1.set_xlim(u_min_50, u_max_50 * 1.05)
     ax1.set_ylim(0, i_max_50 * 1.05)
 
-    ax1.plot(u_min_50, i_sc_50_uA, marker="X", markersize=10,
+    ax1.plot(u_min_50, i_sc_50, marker="X", markersize=10,
              markeredgecolor='black', markerfacecolor='white', markeredgewidth=2.0,
              linestyle='None', label='I_K', clip_on=False, zorder=5)
     ax1.plot(u_oc_50, 0, marker="X", markersize=10,
              markeredgecolor='red', markerfacecolor='white', markeredgewidth=1.0,
-             linestyle='None', label='U_0', clip_on=False, zorder=5)
-    ax1.plot(u_mpp_50, i_mpp_50_uA, marker='D', markersize=10,
+             linestyle='None', label='U_L', clip_on=False, zorder=5)
+    ax1.plot(u_mpp_50, i_mpp_50, marker='D', markersize=10,
              markerfacecolor='white', markeredgecolor='black',
              markeredgewidth=2.0, linestyle='None', label='MPP', zorder=4)
 
     ax1.set_xlabel('Spannung [V]')
-    ax1.set_ylabel('Strom [µA]')
+    ax1.set_ylabel('Strom [mA]')
     ax1.grid(True, alpha=0.3)
     ax1.legend(loc='lower left')
 
@@ -98,7 +98,7 @@ def main():
              linestyle='None', label='I_K', clip_on=False, zorder=4)
     ax2.plot(u_oc_100, 0, marker="X", markersize=10,
              markeredgecolor='black', markerfacecolor='white', markeredgewidth=2.0,
-             linestyle='None', label='U_0', clip_on=False, zorder=4)
+             linestyle='None', label='U_L', clip_on=False, zorder=4)
     ax2.plot(u_mpp_100, i_mpp_100, marker='D', markersize=10,
              markerfacecolor='white', markeredgecolor='red',
              markeredgewidth=2.0, linestyle='None', label='MPP', zorder=4)

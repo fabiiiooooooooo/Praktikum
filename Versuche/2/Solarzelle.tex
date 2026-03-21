@@ -158,6 +158,12 @@ Der F\"ullfaktor
 \label{eq:wkSZ}
 \end{equation}
 
+\noindent Die auf die Solarzelle eingestrahlte Leistung $W_\text{Str}$ wird unter der Annahme der Lampe als Punklichtquelle
+Die eingestrahlte Leistung berechnet sich somit zu:
+\begin{equation}
+W_\text{Str} = P_\text{el}(U) \cdot \frac{A_\text{SZ}}{4 \pi r^2}
+\label{eq:wstr_berechnung}
+\end{equation}
 \subsection{Spektrale Empfindlichkeit }
 
 Die spektrale Empfindlichkeit $S(\lambda)$ setzt den Kurzschlussstrom ins Verh\"altnis zur monochromatischen Bestrahlungsst\"arke W 
@@ -188,7 +194,7 @@ Bei der Durchf\"uhrung aller Messungen finden im Dunkeln statt, um Messungenauig
 \centering
 \label{fig:versuchSZ}
 \includegraphics[width=0.7\textwidth]{Solarzelle.jpeg}
-\caption Aufbau der Solarzelle 
+\caption{Aufbau der Solarzelle } 
 \end{figure}
 
 
@@ -227,7 +233,7 @@ Der Dunkelstrom der Solarzelle wird vor jedem Dekadendurchlauf, sowie abschlie{\
 \begin{figure}[hthb]
 \centering
 \includegraphics[width=0.7\textwidth]{spektral.jpeg}
-\caption Spektrale Trennung
+\caption {Spektrale Trennung}
 \label{fig:spektralSZ}
 \end{figure}
 
@@ -241,6 +247,7 @@ Zur Bestimmung der U--I-Kennlinie im Reflex 0. Ordnung wird die Solarzelle auf d
 \includegraphics[width=0.7\textwidth]{hydrocar.jpeg}
 \caption{Hydrocar zusammengebaut}
 \label{fig:hydrocar}
+
 \end{figure}
 \noindent Das Hydrocar (Abb. \ref{fig:hydrocar}) dient der Demonstration der Kombination aus Brennstoffzelle und Solarzelle. 
 Es wird \"uber eine Brennstoffzelle betrieben, die daf\"ur notwendige Energie wird von einer Solarzelle geliefert.
@@ -259,23 +266,123 @@ Es wird entsprechend der beiliegenden Anleitung mit destilliertem Wasser bef\"ul
 % und ggf. Vergleich mit Literaturwerten. [file:1]
 
 In diesem Abschnitt werden die Messdaten ausgewertet, Unsicherheiten bestimmt und die Ergebnisse mit Literaturwerten verglichen. [file:1]
+\subsection{Auswertung der Solarzellen-Kennlinien}
 
-% Beispiel-Tabelle:
-\begin{table}[h]
-    \centering
-    \caption{Beispielhafte Messwerte und berechnete Größen.}
-    \label{tab:messwerte}
-    \begin{tabular}{lccc}
-        \toprule
-        Messung & Zeit / \si{\second} & Weg / \si{\meter} & Geschwindigkeit / \si{\meter\per\second} \\
-        \midrule
-        1 & 1.0 & 0.50 & 0.50 \\
-        2 & 2.0 & 1.00 & 0.50 \\
-        \bottomrule
-    \end{tabular}
+\begin{figure}[ht]
+\centering
+\begin{minipage}{0.48\textwidth}
+\centering
+\includegraphics[width=\textwidth]{kennlinie_IV_50.png}
+\caption{Kennlinie der Solarzelle bei 50 \% Strahlungsleistung}
+\label{fig:kennSZ50}
+\end{minipage}
+\hfill
+\begin{minipage}{0.48\textwidth}
+\centering
+\includegraphics[width=\textwidth]{kennlinie_IV_100.png}
+\caption{Kennlinie der Solarzelle bei 100 \% Strahlungsleistung}
+\label{fig:kennSZ100}
+\end{minipage}
+\end{figure}
+
+
+\noindent Der Kurzschlussstrom $I_\mathrm{K}$ steigt bei 100\,\%  um den Faktor $\approx 6{,}9$ an, w\"ahrend die Leerlaufspannung $U_\mathrm{L} \approx 2\,$V nahezu konstant bleibt. Die Kennlinie verschiebt sich parallel zu h\"oheren Str\"omen bei identischer exponentieller Abflachung.
+
+\noindent Der Photostrom $I_\mathrm{ph}$ ist direkt proportional zur Einstrahlungsst\"arke $G$ ($I_\mathrm{K} \propto G$), da mehr Photonen mehr Ladungstr\"agerpaare erzeugen. Die logarithmische Abh\"angigkeit der Leerlaufspannung ($U_\mathrm{L} \propto \ln G$) erkl\"art die nahezu konstante $U_\mathrm{L}$.
+
+
+\begin{table}[hthb]
+\centering
+\begin{tabular}{lccc}
+\label{tab:messwerteSZ}
+\textbf{Parameter} & \textbf{50\% Strahlung} & \textbf{100\% Strahlung} \\
+\midrule
+$U_\mathrm{L}$ [V] & 2{,}063 & 2{,}112 \\
+$I_\mathrm{K}$ [mA] & 40{,}300 & 278{,}600 \\
+$U_\mathrm{mpp}$ [V] & 1{,}595 & 1{,}441 \\
+$I_\mathrm{mpp}$ [mA] & 34{,}930 & 261{,}900 \\
+$P_\mathrm{mpp}$ [mW] & 55{,}713 & 377{,}398 \\
+\bottomrule
+\end{tabular}
+\caption{Erhobene Messwerte der Solarzelle}
 \end{table}
 
-Die Tabelle \ref{tab:messwerte} zeigt beispielhaft Messwerte mit zugehörigen Einheiten. [file:1]
+\noindent Die Werte aus Tabelle \ref{tab:messwerteSZ} dienen der Berechnung des F\"ullfaktors \textit{f} nach Gleichung \ref{eq:ff} 
+
+\noindent Für 50\,\% Strahlungsleistung ergibt sich zunächst für das ideale Rechteck:
+\begin{equation}
+A_\mathrm{ideal,50} = 2{,}063 \cdot 40{,}300 = 83{,}139\,\mathrm{mW}.
+\end{equation}
+
+\noindent Die Fläche des Rechtecks im Maximum Power Point beträgt:
+\begin{equation}
+A_\mathrm{MPP,50} = 1{,}595 \cdot 34{,}930 = 55{,}713\,\mathrm{mW}.
+\end{equation}
+
+\noindent Daraus folgt:
+\begin{equation}
+\textit{f}_{50} =
+\frac{55{,}713}{83{,}139}
+= \frac{1{,}595 \cdot 34{,}930}{2{,}063 \cdot 40{,}300}
+= 0{,}670 \approx 67{,}0\,\%.
+\end{equation}
+
+\noindent Für 100\,\% Strahlungsleistung ergibt sich für das ideale Rechteck:
+\begin{equation}
+A_\mathrm{ideal,100} = 2{,}112 \cdot 278{,}600 = 588{,}403\,\mathrm{mW}.
+\end{equation}
+
+\noindent Die Fläche des Rechtecks im Maximum Power Point beträgt:
+\begin{equation}
+A_\mathrm{MPP,100} = 1{,}441 \cdot 261{,}900 = 377{,}398\,\mathrm{mW}.
+\end{equation}
+
+\noindent Damit folgt:
+\begin{equation}
+\textit{f}_{100} =
+\frac{377{,}398}{588{,}403}
+= \frac{1{,}441 \cdot 261{,}900}{2{,}112 \cdot 278{,}600}
+= 0{,}641 \approx 64{,}1\,\%.
+\end{equation}
+
+\subsection{Leistungs-Spannungs-Kennlinien}
+
+\begin{figure}[hthb]
+\centering
+\includegraphics[width=0.7\textwidth]{leistung_50_100.png} 
+\caption{Elektrische Leistung der Solarzelle in Abhängigkeit der Spannung bei 50\,\% und 100\,\% Strahlungsleistung.}
+\label{fig:pu_kurven}
+\end{figure}
+\noindent Um die Leistungsabgabe der Solarzelle zu analysieren, ist in Abbildung \ref{fig:pu_kurven} die elektrische Leistung $P$ in Abhängigkeit der anliegenden Spannung $U$ für beide Strahlungsleistungen aufgetragen. 
+
+\noindent Der direkte Vergleich im gemeinsamen Diagramm verdeutlicht den Einfluss der eingestrahlten Lichtleistung auf die Energieausbeute. Während das Leistungsmaximum bei 50\,\% Strahlungsleistung bei $P_\mathrm{mpp} = 55{,}713\,$mW (bei $U_\mathrm{mpp} = 1{,}595\,$V) liegt, erreicht die Solarzelle bei 100\,\% Strahlungsleistung ein Maximum von $P_\mathrm{mpp} = 377{,}398\,$mW (bei $U_\mathrm{mpp} = 1{,}441\,$V). 
+
+\subsection{Wirkungsgrad}
+
+
+Für 100\,\% Transformatorspannung ($U = U_\text{max}$) liefert die Lampe ihre Maximalleistung von $P_\text{100} = 100\,\mathrm{W}$. Die auf die Zelle eingestrahlte Leistung ergibt sich zu:
+\begin{equation}
+W_\text{Str, 100\,\%} = 100\,\mathrm{W} \cdot \frac{16\,\mathrm{cm}^2}{1810\,\mathrm{cm}^2} \approx 0{,}884\,\mathrm{W} = 884\,\mathrm{mW}.
+\end{equation}
+Der Wirkungsgrad nach Gleichung \ref{eq:wkSZ} berechnet sich hierbei zu:
+\begin{equation}
+\eta_\text{SZ, 100\,\%} = \frac{377{,}398\,\mathrm{mW}}{884\,\mathrm{mW}} \approx 0{,}4269\ (42{,}7\,\%).
+\end{equation}
+
+\noindent Für 50\,\% Transformatorspannung ($U = 0{,}5 \cdot U_\text{max}$) beträgt die elektrische Leistung der Lampe folglich nur ein Viertel der Maximalleistung: $P_\text{50} = 0{,}25 \cdot 100\,\mathrm{W} = 25\,\mathrm{W}$.
+Die eingestrahlte Leistung beträgt in diesem Fall:
+\begin{equation}
+W_\text{Str, 50\,\%} = 25\,\mathrm{W} \cdot \frac{16\,\mathrm{cm}^2}{1810\,\mathrm{cm}^2} \approx 0{,}221\,\mathrm{W} = 221\,\mathrm{mW}.
+\end{equation}
+Der zugehörige Wirkungsgrad ergibt sich zu:
+\begin{equation}
+\eta_\text{SZ, 50\,\%} = \frac{55{,}713\,\mathrm{mW}}{221\,\mathrm{mW}} \approx 0{,}2521\ (25{,}2\,\%).
+\end{equation}
+
+\noindent Die ermittelten Wirkungsgrade von $42{,}7\,\%$ bzw. $25{,}2\,\%$ liegen systematisch zu hoch für eine handelsübliche Solarzelle. Diese Abweichung resultiert aus der Annahme, dass die gesamte elektrische Leistung der Lampe ($P_\text{el}$) als homogene Lichtstrahlung emittiert wird. Tatsächlich weisen Halogenlampen einen geringen optischen Wirkungsgrad auf; der Großteil der Leistung wird als für die Solarzelle nicht nutzbare Wärmestrahlung abgegeben, wodurch die tatsächliche Nutzstrahlung $W_\text{Str}$ im Versuch stark überschätzt wird. Die Differenz zwischen den beiden berechneten Effizienzen geht zudem auf die Nichtlinearität des Emissionsspektrums bei gedimmter Spannung (Wien'sches Verschiebungsgesetz) zurück.
+
+
+
 \newpage
 % ---------------------------------------------------
 % 5 Zusammenfassung (kurz, max. 1/2 Seite)
@@ -304,9 +411,6 @@ Fügen Sie hier eine gut lesbare digitale Kopie der Laborbuchseiten ein, auf den
 % Beispiel im IEEE-Stil:
 
 \begin{thebibliography}{9}
-
-\bibitem{Demtroeder1}
-W.~Demtröder, \emph{Experimentalphysik 1: Mechanik und Wärme}, Springer, 2003. [file:1]
 
 \bibitem{statis1}
 Bundesamt, ``Erneuerbare Energien global'', Destatis, \url{https://www.destatis.de/DE/Themen/Laender-Regionen/Internationales/Thema/umwelt-energie/energie/ErneuerbareEnergienGlobal.html}. [Online]. Abgerufen:  März 2026.
