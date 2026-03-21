@@ -1,0 +1,7 @@
+ERGEBNISSE 100% Beleuchtung
+U_OC [V]:     2.112
+I_SC [mA]:    278.6
+U_MPP [V]:    1.441
+I_MPP [mA]:   261.9
+P_MPP [mW]:   377.4
+FF [%]:        64.1

@@ -1,0 +1,2 @@
+50 %: U_oc = 2.063 V, I_sc = 40.300 mA, U_mpp = 1.595 V, I_mpp = 34.930 mA, P_mpp = 55.713 mW
+100 %: U_oc = 2.112 V, I_sc = 278.600 mA, U_mpp = 1.441 V, I_mpp = 261.900 mA, P_mpp = 377.398 mW

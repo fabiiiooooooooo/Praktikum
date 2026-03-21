@@ -165,15 +165,15 @@ Die spektrale Empfindlichkeit $S(\lambda)$ setzt den Kurzschlussstrom ins Verh\"
 S(\lambda) = \frac{I_{\text{K}}(\lambda)}{W(\lambda)}.
 \label{eq:spek}
 \end{equation}
-\noindent Um sie experimentell zu Bestimmen, kann eine Solarzelle mit licht verschiedener Wellenl\"angen beleutet werden. Die Aufspaltung des Lichts erfolgt \"uber die Beugung an einem Gitter \cite{demtroeder2017}
+\noindent Um sie experimentell zu Bestimmen, kann eine Solarzelle mit Licht verschiedener Wellenl\"angen beleuchtet werden. Die Aufspaltung des Lichts erfolgt \"uber die Beugung an einem Gitter \cite{demtroeder2017}
 Für die Bestimmung der zugehörigen spektralen Strahlungsleistung $W(\lambda)$ ist das Flächenverhältnis der Solarzelle zur beleuchteten Gesamtfläche sowie das Emissionsspektrum der Lampe erforderlich. Dieses lässt sich näherungsweise als Schwarzkörperstrahlung modellieren \cite{demtroeder2017}. Die spektrale Energiedichte $u_\lambda(\lambda,T)$ beschreibt die Strahlungsenergie pro Wellenlänge $\lambda$ und folgt der Planckschen Strahlungsformel
 
 \begin{equation}
 u_\lambda(\lambda,T) = \frac{8\pi h c}{\lambda^5}\frac{1}{e^{hc/(\lambda k_B T)}-1} \label{eq:planck},
 \end{equation}
 
-\noindent mit der Strahler-Temperatur $T$, Planck-Konstante $h$, Lichtgeschwindigkeit $c$ und Boltzmann-Konstante $k_\text{B}$ \cite{demtroeder2017}.
-\noindent Für relative Spektren berechnet man $u_\lambda(\lambda,T)$ über relevante $\lambda$ und normiert auf den Maximalwert.
+\noindent mit der Strahler-Temperatur $T$, Planck-Konstante $h$, Lichtgeschwindigkeit $c$ und Boltzmann-Konstante $k_\text{B}$ \cite{demtroeder2017}. 
+\noindent Um die spektrale Energiedichte unabh\"angig von der Intensit\"at der Lampe $u_{\text{rel}}(\lambda)$ zu berechnen, werden die betrachteten $u_\lambda(\lambda,T)$ auf den Maximalwert normiert.
 
 % ---------------------------------------------------
 % 3 Versuchsbeschreibung
@@ -226,10 +226,27 @@ Der Dunkelstrom der Solarzelle wird vor jedem Dekadendurchlauf, sowie abschlie{\
 
 \begin{figure}[hthb]
 \centering
-\label{fig:spektralSZ}
 \includegraphics[width=0.7\textwidth]{spektral.jpeg}
-\caption  platzhalter
+\caption Spektrale Trennung
+\label{fig:spektralSZ}
 \end{figure}
+
+\noindent Der Aufbau (Abb. \ref{fig:spektralSZ}) besteht aus einer rotierbaren Solarzelle und einem Schirm, auf dem die Wellenl\"angen $\lambda$ des Lichtspektrums in nm markiert sind. Der Lichtstrahl eines Projektors wird an einem optischen Element in sein Spektrum zerlegt und auf den Schirm projiziert. Die Solarzelle kann um eine Achse gedreht werden, um nacheinander verschiedene Spektralbereiche zu beleuchten.
+Zur Bestimmung der U--I-Kennlinie im Reflex 0. Ordnung wird die Solarzelle auf den unaufgespaltenen, reflektierten Strahl ausgerichtet. Hier werden Kurzschlussstrom $I_\text{K}$, Leerlaufspannung $U_\text{L}$ sowie die Kennlinie f\"ur zwei Widerstandsdekaden gemessen. Anschlie{\ss}end wird die Spektralempfindlichkeit von $\lambda$ 300 bis 900\,nm in 50\,nm-Schritten erfasst. 
+
+\subsection{Hydrocar}
+
+\begin{figure}[hthb]
+\centering
+\includegraphics[width=0.7\textwidth]{hydrocar.jpeg}
+\caption{Hydrocar zusammengebaut}
+\label{fig:hydrocar}
+\end{figure}
+\noindent Das Hydrocar (Abb. \ref{fig:hydrocar}) dient der Demonstration der Kombination aus Brennstoffzelle und Solarzelle. 
+Es wird \"uber eine Brennstoffzelle betrieben, die daf\"ur notwendige Energie wird von einer Solarzelle geliefert.
+Es wird entsprechend der beiliegenden Anleitung mit destilliertem Wasser bef\"ullt und in Betrieb genommen.
+
+
 
 
 

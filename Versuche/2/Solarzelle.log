@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  17 MAR 2026 14:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  17 MAR 2026 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,10 +603,6 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./Solarzelle.aux
 Package babel Info: 'ngerman' activates 'german' shorthands.
 (babel)             Reported on input line 8.
-
-
-LaTeX Warning: Label `fig:versuchSZ' multiply defined.
-
 )
 \openout1 = `Solarzelle.aux'.
 
@@ -785,7 +781,7 @@ een already used, duplicate ignored
                    \relax 
 l.97 \newpage
               [1] [1]
-<solarzelle.png, id=88, 2007.5pt x 1204.5pt>
+<solarzelle.png, id=93, 2007.5pt x 1204.5pt>
 File: solarzelle.png Graphic file (type png)
 <use solarzelle.png>
 Package pdftex.def Info: solarzelle.png  used on input line 126.
@@ -796,7 +792,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<kennlinie-sz.png, id=93, 614.295pt x 454.69875pt>
+<kennlinie-sz.png, id=98, 614.295pt x 454.69875pt>
 File: kennlinie-sz.png Graphic file (type png)
 <use kennlinie-sz.png>
 Package pdftex.def Info: kennlinie-sz.png  used on input line 141.
@@ -810,13 +806,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
-<Solarzelle.jpeg, id=123, 779.0706pt x 698.1282pt>
+<Solarzelle.jpeg, id=128, 779.0706pt x 698.1282pt>
 File: Solarzelle.jpeg Graphic file (type jpg)
 <use Solarzelle.jpeg>
 Package pdftex.def Info: Solarzelle.jpeg  used on input line 190.
 (pdftex.def)             Requested size: 318.66948pt x 285.55264pt.
 
-Package caption Warning: \label without proper reference on input line 229.
+Package caption Warning: \label without proper reference on input line 189.
 See the caption package documentation for explanation.
 
 
@@ -824,16 +820,22 @@ LaTeX Warning: Reference `fig:versuchSZ' on page 4 undefined on input line 195.
 
 
 [4 <./Solarzelle.jpeg>]
-<spektral.jpeg, id=136, 1376.0208pt x 1032.0156pt>
+<spektral.jpeg, id=140, 1376.0208pt x 1032.0156pt>
 File: spektral.jpeg Graphic file (type jpg)
 <use spektral.jpeg>
-Package pdftex.def Info: spektral.jpeg  used on input line 230.
+Package pdftex.def Info: spektral.jpeg  used on input line 229.
 (pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
- [5 <./spektral.jpeg>] [6] [7] [8]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-95.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
+ [5 <./spektral.jpeg>]
+<hydrocar.jpeg, id=149, 1376.0208pt x 1032.0156pt>
+File: hydrocar.jpeg Graphic file (type jpg)
+<use hydrocar.jpeg>
+Package pdftex.def Info: hydrocar.jpeg  used on input line 241.
+(pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
+ [6 <./hydrocar.jpeg>] [7]
+[8] [9]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+12.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -841,30 +843,30 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 6542) in paragraph at lines 295--296
+Underfull \hbox (badness 6542) in paragraph at lines 312--313
 []\T1/lmr/m/n/10.95 (+20) Bundesamt, ``Er-neu-er-ba-re Ener-gi-en glo-bal'', De
 -sta-tis, []$\T1/lmtt/m/n/10.95 https : / / www . destatis . de /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 \T1/lmtt/m/n/10.95 DE / Themen / Laender-[]Regionen / Internationales / Thema /
  umwelt-[]energie / energie /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 \T1/lmr/m/n/10.95 (+20) IEA, 2024. [On-li-ne]. Ver-füg-bar: []$\T1/lmtt/m/n/10.
 95 https : / / iea . blob . core . windows . net / assets /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 \T1/lmtt/m/n/10.95 efba04ce-[]2472-[]4df1-[]9873-[]fb170c055259 / WorldEnergyOu
 tlook2024 . pdf$[]\T1/lmr/m/n/10.95 (+20) . [Ab-ge-ru-fen:
  []
 
-[9] (./Solarzelle.aux)
+[10] (./Solarzelle.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -873,18 +875,15 @@ L3 programming layer <2026-01-19>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `Solarzelle.out' has not changed.
-(rerunfilecheck)             Checksum: A05993871B2393310CE7316D949C9D9F;1933.
+(rerunfilecheck)             Checksum: 53486DAC468238E0F631C27BC953B526;2031.
  ) 
 Here is how much of TeX's memory you used:
- 21456 strings out of 467525
- 414501 string characters out of 5418982
- 859456 words of memory out of 5000000
- 49938 multiletter control sequences out of 15000+600000
- 693803 words of font info for 139 fonts, out of 8000000 for 9000
+ 21466 strings out of 467525
+ 414689 string characters out of 5418982
+ 859484 words of memory out of 5000000
+ 49947 multiletter control sequences out of 15000+600000
+ 693720 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,80p,1007b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
@@ -898,10 +897,10 @@ r/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texl
 ive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026/t
 exmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist/
 fonts/type1/public/lm/lmtt10.pfb>
-Output written on Solarzelle.pdf (11 pages, 5131752 bytes).
+Output written on Solarzelle.pdf (12 pages, 8998914 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 205 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 41589 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 41602 words of extra memory for PDF output out of 42996 (max. 10000000)
 

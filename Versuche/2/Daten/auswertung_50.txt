@@ -1,0 +1,7 @@
+ERGEBNISSE 50% Beleuchtung
+U_OC [V]:     2.063
+I_SC [mA]:     40.3
+U_MPP [V]:    1.595
+I_MPP [mA]:    34.9
+P_MPP [mW]:    55.7
+FF [%]:        67.0
