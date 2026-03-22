@@ -186,15 +186,15 @@ u_\lambda(\lambda,T) = \frac{8\pi h c}{\lambda^5}\frac{1}{e^{hc/(\lambda k_B T)}
 % ---------------------------------------------------
 \section{Versuchsbeschreibung}
 
-Bei der Durchf\"uhrung aller Messungen finden im Dunkeln statt, um Messungenauigkeiten durch Streulicht zu auszuschließendem.\newline
+Bei der Durchf\"uhrung aller Messungen finden im Dunkeln statt, um Messungenauigkeiten durch Streulicht zu verhindern..\newline
 
-\subsection{Kennlinie der Solarzelle}
+\subsection{Kennlinie der Solarzelle} \label{ssec:kennSZ}
 
 \begin{figure}[hthb]
 \centering
-\label{fig:versuchSZ}
 \includegraphics[width=0.7\textwidth]{Solarzelle.jpeg}
 \caption{Aufbau der Solarzelle } 
+\label{fig:versuchSZ}
 \end{figure}
 
 
@@ -211,16 +211,16 @@ Die Widerstandsdekade verf\"ugt \"uber zwei Reihen an Widerst\"anden, welche in 
 	        \textbf{2. Dekade (Abw\"arts)} & \textbf{R [\si{\ohm}]} \\
         		\midrule
         		$R_1$    & 10    & $R_1$    & 10   \\
-        		$R_2$    & 28    & $R_2$    & 8.5  \\
-	        $R_3$    & 38    & $R_3$    & 7    \\
-	        $R_4$    & 50    & $R_4$    & 5.2  \\
-	        $R_5$    & 65    & $R_5$    & 3    \\
-	        $R_6$    & 80    & $R_6$    & 1.8  \\
-	        $R_7$    & 113   & $R_7$    & 1.24 \\
-	        $R_8$    & 146   & $R_8$    & 0.91 \\
-	        $R_9$    & 366   & $R_9$    & 0.52 \\
-	        $R_{10}$ & 756   & $R_{10}$ & 0.37 \\
-	        $R_{11}$ & 1956 & $R_{11}$ & 0.1 \\
+        		$R_2$    & 22    & $R_2$    & 8.5  \\
+	        $R_3$    & 29    & $R_3$    & 7    \\
+	        $R_4$    & 41    & $R_4$    & 5.5  \\
+	        $R_5$    & 65    & $R_5$    & 4    \\
+	        $R_6$    & 71    & $R_6$    & 1.5  \\
+	        $R_7$    & 93   & $R_7$    & 0.95 \\
+	        $R_8$    & 125   & $R_8$    & 0.6 \\
+	        $R_9$    & 275   & $R_9$    & 0.4 \\
+	        $R_{10}$ & 664   & $R_{10}$ & 0.25 \\
+	        $R_{11}$ & 1860 & $R_{11}$ & 0.1 \\
 	        \bottomrule
 	\end{tabular}
 \end{table}
@@ -233,12 +233,13 @@ Der Dunkelstrom der Solarzelle wird vor jedem Dekadendurchlauf, sowie abschlie{\
 \begin{figure}[hthb]
 \centering
 \includegraphics[width=0.7\textwidth]{spektral.jpeg}
-\caption {Spektrale Trennung}
+\caption {Spektrale Trennung }
 \label{fig:spektralSZ}
 \end{figure}
 
 \noindent Der Aufbau (Abb. \ref{fig:spektralSZ}) besteht aus einer rotierbaren Solarzelle und einem Schirm, auf dem die Wellenl\"angen $\lambda$ des Lichtspektrums in nm markiert sind. Der Lichtstrahl eines Projektors wird an einem optischen Element in sein Spektrum zerlegt und auf den Schirm projiziert. Die Solarzelle kann um eine Achse gedreht werden, um nacheinander verschiedene Spektralbereiche zu beleuchten.
-Zur Bestimmung der U--I-Kennlinie im Reflex 0. Ordnung wird die Solarzelle auf den unaufgespaltenen, reflektierten Strahl ausgerichtet. Hier werden Kurzschlussstrom $I_\text{K}$, Leerlaufspannung $U_\text{L}$ sowie die Kennlinie f\"ur zwei Widerstandsdekaden gemessen. Anschlie{\ss}end wird die Spektralempfindlichkeit von $\lambda$ 300 bis 900\,nm in 50\,nm-Schritten erfasst. 
+Zur Bestimmung der U-I-Kennlinie im Reflex 0. Ordnung soll die Solarzelle auf den unaufgespaltenen  Strahl ausgerichtet werden. Der Schwenkarm hat eine solche Ausrichtung nicht zugelassen, weshalb zur Bestimmung der 0. Ordnung auf die Lampe aus dem Versuchsaufbau des vorherigen Versuchs (Abb. \ref{fig:versuchSZ}) ausgewichen wird. Der Kurzschlussstrom $I_\text{K}$, Leerlaufspannung $U_\text{L}$ und Stromst\"arke, sowie Spannung werden f\"ur zwei Widerstandsdekaden (Tab. \ref{tab:widerstaende}) aufgenommen. Die Spektralempfindlichkeit von $\lambda$ 300 bis 900\,nm in 50\,nm-Schritten wird mit dem vorgesehenem Versuchsaufbau erfasst. 
+\newline Die Messungen werden mehrfach mit verschiedenen Multimetern wiederholt, da die urspr\"unglichen Messger\"ate im Laufe des Versuchs stark abweichende Werte liefern.   
 
 \subsection{Hydrocar}
 
@@ -265,7 +266,6 @@ Es wird entsprechend der beiliegenden Anleitung mit destilliertem Wasser bef\"ul
 % Auswertung nach Aufgabenstellung, inkl. Fehlerrechnung
 % und ggf. Vergleich mit Literaturwerten. [file:1]
 
-In diesem Abschnitt werden die Messdaten ausgewertet, Unsicherheiten bestimmt und die Ergebnisse mit Literaturwerten verglichen. [file:1]
 \subsection{Auswertung der Solarzellen-Kennlinien}
 
 \begin{figure}[ht]
@@ -379,7 +379,7 @@ Der zugehörige Wirkungsgrad ergibt sich zu:
 \eta_\text{SZ, 50\,\%} = \frac{55{,}713\,\mathrm{mW}}{221\,\mathrm{mW}} \approx 0{,}2521\ (25{,}2\,\%).
 \end{equation}
 
-\noindent Die ermittelten Wirkungsgrade von $42{,}7\,\%$ bzw. $25{,}2\,\%$ liegen systematisch zu hoch für eine handelsübliche Solarzelle. Diese Abweichung resultiert aus der Annahme, dass die gesamte elektrische Leistung der Lampe ($P_\text{el}$) als homogene Lichtstrahlung emittiert wird. Tatsächlich weisen Halogenlampen einen geringen optischen Wirkungsgrad auf; der Großteil der Leistung wird als für die Solarzelle nicht nutzbare Wärmestrahlung abgegeben, wodurch die tatsächliche Nutzstrahlung $W_\text{Str}$ im Versuch stark überschätzt wird. Die Differenz zwischen den beiden berechneten Effizienzen geht zudem auf die Nichtlinearität des Emissionsspektrums bei gedimmter Spannung (Wien'sches Verschiebungsgesetz) zurück.
+\noindent Die ermittelten Wirkungsgrade von $42{,}7\,\%$ bzw. $25{,}2\,\%$ liegen systematisch zu hoch für eine handelsübliche Solarzelle. Diese Abweichung resultiert aus der Annahme, dass die gesamte elektrische Leistung der Lampe ($P_\text{el}$) als homogene Lichtstrahlung emittiert wird. Tatsächlich weisen Halogenlampen einen geringen optischen Wirkungsgrad auf; der Großteil der Leistung wird als für die Solarzelle nicht nutzbare Wärmestrahlung abgegeben, wodurch die tatsächliche Nutzstrahlung $W_\text{Str}$ im Versuch stark überschätzt wird.
 
 
 

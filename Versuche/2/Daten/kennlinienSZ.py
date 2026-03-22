@@ -38,7 +38,7 @@ def main():
     ax1.add_patch(plt.Rectangle((0, 0), u_oc_50, i_sc_50,
                                 fill=False, edgecolor='gray', linestyle='--',
                                 linewidth=1.2, zorder=2))
-    ax1.add_patch(plt.Rectangle((0, 0), u_mpp_50, i_mpp_50,
+    ax1.add_patch(plt.Rectangle((0, 0), u_mpp_50, i_mpp_50_uA,
                                 fill=True, facecolor='lightgray', alpha=0.5,
                                 edgecolor='black', linestyle='-', linewidth=1.0, zorder=1))
 
