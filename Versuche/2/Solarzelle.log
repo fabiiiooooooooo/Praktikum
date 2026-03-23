@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  22 MAR 2026 14:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  23 MAR 2026 17:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -604,6 +604,14 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 Package babel Info: 'ngerman' activates 'german' shorthands.
 (babel)             Reported on input line 8.
 )
+Runaway argument?
+{{6}{7}{Kennlinie der Solarzelle bei 50 \% Strahlung 
+./Solarzelle.tex:66: File ended while scanning use of \@newl@bel.
+<inserted text> 
+                \par 
+l.66 \begin{document}
+                     
+? 
 \openout1 = `Solarzelle.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -624,7 +632,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -724,53 +731,7 @@ Package chemgreek Info: Activating mapping `default' on line 66.
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] (./Solarzelle.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-4.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-4.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
+al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] (./Solarzelle.toc)
 \tf@toc=\write4
 \openout4 = `Solarzelle.toc'.
 
@@ -780,79 +741,194 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.97 \newpage
-              [1] [1]
-<solarzelle.png, id=108, 2007.5pt x 1204.5pt>
+              [1]
+
+LaTeX Warning: Citation `statis1' on page 1 undefined on input line 109.
+
+
+LaTeX Warning: Citation `iea2024' on page 1 undefined on input line 109.
+
+
+LaTeX Warning: Citation `weltphysik' on page 1 undefined on input line 110.
+
+[1]
+<solarzelle.png, id=23, 2007.5pt x 1204.5pt>
 File: solarzelle.png Graphic file (type png)
 <use solarzelle.png>
 Package pdftex.def Info: solarzelle.png  used on input line 126.
 (pdftex.def)             Requested size: 318.66948pt x 191.19847pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 32.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<kennlinie-sz.png, id=113, 614.295pt x 454.69875pt>
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+36.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+36.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+136.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+136.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 136.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 136.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 136.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 136
+.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 136
+.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+
+LaTeX Warning: Citation `wiki-bandluecke' on page 2 undefined on input line 136
+.
+
+
+LaTeX Warning: Citation `leistungselektronik' on page 2 undefined on input line
+ 136.
+
+<kennlinie-sz.png, id=26, 614.295pt x 454.69875pt>
 File: kennlinie-sz.png Graphic file (type png)
 <use kennlinie-sz.png>
 Package pdftex.def Info: kennlinie-sz.png  used on input line 141.
 (pdftex.def)             Requested size: 318.66948pt x 235.87578pt.
- [2{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/loca
-l/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/
-2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./solarzelle.png>] [3{/usr/local
-/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./kennlinie-sz.png>
-]
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+[2{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
+/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2
+026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./solarzelle.png>]
+
+LaTeX Warning: Citation `demtroeder2017' on page 3 undefined on input line 175.
+
+
+[3{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./kenn
+linie-sz.png>]
+
+LaTeX Warning: Citation `demtroeder2017' on page 4 undefined on input line 181.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
-<Solarzelle.jpeg, id=145, 779.0706pt x 698.1282pt>
+<Solarzelle.jpeg, id=56, 779.0706pt x 698.1282pt>
 File: Solarzelle.jpeg Graphic file (type jpg)
 <use Solarzelle.jpeg>
-Package pdftex.def Info: Solarzelle.jpeg  used on input line 195.
+Package pdftex.def Info: Solarzelle.jpeg  used on input line 199.
 (pdftex.def)             Requested size: 318.66948pt x 285.55264pt.
 [4 <./Solarzelle.jpeg>]
-<spektral.jpeg, id=156, 1376.0208pt x 1032.0156pt>
+<spektral.jpeg, id=69, 1376.0208pt x 1032.0156pt>
 File: spektral.jpeg Graphic file (type jpg)
 <use spektral.jpeg>
-Package pdftex.def Info: spektral.jpeg  used on input line 235.
+Package pdftex.def Info: spektral.jpeg  used on input line 240.
 (pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
  [5 <./spektral.jpeg>]
-<hydrocar.jpeg, id=168, 1376.0208pt x 1032.0156pt>
+<hydrocar.jpeg, id=82, 1376.0208pt x 1032.0156pt>
 File: hydrocar.jpeg Graphic file (type jpg)
 <use hydrocar.jpeg>
-Package pdftex.def Info: hydrocar.jpeg  used on input line 248.
+Package pdftex.def Info: hydrocar.jpeg  used on input line 253.
 (pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
  [6 <./hydrocar.jpeg>]
-<kennlinie_IV_50.png, id=175, 498.1812pt x 353.4003pt>
+<kennlinie_IV_50.png, id=90, 498.1812pt x 353.4003pt>
 File: kennlinie_IV_50.png Graphic file (type png)
 <use kennlinie_IV_50.png>
-Package pdftex.def Info: kennlinie_IV_50.png  used on input line 276.
+Package pdftex.def Info: kennlinie_IV_50.png  used on input line 280.
 (pdftex.def)             Requested size: 218.51521pt x 155.01128pt.
-<kennlinie_IV_100.png, id=176, 497.57895pt x 353.4003pt>
+<kennlinie_IV_100.png, id=91, 497.57895pt x 353.4003pt>
 File: kennlinie_IV_100.png Graphic file (type png)
 <use kennlinie_IV_100.png>
-Package pdftex.def Info: kennlinie_IV_100.png  used on input line 283.
+Package pdftex.def Info: kennlinie_IV_100.png  used on input line 287.
 (pdftex.def)             Requested size: 218.51521pt x 155.20001pt.
 
 
-Package caption Warning: \label without proper reference on input line 298.
-See the caption package documentation for explanation.
-
-
 LaTeX Warning: Reference `tab:messwerteSZ' on page 7 undefined on input line 31
-1.
+5.
 
 [7 <./kennlinie_IV_50.png> <./kennlinie_IV_100.png>]
-<leistung_50_100.png, id=189, 498.1812pt x 353.4003pt>
+<leistung_50_100.png, id=106, 498.1812pt x 353.4003pt>
 File: leistung_50_100.png Graphic file (type png)
 <use leistung_50_100.png>
-Package pdftex.def Info: leistung_50_100.png  used on input line 353.
+Package pdftex.def Info: leistung_50_100.png  used on input line 357.
 (pdftex.def)             Requested size: 318.66948pt x 226.06755pt.
- [8 <./leistung_50_100.png>] [9] [10] [11]
+
+
+LaTeX Warning: Reference `fig:pu_kurven' on page 8 undefined on input line 361.
+
+
+[8 <./leistung_50_100.png>]
+<nullOrdnung_Messung2.png, id=120, 498.1812pt x 353.03896pt>
+File: nullOrdnung_Messung2.png Graphic file (type png)
+<use nullOrdnung_Messung2.png>
+Package pdftex.def Info: nullOrdnung_Messung2.png  used on input line 395.
+(pdftex.def)             Requested size: 218.51521pt x 154.85278pt.
+<nullOrdnung_Messung1.png, id=121, 498.1812pt x 353.4003pt>
+File: nullOrdnung_Messung1.png Graphic file (type png)
+<use nullOrdnung_Messung1.png>
+Package pdftex.def Info: nullOrdnung_Messung1.png  used on input line 402.
+(pdftex.def)             Requested size: 218.51521pt x 155.01128pt.
+
+
+LaTeX Warning: Reference `fig:nullSZ' on page 9 undefined on input line 407.
+
+
+LaTeX Warning: Reference `fig:nullSZ2' on page 9 undefined on input line 407.
+
+[9 <./nullOrdnung_Messung2.png> <./nullOrdnung_Messung1.png>]
+<SpektralEmpf_Vergleich.png, id=133, 498.30165pt x 353.4003pt>
+File: SpektralEmpf_Vergleich.png Graphic file (type png)
+<use SpektralEmpf_Vergleich.png>
+Package pdftex.def Info: SpektralEmpf_Vergleich.png  used on input line 411.
+(pdftex.def)             Requested size: 318.66948pt x 226.00824pt.
+
+
+LaTeX Warning: Reference `fig:spekSZ' on page 10 undefined on input line 415.
+
+[10 <./SpektralEmpf_Vergleich.png>]
+<tatsaechliche_Spektralempfindlichkeit.png, id=142, 498.1812pt x 353.4003pt>
+File: tatsaechliche_Spektralempfindlichkeit.png Graphic file (type png)
+<use tatsaechliche_Spektralempfindlichkeit.png>
+Package pdftex.def Info: tatsaechliche_Spektralempfindlichkeit.png  used on inp
+ut line 424.
+(pdftex.def)             Requested size: 318.66948pt x 226.06755pt.
+
+
+LaTeX Warning: Reference `fig:tatSZ' on page 11 undefined on input line 429.
+
+[11 <./tatsaechliche_Spektralempfindlichkeit.png>] [12] [13]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-17.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
+64.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -860,30 +936,30 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 6542) in paragraph at lines 417--418
+Underfull \hbox (badness 6542) in paragraph at lines 464--465
 []\T1/lmr/m/n/10.95 (+20) Bundesamt, ``Er-neu-er-ba-re Ener-gi-en glo-bal'', De
 -sta-tis, []$\T1/lmtt/m/n/10.95 https : / / www . destatis . de /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
 \T1/lmtt/m/n/10.95 DE / Themen / Laender-[]Regionen / Internationales / Thema /
  umwelt-[]energie / energie /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
 \T1/lmr/m/n/10.95 (+20) IEA, 2024. [On-li-ne]. Ver-füg-bar: []$\T1/lmtt/m/n/10.
 95 https : / / iea . blob . core . windows . net / assets /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
 \T1/lmtt/m/n/10.95 efba04ce-[]2472-[]4df1-[]9873-[]fb170c055259 / WorldEnergyOu
 tlook2024 . pdf$[]\T1/lmr/m/n/10.95 (+20) . [Ab-ge-ru-fen:
  []
 
-[12] (./Solarzelle.aux)
+[14] (./Solarzelle.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -892,17 +968,26 @@ L3 programming layer <2026-01-19>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `Solarzelle.out' has not changed.
-(rerunfilecheck)             Checksum: 74B07E1E37A49401C2C328552C28AB25;2606.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Solarzelle.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Solarzelle.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  4797AC57E7BD4DFBEDD338FE8FFD0637;2869.
  ) 
 Here is how much of TeX's memory you used:
- 21517 strings out of 467525
- 415649 string characters out of 5418982
- 860865 words of memory out of 5000000
- 49974 multiletter control sequences out of 15000+600000
- 693714 words of font info for 141 fonts, out of 8000000 for 9000
+ 21556 strings out of 467525
+ 416756 string characters out of 5418982
+ 861374 words of memory out of 5000000
+ 49991 multiletter control sequences out of 15000+600000
+ 694306 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,80p,1007b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,80p,1113b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
 e/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/tex
@@ -910,14 +995,15 @@ mf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2026/texmf-dist/fon
 ts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/pu
 blic/lm/lmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr
 12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr17.pfb></us
-r/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texl
-ive/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026/t
-exmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist/
-fonts/type1/public/lm/lmtt10.pfb>
-Output written on Solarzelle.pdf (14 pages, 9731437 bytes).
+r/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texl
+ive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2026/tex
+mf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026/texmf-dist/fo
+nts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/
+public/lm/lmtt10.pfb>
+Output written on Solarzelle.pdf (16 pages, 10642436 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 39593 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 39485 words of extra memory for PDF output out of 42996 (max. 10000000)
 

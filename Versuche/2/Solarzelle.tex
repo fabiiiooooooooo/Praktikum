@@ -164,22 +164,26 @@ Die eingestrahlte Leistung berechnet sich somit zu:
 W_\text{Str} = P_\text{el}(U) \cdot \frac{A_\text{SZ}}{4 \pi r^2}
 \label{eq:wstr_berechnung}
 \end{equation}
-\subsection{Spektrale Empfindlichkeit }
+\subsection{Spektrale Empfindlichkeit}
+\label{sec:theorie_spektral}
 
-Die spektrale Empfindlichkeit $S(\lambda)$ setzt den Kurzschlussstrom ins Verh\"altnis zur monochromatischen Bestrahlungsst\"arke W 
+Die spektrale Empfindlichkeit $S(\lambda)$ setzt den Kurzschlussstrom $I_{\text{K}}$ ins Verh\"altnis zur monochromatischen Bestrahlungsst\"arke $W(\lambda)$ 
 \begin{equation}
 S(\lambda) = \frac{I_{\text{K}}(\lambda)}{W(\lambda)}.
 \label{eq:spek}
 \end{equation}
-\noindent Um sie experimentell zu Bestimmen, kann eine Solarzelle mit Licht verschiedener Wellenl\"angen beleuchtet werden. Die Aufspaltung des Lichts erfolgt \"uber die Beugung an einem Gitter \cite{demtroeder2017}
-Für die Bestimmung der zugehörigen spektralen Strahlungsleistung $W(\lambda)$ ist das Flächenverhältnis der Solarzelle zur beleuchteten Gesamtfläche sowie das Emissionsspektrum der Lampe erforderlich. Dieses lässt sich näherungsweise als Schwarzkörperstrahlung modellieren \cite{demtroeder2017}. Die spektrale Energiedichte $u_\lambda(\lambda,T)$ beschreibt die Strahlungsenergie pro Wellenlänge $\lambda$ und folgt der Planckschen Strahlungsformel
+\noindent Um sie experimentell zu bestimmen, wird die Solarzelle mit monochromatischem Licht beleuchtet, welches \"uber Beugung an einem Gitter aufgespalten wird \cite{demtroeder2017}. 
 
+\noindent F\"ur die Bestimmung der tats\"achlichen Empfindlichkeit muss das Emissionsspektrum der verwendeten Lichtquelle ber\"ucksichtigt werden. Da es sich um einen thermischen Strahler handelt, l\"asst sich dessen spektrale Energiedichte $u_\lambda(\lambda,T)$ n\"aherungsweise \"uber die Plancksche Strahlungsformel beschreiben:
 \begin{equation}
 u_\lambda(\lambda,T) = \frac{8\pi h c}{\lambda^5}\frac{1}{e^{hc/(\lambda k_B T)}-1} \label{eq:planck},
 \end{equation}
+\noindent mit der Strahler-Temperatur $T$, dem Planckschen Wirkungsquantum $h$, der Lichtgeschwindigkeit $c$ und der Boltzmann-Konstante $k_\text{B}$ \cite{demtroeder2017}. 
 
-\noindent mit der Strahler-Temperatur $T$, Planck-Konstante $h$, Lichtgeschwindigkeit $c$ und Boltzmann-Konstante $k_\text{B}$ \cite{demtroeder2017}. 
-\noindent Um die spektrale Energiedichte unabh\"angig von der Intensit\"at der Lampe $u_{\text{rel}}(\lambda)$ zu berechnen, werden die betrachteten $u_\lambda(\lambda,T)$ auf den Maximalwert normiert.
+\noindent Diese Beziehung zeigt, dass die Lampe nicht bei allen Wellenl\"angen gleich viel Energie emittiert. Obwohl kurzwellige Photonen energiereicher sind ($E_\gamma = hc/\lambda$), ist die absolute Anzahl der abgestrahlten Photonen bei sehr kurzen sowie bei sehr langen Wellenl\"angen gering. Um ein von der Lampenintensit\"at unabh\"angiges, qualitatives Profil zu erhalten, wird $u_\lambda(\lambda,T)$ auf seinen Maximalwert normiert:
+\begin{equation}
+u_{\text{rel}}(\lambda) = \frac{u_\lambda(\lambda,T)}{\max\{u_\lambda(\lambda,T)\}} \label{eq:unorm}.
+\end{equation}
 
 % ---------------------------------------------------
 % 3 Versuchsbeschreibung
@@ -201,29 +205,30 @@ Bei der Durchf\"uhrung aller Messungen finden im Dunkeln statt, um Messungenauig
 \noindent Das Solarzellenmodul wird wie in Abb. \ref{fig:versuchSZ} mit dem Strahler ausgerichtet. Dieser wird an einem regelbaren Transformator angeschlossen. Der Versuchsaufbau wird mit zwei Multimetern, f\"ur Strom- und Spannungsmessung sowie einer Widerstandsdekade verschalten.
 Die Widerstandsdekade verf\"ugt \"uber zwei Reihen an Widerst\"anden, welche in Tabelle \ref{tab:widerstaende} aufgetragen sind.
 
-\begin{table}[hthb]
+\begin{table}[htbp]
     \centering
     \caption{Widerstandsdekaden.}
     \label{tab:widerstaende}
     \begin{tabular}{ll|ll}
         \toprule
-        		\textbf{1. Dekade (Aufw\"arts)} & \textbf{R [\si{\ohm}]} &
-	        \textbf{2. Dekade (Abw\"arts)} & \textbf{R [\si{\ohm}]} \\
-        		\midrule
-        		$R_1$    & 10    & $R_1$    & 10   \\
-        		$R_2$    & 22    & $R_2$    & 8.5  \\
-	        $R_3$    & 29    & $R_3$    & 7    \\
-	        $R_4$    & 41    & $R_4$    & 5.5  \\
-	        $R_5$    & 65    & $R_5$    & 4    \\
-	        $R_6$    & 71    & $R_6$    & 1.5  \\
-	        $R_7$    & 93   & $R_7$    & 0.95 \\
-	        $R_8$    & 125   & $R_8$    & 0.6 \\
-	        $R_9$    & 275   & $R_9$    & 0.4 \\
-	        $R_{10}$ & 664   & $R_{10}$ & 0.25 \\
-	        $R_{11}$ & 1860 & $R_{11}$ & 0.1 \\
-	        \bottomrule
-	\end{tabular}
+        \textbf{1. Dekade (Aufw\"arts)} & \textbf{R [\si{\ohm}]} &
+        \textbf{2. Dekade (Abw\"arts)} & \textbf{R [\si{\ohm}]} \\
+        \midrule
+        $R_1$    & 1860  & $R_1$    & 10   \\
+        $R_2$    & 664   & $R_2$    & 8.5  \\
+        $R_3$    & 275   & $R_3$    & 7    \\
+        $R_4$    & 125   & $R_4$    & 5.5  \\
+        $R_5$    & 93    & $R_5$    & 4    \\
+        $R_6$    & 71    & $R_6$    & 1.5  \\
+        $R_7$    & 65    & $R_7$    & 0.95 \\
+        $R_8$    & 41    & $R_8$    & 0.6  \\
+        $R_9$    & 29    & $R_9$    & 0.4  \\
+        $R_{10}$ & 22    & $R_{10}$ & 0.25 \\
+        $R_{11}$ & 10    & $R_{11}$ & 0.1  \\
+        \bottomrule
+    \end{tabular}
 \end{table}
+
  
 \noindent Zur Bestimmung der Kennlinie der Solarzelle werden bei konstanter Temperatur  Kurzschlussstrom $I_{\text{K}}$, Leerlaufspannung $U_{\text{L}}$, sowie Spannungs- und Stromstärkepaare f\"ur jeden Widerstand $R_{\text{i}}$ bei 50 \% und 100 \% der Strahlungsleistung der Lampe gemessen. \newline
 Der Dunkelstrom der Solarzelle wird vor jedem Dekadendurchlauf, sowie abschlie{\ss}end nach der Erw\"ahrmung der Solarzelle aufgenommen.
@@ -239,7 +244,7 @@ Der Dunkelstrom der Solarzelle wird vor jedem Dekadendurchlauf, sowie abschlie{\
 
 \noindent Der Aufbau (Abb. \ref{fig:spektralSZ}) besteht aus einer rotierbaren Solarzelle und einem Schirm, auf dem die Wellenl\"angen $\lambda$ des Lichtspektrums in nm markiert sind. Der Lichtstrahl eines Projektors wird an einem optischen Element in sein Spektrum zerlegt und auf den Schirm projiziert. Die Solarzelle kann um eine Achse gedreht werden, um nacheinander verschiedene Spektralbereiche zu beleuchten.
 Zur Bestimmung der U-I-Kennlinie im Reflex 0. Ordnung soll die Solarzelle auf den unaufgespaltenen  Strahl ausgerichtet werden. Der Schwenkarm hat eine solche Ausrichtung nicht zugelassen, weshalb zur Bestimmung der 0. Ordnung auf die Lampe aus dem Versuchsaufbau des vorherigen Versuchs (Abb. \ref{fig:versuchSZ}) ausgewichen wird. Der Kurzschlussstrom $I_\text{K}$, Leerlaufspannung $U_\text{L}$ und Stromst\"arke, sowie Spannung werden f\"ur zwei Widerstandsdekaden (Tab. \ref{tab:widerstaende}) aufgenommen. Die Spektralempfindlichkeit von $\lambda$ 300 bis 900\,nm in 50\,nm-Schritten wird mit dem vorgesehenem Versuchsaufbau erfasst. 
-\newline Die Messungen werden mehrfach mit verschiedenen Multimetern wiederholt, da die urspr\"unglichen Messger\"ate im Laufe des Versuchs stark abweichende Werte liefern.   
+\newline Beide Messungen werden zweifach mit verschiedenen Multimetern wiederholt, da die urspr\"unglichen Messger\"ate im Laufe des Versuchs stark abweichende Werte liefern.   
 
 \subsection{Hydrocar}
 
@@ -381,7 +386,51 @@ Der zugehörige Wirkungsgrad ergibt sich zu:
 
 \noindent Die ermittelten Wirkungsgrade von $42{,}7\,\%$ bzw. $25{,}2\,\%$ liegen systematisch zu hoch für eine handelsübliche Solarzelle. Diese Abweichung resultiert aus der Annahme, dass die gesamte elektrische Leistung der Lampe ($P_\text{el}$) als homogene Lichtstrahlung emittiert wird. Tatsächlich weisen Halogenlampen einen geringen optischen Wirkungsgrad auf; der Großteil der Leistung wird als für die Solarzelle nicht nutzbare Wärmestrahlung abgegeben, wodurch die tatsächliche Nutzstrahlung $W_\text{Str}$ im Versuch stark überschätzt wird.
 
+\subsection{Spektralempfindlichkeit}
 
+\begin{figure}[ht]
+\centering
+\begin{minipage}{0.48\textwidth}
+\centering
+\includegraphics[width=\textwidth]{nullOrdnung_Messung2.png}
+\caption{Erste Messung der Kennlinie im Reflex nullter Ordnung}
+\label{fig:nullSZ}
+\end{minipage}
+\hfill
+\begin{minipage}{0.48\textwidth}
+\centering
+\includegraphics[width=\textwidth]{nullOrdnung_Messung1.png}
+\caption{Zweite Messung der Kennlinie im Reflex nullter Ordnung}
+\label{fig:nullSZ2}
+\end{minipage}
+\end{figure}
+\noindent Die Auswertung der Daten (Abb.~\ref{fig:nullSZ} und Abb.~\ref{fig:nullSZ2}) unterstreicht die Vermutung, dass das verwendete Messger\"at fehlerhaft war. Der Kurzschlussstrom $I_{\text{K}}$ liegt zwar in beiden Messungen konsistent bei \qty{5,7}{\milli\ampere}, was f\"ur eine konstante Beleuchtungsst\"arke des ungebeugten Reflexes 0.\,Ordnung spricht, jedoch weisen die aufgenommenen Kennlinien deutliche Inkonsistenzen auf. Insbesondere die erste Messung zeigt einen stark schwankenden Spannungsverlauf. Die gemessenen Spannungswerte springen hier unregelm\"a\ss ig auf und ab, w\"ahrend der Strom kontinuierlich ansteigt. Auch in der zweiten Messung ist der Spannungsabfall mit nur wenigen Millivolt \"uber den gesamten abgefahrenen Widerstandsbereich gering. Dies l\"asst sich nicht durch die normale Charakteristik des Bauteils erkl\"aren und deutet stark auf Kontaktprobleme, Wackelkontakte w\"ahrend der Widerstands\"anderung oder einen systematischen Defekt des Multimeters hin. Eine sinnvolle Auswertung der Daten ist daher nicht möglich .
+
+\begin{figure}[hthb]
+\centering
+\includegraphics[width=0.7\textwidth]{SpektralEmpf_Vergleich.png}
+\caption{Messung der spektralen Empfindlichkeit}
+\label{fig:spekSZ}
+\end{figure}
+\noindent In Abbildung~\ref{fig:spekSZ} ist der gemessene Kurzschlussstrom $I_{\text{K}}$ in Abh\"angigkeit der Wellenl\"ange $\lambda$ f\"ur zwei verschiedene Messungen dargestellt. Beide Kurvenverl\"aufe zeigen qualitativ dasselbe Verhalten: Im kurzwelligen Bereich (\qty{300}{\nano\meter} bis \qty{450}{\nano\meter}) ist der gemessene Fotostrom sehr gering. Ab etwa \qty{500}{\nano\meter} steigt der Strom stark an und erreicht bei ungef\"ahr \qty{850}{\nano\meter} sein Maximum, bevor er bei \qty{900}{\nano\meter} wieder leicht abf\"allt. 
+
+\noindent Auff\"allig ist der deutliche quantitative Unterschied zwischen den beiden Kurven: W\"ahrend die erste Messung bei \qty{850}{\nano\meter} ein Maximum von lediglich \qty{3,0}{\micro\ampere} erreicht, zeigt die zweite Messung am selben Punkt \qty{24,7}{\micro\ampere}. Da die Versuchsparameter konstant gehalten wurden, ist diese Diskrepanz auf unterschiedliche Innenwiderst\"ande der verwendeten Messger\"ate zur\"uckzuf\"uhren.
+
+\noindent Wie in Kapitel~\ref{sec:theorie_spektral} erl\"autert ist der starke Anstieg des Fotostroms in der Darstellung  ma\ss geblich auf die h\"ohere Strahlungsleistung der Lampe im Infrarotbereich zur\"uckzuf\"uhren. Wendet man den Zusammenhang $\frac{I_{\text{K}}(\lambda)}{u_\lambda(\lambda)}$ an ergibt sich folgender Verlauf:
+\newpage
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.7\textwidth]{tatsaechliche_Spektralempfindlichkeit.png}
+\caption{Auftragen der tats\"achlichen Empfindlichkeit}
+\label{fig:tatSZ}
+\end{figure}
+
+\noindent Zur Berechnung von Abbildung~\ref{fig:tatSZ} wird die spektrale Energiedichte $u_\lambda(\lambda)$ der Halogenlampe   n\"aherungsweise \"uber das Plancksche Strahlungsgesetz ($T = \qty{3200}{\kelvin}$) ermittelt. Werte unterhalb von \qty{450}{\nano\meter} werden aufgrund zu starken Rauschens von der Normierung ausgenommen.
+
+\subsection{Hydrocar}
+
+Das Hydrocar l\"asst sich im Rahmen des Versuchs aufgrund eines technischen Defekts nicht in Betrieb nehmen. Theoretisch ist folgender Prozess zu erwarten: Die Solarzelle liefert bei Beleuchtung elektrische Energie, um in der Zelle Wasser elektrolytisch in Wasserstoff und Sauerstoff aufzuspalten. Sobald ausreichend Gas gespeichert ist, fungiert das System als Brennstoffzelle, wandelt die chemische Energie wieder in elektrische Energie um und treibt den angeschlossenen Elektromotor an, sodass das Hydrocar f\"ahrt.
 
 \newpage
 % ---------------------------------------------------
@@ -407,8 +456,7 @@ Fügen Sie hier eine gut lesbare digitale Kopie der Laborbuchseiten ein, auf den
 % 7 Literaturverzeichnis
 % ---------------------------------------------------
 \section{Literaturverzeichnis}
-% Einträge in der Reihenfolge des ersten Auftretens im Text. [file:1]
-% Beispiel im IEEE-Stil:
+
 
 \begin{thebibliography}{9}
 
