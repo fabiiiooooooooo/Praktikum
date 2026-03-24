@@ -25,6 +25,9 @@
 \sisetup{detect-all}
 \usepackage{booktabs}
 \usepackage{hyperref}
+\usepackage{hyperref}
+\def\UrlBreaks{\do\/\do-} % Erlaubt Zeilenumbrüche in URLs nach / und -
+
 \usepackage{fancyhdr}
 \usepackage{mhchem}
 
@@ -133,6 +136,7 @@ Um die Funktionsweise einer Solarzelle zu verstehen muss man sich
 Am p-n-Übergang diffundieren zunächst Elektronen aus dem n-Gebiet ins p-Gebiet und Löcher umgekehrt, bis die Rekombination eine Raumladungszone (Verarmungszone) bildet. Diese erzeugt ein internes elektrisches Feld, das weitere Diffusion verhindert. Bei Beleuchtung entstehen in oder nahe dieser Zone Elektron-Loch-Paare, das Feld trennt sie gerichtet (Elektronen zur n-Seite, Löcher zur p-Seite) und baut eine Spannung zwischen den Kontakten auf.\newline
 Die Kontaktierung erfolgt durch einen vollflächigen Metallkontakt auf der Rückseite (p-Substrat) und einem feinen Metallgitter auf der Vorderseite (n-Schicht), um Lichtverluste zu minimieren. Bei geschlossenem Stromkreis fließen Elektronen extern zurück und rekombinieren, wodurch die Zelle Strom liefert.
 \subsection{Wirkungsgrad der Solarzelle}
+\label{sec:theorie_spektral}
 Nur ein beschränkter Teil der einfallenden Strahlungsleistung wird von Solarzellen in elektrische Leistung umgewandelt. Das liegt hauptsächlich an dem breiten Spektrum des Sonnenlichts. Kurzwelliges UV-Licht trägt viel Energie pro Photon, langwelliges Infrarot-Licht entsprechend wenig. In der Siliziumsolarzelle können nur Photonen Elektron-Loch-Paare erzeugen, deren Energie größer als die Bandlücke von \(E_g = 1{,}12\,\text{eV}\) (bei Raumtemperatur) ist \cite{wiki-bandluecke}\cite{leistungselektronik}. Liegt die Energie unterhalb der Bandlücke, werden die Photonen nicht absorbiert,
 \"ubersch\"ussige Energie oberhalb der Bandl\"ucke wird thermisch dissipiert.
 Zur Berechnung des Wirkungsgrades $\eta_{\text{SZ}}$ wird die maximal abgegebene elektrische Leistung $P_{\text{el,max}}$ ins Verh\"altnis zur einfallenden Strahlungsleistung $W_{\text{Str}}$ gestellt.
@@ -158,16 +162,14 @@ Der F\"ullfaktor
 \label{eq:wkSZ}
 \end{equation}
 
-\noindent Die auf die Solarzelle eingestrahlte Leistung $W_\text{Str}$ wird unter der Annahme der Lampe als Punklichtquelle
-Die eingestrahlte Leistung berechnet sich somit zu:
+\noindent Die eingestrahlte Leistung $W_\text{Str}$ ergibt sich aus dem Verh\"altnis der Solarzellenfl\"ache $A_\text{SZ}$ zur gesamten Kugeloberfl\"ache $4 \pi r^2$:
 \begin{equation}
 W_\text{Str} = P_\text{el}(U) \cdot \frac{A_\text{SZ}}{4 \pi r^2}
 \label{eq:wstr_berechnung}
 \end{equation}
-\subsection{Spektrale Empfindlichkeit}
-\label{sec:theorie_spektral}
+\noindent Dabei wird n\"aherungsweise angenommen, dass die gesamte eingesetzte elektrische Leistung der Lampe vollst\"andig und verlustfrei in Form von Lichtstrahlung emittiert wird.
 
-Die spektrale Empfindlichkeit $S(\lambda)$ setzt den Kurzschlussstrom $I_{\text{K}}$ ins Verh\"altnis zur monochromatischen Bestrahlungsst\"arke $W(\lambda)$ 
+\noindent Die spektrale Empfindlichkeit $S(\lambda)$ setzt den Kurzschlussstrom $I_{\text{K}}$ ins Verh\"altnis zur monochromatischen Bestrahlungsst\"arke $W(\lambda)$ 
 \begin{equation}
 S(\lambda) = \frac{I_{\text{K}}(\lambda)}{W(\lambda)}.
 \label{eq:spek}
@@ -184,20 +186,20 @@ u_\lambda(\lambda,T) = \frac{8\pi h c}{\lambda^5}\frac{1}{e^{hc/(\lambda k_B T)}
 \begin{equation}
 u_{\text{rel}}(\lambda) = \frac{u_\lambda(\lambda,T)}{\max\{u_\lambda(\lambda,T)\}} \label{eq:unorm}.
 \end{equation}
-
+\newpage
 % ---------------------------------------------------
 % 3 Versuchsbeschreibung
 % ---------------------------------------------------
 \section{Versuchsbeschreibung}
-
-Bei der Durchf\"uhrung aller Messungen finden im Dunkeln statt, um Messungenauigkeiten durch Streulicht zu verhindern..\newline
+Alle Messungen finden im Dunkeln statt, um Messungenauigkeiten durch Streulicht zu verhindern.
+\newline
 
 \subsection{Kennlinie der Solarzelle} \label{ssec:kennSZ}
 
-\begin{figure}[hthb]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=0.7\textwidth]{Solarzelle.jpeg}
-\caption{Aufbau der Solarzelle } 
+\caption{Versuchsaufbau mit Solarzelle, Strahler und Messger\"aten} 
 \label{fig:versuchSZ}
 \end{figure}
 
@@ -205,7 +207,7 @@ Bei der Durchf\"uhrung aller Messungen finden im Dunkeln statt, um Messungenauig
 \noindent Das Solarzellenmodul wird wie in Abb. \ref{fig:versuchSZ} mit dem Strahler ausgerichtet. Dieser wird an einem regelbaren Transformator angeschlossen. Der Versuchsaufbau wird mit zwei Multimetern, f\"ur Strom- und Spannungsmessung sowie einer Widerstandsdekade verschalten.
 Die Widerstandsdekade verf\"ugt \"uber zwei Reihen an Widerst\"anden, welche in Tabelle \ref{tab:widerstaende} aufgetragen sind.
 
-\begin{table}[htbp]
+\begin{table}[hb]
     \centering
     \caption{Widerstandsdekaden.}
     \label{tab:widerstaende}
@@ -231,33 +233,33 @@ Die Widerstandsdekade verf\"ugt \"uber zwei Reihen an Widerst\"anden, welche in 
 
  
 \noindent Zur Bestimmung der Kennlinie der Solarzelle werden bei konstanter Temperatur  Kurzschlussstrom $I_{\text{K}}$, Leerlaufspannung $U_{\text{L}}$, sowie Spannungs- und Stromstärkepaare f\"ur jeden Widerstand $R_{\text{i}}$ bei 50 \% und 100 \% der Strahlungsleistung der Lampe gemessen. \newline
-Der Dunkelstrom der Solarzelle wird vor jedem Dekadendurchlauf, sowie abschlie{\ss}end nach der Erw\"ahrmung der Solarzelle aufgenommen.
+Der Dunkelstrom der Solarzelle wird vor jedem Dekadendurchlauf, sowie abschlie{\ss}end nach der Erw\"armung der Solarzelle aufgenommen.
 
 \subsection{Bestimmung der spektralen Empfindlichkeit}
 
-\begin{figure}[hthb]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=0.7\textwidth]{spektral.jpeg}
-\caption {Spektrale Trennung }
+\caption {Spektrale Trennung und Messung entlang eines Schirms}
 \label{fig:spektralSZ}
 \end{figure}
 
 \noindent Der Aufbau (Abb. \ref{fig:spektralSZ}) besteht aus einer rotierbaren Solarzelle und einem Schirm, auf dem die Wellenl\"angen $\lambda$ des Lichtspektrums in nm markiert sind. Der Lichtstrahl eines Projektors wird an einem optischen Element in sein Spektrum zerlegt und auf den Schirm projiziert. Die Solarzelle kann um eine Achse gedreht werden, um nacheinander verschiedene Spektralbereiche zu beleuchten.
 Zur Bestimmung der U-I-Kennlinie im Reflex 0. Ordnung soll die Solarzelle auf den unaufgespaltenen  Strahl ausgerichtet werden. Der Schwenkarm hat eine solche Ausrichtung nicht zugelassen, weshalb zur Bestimmung der 0. Ordnung auf die Lampe aus dem Versuchsaufbau des vorherigen Versuchs (Abb. \ref{fig:versuchSZ}) ausgewichen wird. Der Kurzschlussstrom $I_\text{K}$, Leerlaufspannung $U_\text{L}$ und Stromst\"arke, sowie Spannung werden f\"ur zwei Widerstandsdekaden (Tab. \ref{tab:widerstaende}) aufgenommen. Die Spektralempfindlichkeit von $\lambda$ 300 bis 900\,nm in 50\,nm-Schritten wird mit dem vorgesehenem Versuchsaufbau erfasst. 
 \newline Beide Messungen werden zweifach mit verschiedenen Multimetern wiederholt, da die urspr\"unglichen Messger\"ate im Laufe des Versuchs stark abweichende Werte liefern.   
-
+\newpage
 \subsection{Hydrocar}
 
 \begin{figure}[hthb]
 \centering
 \includegraphics[width=0.7\textwidth]{hydrocar.jpeg}
-\caption{Hydrocar zusammengebaut}
+\caption{Zusammengebautes Hydrocar}
 \label{fig:hydrocar}
 
 \end{figure}
 \noindent Das Hydrocar (Abb. \ref{fig:hydrocar}) dient der Demonstration der Kombination aus Brennstoffzelle und Solarzelle. 
 Es wird \"uber eine Brennstoffzelle betrieben, die daf\"ur notwendige Energie wird von einer Solarzelle geliefert.
-Es wird entsprechend der beiliegenden Anleitung mit destilliertem Wasser bef\"ullt und in Betrieb genommen.
+Es wird entsprechend der beiliegenden Anleitung aufgebaut, mit destilliertem Wasser bef\"ullt und in Betrieb genommen.
 
 
 
@@ -292,9 +294,6 @@ Es wird entsprechend der beiliegenden Anleitung mit destilliertem Wasser bef\"ul
 
 
 \noindent Der Kurzschlussstrom $I_\mathrm{K}$ steigt bei 100\,\%  um den Faktor $\approx 6{,}9$ an, w\"ahrend die Leerlaufspannung $U_\mathrm{L} \approx 2\,$V nahezu konstant bleibt. Die Kennlinie verschiebt sich parallel zu h\"oheren Str\"omen bei identischer exponentieller Abflachung.
-
-\noindent Der Photostrom $I_\mathrm{ph}$ ist direkt proportional zur Einstrahlungsst\"arke $G$ ($I_\mathrm{K} \propto G$), da mehr Photonen mehr Ladungstr\"agerpaare erzeugen. Die logarithmische Abh\"angigkeit der Leerlaufspannung ($U_\mathrm{L} \propto \ln G$) erkl\"art die nahezu konstante $U_\mathrm{L}$.
-
 
 \begin{table}[hthb]
 \centering
@@ -332,7 +331,7 @@ A_\mathrm{MPP,50} = 1{,}595 \cdot 34{,}930 = 55{,}713\,\mathrm{mW}.
 = 0{,}670 \approx 67{,}0\,\%.
 \end{equation}
 
-\noindent Für 100\,\% Strahlungsleistung ergibt sich für das ideale Rechteck:
+\noindent Analog folgt die Berechnung f\"ur 100\,\% Strahlungsleistung. Hier ergibt sich für das ideale Rechteck:
 \begin{equation}
 A_\mathrm{ideal,100} = 2{,}112 \cdot 278{,}600 = 588{,}403\,\mathrm{mW}.
 \end{equation}
@@ -356,35 +355,36 @@ A_\mathrm{MPP,100} = 1{,}441 \cdot 261{,}900 = 377{,}398\,\mathrm{mW}.
 \centering
 \includegraphics[width=0.7\textwidth]{leistung_50_100.png} 
 \caption{Elektrische Leistung der Solarzelle in Abhängigkeit der Spannung bei 50\,\% und 100\,\% Strahlungsleistung.}
-\label{fig:pu_kurven}
+\label{fig:pukurven}
 \end{figure}
-\noindent Um die Leistungsabgabe der Solarzelle zu analysieren, ist in Abbildung \ref{fig:pu_kurven} die elektrische Leistung $P$ in Abhängigkeit der anliegenden Spannung $U$ für beide Strahlungsleistungen aufgetragen. 
+\noindent Um die Leistungsabgabe der Solarzelle zu analysieren, ist in Abbildung \ref{fig:pukurven} die elektrische Leistung $P$ in Abhängigkeit der anliegenden Spannung $U$ für beide Strahlungsleistungen aufgetragen. 
 
 \noindent Der direkte Vergleich im gemeinsamen Diagramm verdeutlicht den Einfluss der eingestrahlten Lichtleistung auf die Energieausbeute. Während das Leistungsmaximum bei 50\,\% Strahlungsleistung bei $P_\mathrm{mpp} = 55{,}713\,$mW (bei $U_\mathrm{mpp} = 1{,}595\,$V) liegt, erreicht die Solarzelle bei 100\,\% Strahlungsleistung ein Maximum von $P_\mathrm{mpp} = 377{,}398\,$mW (bei $U_\mathrm{mpp} = 1{,}441\,$V). 
 
 \subsection{Wirkungsgrad}
 
 
-Für 100\,\% Transformatorspannung ($U = U_\text{max}$) liefert die Lampe ihre Maximalleistung von $P_\text{100} = 100\,\mathrm{W}$. Die auf die Zelle eingestrahlte Leistung ergibt sich zu:
+Für 100\,\% Transformatorspannung ($U = U_\text{max}$) liefert die Lampe ihre Maximalleistung von $P_\text{el}(U) = 100\,\mathrm{W}$. Die auf die Zelle eingestrahlte Leistung nach \ref{eq:wstr_berechnung} mit einer Fl\"ache $A_{\text{SZ}} = \qty{16}{\centi\meter\squared}$ und einem Abstand zur Lichtquelle von $r = \qty{12}{\centi\meter}$ betr\"agt
 \begin{equation}
 W_\text{Str, 100\,\%} = 100\,\mathrm{W} \cdot \frac{16\,\mathrm{cm}^2}{1810\,\mathrm{cm}^2} \approx 0{,}884\,\mathrm{W} = 884\,\mathrm{mW}.
 \end{equation}
-Der Wirkungsgrad nach Gleichung \ref{eq:wkSZ} berechnet sich hierbei zu:
+Der Wirkungsgrad nach Gleichung \ref{eq:wkSZ} berechnet sich hierbei zu
 \begin{equation}
 \eta_\text{SZ, 100\,\%} = \frac{377{,}398\,\mathrm{mW}}{884\,\mathrm{mW}} \approx 0{,}4269\ (42{,}7\,\%).
 \end{equation}
 
-\noindent Für 50\,\% Transformatorspannung ($U = 0{,}5 \cdot U_\text{max}$) beträgt die elektrische Leistung der Lampe folglich nur ein Viertel der Maximalleistung: $P_\text{50} = 0{,}25 \cdot 100\,\mathrm{W} = 25\,\mathrm{W}$.
-Die eingestrahlte Leistung beträgt in diesem Fall:
+\noindent Für 50\,\% Transformatorspannung ($U = 0{,}5 \cdot U_\text{max}$) beträgt die elektrische Leistung der Lampe folglich nur ein Viertel der Maximalleistung: $P_\text{el}(U) = 0{,}25 \cdot 100\,\mathrm{W} = 25\,\mathrm{W}$.
+Die eingestrahlte Leistung beträgt 
 \begin{equation}
 W_\text{Str, 50\,\%} = 25\,\mathrm{W} \cdot \frac{16\,\mathrm{cm}^2}{1810\,\mathrm{cm}^2} \approx 0{,}221\,\mathrm{W} = 221\,\mathrm{mW}.
 \end{equation}
-Der zugehörige Wirkungsgrad ergibt sich zu:
+Der zugehörige Wirkungsgrad
 \begin{equation}
 \eta_\text{SZ, 50\,\%} = \frac{55{,}713\,\mathrm{mW}}{221\,\mathrm{mW}} \approx 0{,}2521\ (25{,}2\,\%).
 \end{equation}
 
-\noindent Die ermittelten Wirkungsgrade von $42{,}7\,\%$ bzw. $25{,}2\,\%$ liegen systematisch zu hoch für eine handelsübliche Solarzelle. Diese Abweichung resultiert aus der Annahme, dass die gesamte elektrische Leistung der Lampe ($P_\text{el}$) als homogene Lichtstrahlung emittiert wird. Tatsächlich weisen Halogenlampen einen geringen optischen Wirkungsgrad auf; der Großteil der Leistung wird als für die Solarzelle nicht nutzbare Wärmestrahlung abgegeben, wodurch die tatsächliche Nutzstrahlung $W_\text{Str}$ im Versuch stark überschätzt wird.
+\noindent Die im Versuch ermittelten Wirkungsgrade von $42{,}7\,\%$ bzw. $25{,}2\,\%$ liegen systematisch zu hoch f\"ur eine einfache, handels\"ubliche Solarzelle, insbesondere in der Ausf\"uhrung wie sie im Versuch vorkommt. Kommerzielle monokristalline Silizium-Solarzellen verzeichnen zwar stetige technologische Fortschritte, erreichen jedoch aktuell lediglich Wirkungsgrade von etwas \"uber $24\,\%$ \cite{fraunhofer_ise_report_2024}. Selbst besonders effiziente Solarzelle erzielen unter optimalen Laborbedingungen einen Wirkungsgrad von nur $47{,}6\,\%$ \cite{fraunhofer_ise_2022}. 
+\newline Diese Abweichung resultiert aus der Annahme, dass die gesamte elektrische Leistung der Lampe ($P_\text{el}$) als homogene Lichtstrahlung emittiert wird. Tatsächlich weisen Halogenlampen einen geringen optischen Wirkungsgrad auf; der Großteil der Leistung wird als für die Solarzelle nicht nutzbare Wärmestrahlung abgegeben, wodurch die tatsächliche Nutzstrahlung $W_\text{Str}$ im Versuch stark überschätzt wird.
 
 \subsection{Spektralempfindlichkeit}
 
@@ -404,7 +404,7 @@ Der zugehörige Wirkungsgrad ergibt sich zu:
 \label{fig:nullSZ2}
 \end{minipage}
 \end{figure}
-\noindent Die Auswertung der Daten (Abb.~\ref{fig:nullSZ} und Abb.~\ref{fig:nullSZ2}) unterstreicht die Vermutung, dass das verwendete Messger\"at fehlerhaft war. Der Kurzschlussstrom $I_{\text{K}}$ liegt zwar in beiden Messungen konsistent bei \qty{5,7}{\milli\ampere}, was f\"ur eine konstante Beleuchtungsst\"arke des ungebeugten Reflexes 0.\,Ordnung spricht, jedoch weisen die aufgenommenen Kennlinien deutliche Inkonsistenzen auf. Insbesondere die erste Messung zeigt einen stark schwankenden Spannungsverlauf. Die gemessenen Spannungswerte springen hier unregelm\"a\ss ig auf und ab, w\"ahrend der Strom kontinuierlich ansteigt. Auch in der zweiten Messung ist der Spannungsabfall mit nur wenigen Millivolt \"uber den gesamten abgefahrenen Widerstandsbereich gering. Dies l\"asst sich nicht durch die normale Charakteristik des Bauteils erkl\"aren und deutet stark auf Kontaktprobleme, Wackelkontakte w\"ahrend der Widerstands\"anderung oder einen systematischen Defekt des Multimeters hin. Eine sinnvolle Auswertung der Daten ist daher nicht möglich .
+\noindent Die Auswertung der Daten (Abb.~\ref{fig:nullSZ} und Abb.~\ref{fig:nullSZ2}) unterstreicht die Vermutung, dass das verwendete Messger\"at fehlerhaft war. Der Kurzschlussstrom $I_{\text{K}}$ liegt zwar in beiden Messungen konsistent bei \qty{5,7}{\milli\ampere}, was f\"ur eine konstante Beleuchtungsst\"arke des ungebeugten Reflexes 0.\,Ordnung spricht, jedoch weisen die aufgenommenen Kennlinien deutliche Inkonsistenzen auf. Insbesondere die erste Messung zeigt einen stark schwankenden Spannungsverlauf. Die gemessenen Spannungswerte springen hier unregelm\"a\ss ig auf und ab, w\"ahrend der Strom kontinuierlich ansteigt. Auch in der zweiten Messung ist der Spannungsabfall mit nur wenigen Millivolt \"uber den gesamten abgefahrenen Widerstandsbereich gering. Dies l\"asst sich nicht durch die normale Charakteristik des Bauteils erkl\"aren und deutet stark auf Kontaktprobleme, Wackelkontakte w\"ahrend der Widerstands\"anderung oder einen systematischen Defekt des Multimeters hin. Eine sinnvolle Auswertung der Daten ist daher nicht möglich.
 
 \begin{figure}[hthb]
 \centering
@@ -430,17 +430,19 @@ Der zugehörige Wirkungsgrad ergibt sich zu:
 
 \subsection{Hydrocar}
 
-Das Hydrocar l\"asst sich im Rahmen des Versuchs aufgrund eines technischen Defekts nicht in Betrieb nehmen. Theoretisch ist folgender Prozess zu erwarten: Die Solarzelle liefert bei Beleuchtung elektrische Energie, um in der Zelle Wasser elektrolytisch in Wasserstoff und Sauerstoff aufzuspalten. Sobald ausreichend Gas gespeichert ist, fungiert das System als Brennstoffzelle, wandelt die chemische Energie wieder in elektrische Energie um und treibt den angeschlossenen Elektromotor an, sodass das Hydrocar f\"ahrt.
+Das Hydrocar l\"asst sich im Rahmen des Versuchs aufgrund eines technischen Defekts nicht in Betrieb nehmen. Theoretisch ist zu erwarten, dass die Solarzelle  bei Beleuchtung die elektrische Energie liefert, um in der Zelle Wasser elektrolytisch in Wasserstoff und Sauerstoff aufzuspalten. Sobald ausreichend Gas gespeichert ist, fungiert das System als Brennstoffzelle, wandelt die chemische Energie wieder in elektrische Energie um und treibt den angeschlossenen Elektromotor an, sodass das Hydrocar f\"ahrt.
 
 \newpage
 % ---------------------------------------------------
 % 5 Zusammenfassung (kurz, max. 1/2 Seite)
 % ---------------------------------------------------
 \section{Zusammenfassung}
-% Kurzfassung des Versuchs und der wichtigsten Ergebnisse,
-% typischerweise <= 1/2 Seite. [file:1]
+In diesem Versuch wurden die grundlegenden Eigenschaften und Leistungsdaten einer klassischen Silizium-Solarzelle experimentell untersucht. Der Fokus lag dabei auf der Aufnahme von Strom-Spannungs-Kennlinien, der Bestimmung des Wirkungsgrades sowie der Analyse der spektralen Empfindlichkeit.
+\noindent Die ermittelten Kennlinien und Füllfaktoren bestätigten qualitativ das theoretische Verhalten einer Solarzelle bei unterschiedlichen Beleuchtungsstärken. Die quantitativ berechneten Wirkungsgrade fielen jedoch physikalisch unrealistisch hoch aus. Dies ließ sich auf die stark vereinfachte Annahme zurückführen, dass die eingesetzte Halogenlampe ihre elektrische Leistung verlustfrei in nutzbare Lichtstrahlung umwandelt, wodurch die erheblichen Verluste durch Wärmestrahlung unberücksichtigt blieben.
+\noindent Auch bei der Untersuchung der spektralen Empfindlichkeit traten gerätetechnische Messschwierigkeiten auf. Defekte Multimeter mit abweichenden Innenwiderständen sowie Kontaktprobleme erschwerten eine absolute quantitative Auswertung und machten die Reflexmessung nullter Ordnung unbrauchbar.Das geplante Experiment zur Systemkopplung mit einem Elektrolyseur und einer Brennstoffzelle (Hydrocar) konnte aufgrund eines technischen Defekts am Gerät lediglich theoretisch betrachtet werden.
+\noindent Trotz der experimentellen Hürden verdeutlicht der Versuch die physikalischen Prinzipien der Photovoltaik. Da kommerzielle Siliziumzellen sich heute ihrem theoretischen Wirkungsgradlimit von etwa $29,4\,\%$ annähern \cite{limit_silizium}, fokussiert sich die aktuelle Forschung stark auf Tandemsolarzellen. Durch die Kombination von Silizium mit  Materialien wie Perowskit konnten Anfang 2026 bereits zertifizierte Wirkungsgrade von $34,85\,\%$ \cite{longi_2025} erzielt werden, was das enorme zukünftige Potenzial dieser Technologie unterstreicht.
 
-Hier werden die wichtigsten Ergebnisse und Erkenntnisse des Versuchs kurz zusammengefasst und ggf. ein Ausblick gegeben. [file:1]
+
 \newpage
 % ---------------------------------------------------
 % 6 Laborbuch (Anhang)
@@ -450,7 +452,6 @@ Hier werden die wichtigsten Ergebnisse und Erkenntnisse des Versuchs kurz zusamm
 \section{Anhang}
 % Digitale Kopie des Laborbuch-Eintrags (z.B. Scan oder Foto). [file:1]
 
-Fügen Sie hier eine gut lesbare digitale Kopie der Laborbuchseiten ein, auf denen die Messdaten dokumentiert sind. [file:1]
 \newpage
 % ---------------------------------------------------
 % 7 Literaturverzeichnis
@@ -458,24 +459,38 @@ Fügen Sie hier eine gut lesbare digitale Kopie der Laborbuchseiten ein, auf den
 \section{Literaturverzeichnis}
 
 
-\begin{thebibliography}{9}
+
+\begin{thebibliography}{99}
 
 \bibitem{statis1}
-Bundesamt, ``Erneuerbare Energien global'', Destatis, \url{https://www.destatis.de/DE/Themen/Laender-Regionen/Internationales/Thema/umwelt-energie/energie/ErneuerbareEnergienGlobal.html}. [Online]. Abgerufen:  März 2026.
+Statistisches Bundesamt (Destatis), ``Erneuerbare Energien global'', Destatis, \url{https://www.destatis.de/DE/Themen/Laender-Regionen/Internationales/Thema/umwelt-energie/energie/ErneuerbareEnergienGlobal.html}. [Online]. Abgerufen: März 2026.
 
 \bibitem{iea2024}
 International Energy Agency (IEA), \emph{World Energy Outlook 2024}, Paris, Frankreich: IEA, 2024. [Online]. Verfügbar: \url{https://iea.blob.core.windows.net/assets/efba04ce-2472-4df1-9873-fb170c055259/WorldEnergyOutlook2024.pdf}. [Abgerufen: März 2026.]
 
 \bibitem{weltphysik}
 ``Sonnenenergie'', Welt der Physik, \url{https://www.weltderphysik.de/gebiet/technik/energie/solarenergie/sonnenenergie/}. [Online]. Abgerufen: März 2026.
+
 \bibitem{wiki-bandluecke}
 ``Bandlücke'', Wikipedia, [Online]. Verfügbar: \url{https://de.wikipedia.org/wiki/Bandl\%C3\%BCcke}. [Abgerufen: März 2026.]
 
 \bibitem{leistungselektronik}
-``Bandlücke'', Leistungselektronik, [Online]. Verfügbar: \url{https://www.leistungselektronik.de/bandluecke-a-c6bef4222bde07af45faeb7b2f1e4ef4/}. [Abgerufen: März 2026.] [web:43]
+``Bandlücke'', Leistungselektronik, [Online]. Verfügbar: \url{https://www.leistungselektronik.de/bandluecke-a-c6bef4222bde07af45faeb7b2f1e4ef4/}. [Abgerufen: März 2026.]
 
 \bibitem{demtroeder2017}
-W. Demtröder, ``Interferenz, Beugung und Streuung'', in \emph{Struktur der Materie}, Springer-Lehrbuch, Berlin, Heidelberg: Springer Berlin Heidelberg, 2017, Kap.~10. [Online]. DOI: 10.1007/978-3-662-55790-7\_10. [Abgerufen: März 2026.]
+W. Demtröder, ``Interferenz, Beugung und Streuung'', in \emph{Experimentalphysik 2}, Springer-Lehrbuch, Berlin, Heidelberg: Kap.~10. [Online]. DOI: 10.1007/978-3-662-55790-7\_10 [Abgerufen: März 2026.]
+
+\bibitem{fraunhofer_ise_report_2024}
+Fraunhofer-Institut für Solare Energiesysteme ISE, ``Photovoltaics Report'', Freiburg, 2024. [Online]. Verfügbar: \url{https://www.ise.fraunhofer.de/en/publications/studies/photovoltaics-report.html}. [Abgerufen: März 2026.]
+\bibitem{fraunhofer_ise_2022}
+Fraunhofer-Institut für Solare Energiesysteme ISE, ``Fraunhofer ISE entwickelt effizienteste Solarzelle der Welt mit 47,6 Prozent Wirkungsgrad'', Presseinformation, Mai 2022. [Online]. Verfügbar: \url{https://www.ise.fraunhofer.de/de/presse-und-medien/presseinformationen/2022/fraunhofer-ise-entwickelt-effizienteste-solarzelle-der-welt-mit-47-komma-6-prozent-wirkungsgrad.html}. [Abgerufen: März 2026.]
+\bibitem{limit_silizium}
+A. Richter, M. Hermle, und S. W. Glunz, ``Reassessment of the Limiting Efficiency for Crystalline Silicon Solar Cells'', \emph{IEEE Journal of Photovoltaics}, Bd. 3, Nr. 4, S. 1184--1191, Okt. 2013. DOI: 10.1109/JPHOTOV.2013.2270351.
+
+\bibitem{longi_2025}
+LONGi Solar, ``LONGi Breaks World Record for Crystalline Silicon-Perovskite Tandem Solar Cells'', April 2025. [Online]. Verfügbar: \url{https://www.longi.com/en/news/silicon-perovskite-tandem-solar-cells-new-world-efficiency/}. [Abgerufen: März 2026.]
+
+\end{thebibliography}
 
 
 
@@ -484,6 +499,5 @@ W. Demtröder, ``Interferenz, Beugung und Streuung'', in \emph{Struktur der Mate
 
 % weitere Quellen nach Bedarf
 
-\end{thebibliography}
 
 \end{document}
