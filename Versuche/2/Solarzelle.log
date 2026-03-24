@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  24 MAR 2026 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  24 MAR 2026 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -792,7 +792,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<kennlinie-sz.png, id=118, 614.295pt x 454.69875pt>
+<kennlinie-sz.png, id=120, 614.295pt x 454.69875pt>
 File: kennlinie-sz.png Graphic file (type png)
 <use kennlinie-sz.png>
 Package pdftex.def Info: kennlinie-sz.png  used on input line 145.
@@ -802,80 +802,80 @@ l/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/
 2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./solarzelle.png>] [3{/usr/local
 /texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./kennlinie-sz.png>
 ] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
-<Solarzelle.jpeg, id=156, 779.0706pt x 698.1282pt>
+<Solarzelle.jpeg, id=162, 779.0706pt x 698.1282pt>
 File: Solarzelle.jpeg Graphic file (type jpg)
 <use Solarzelle.jpeg>
-Package pdftex.def Info: Solarzelle.jpeg  used on input line 201.
+Package pdftex.def Info: Solarzelle.jpeg  used on input line 200.
 (pdftex.def)             Requested size: 318.66948pt x 285.55264pt.
-<spektral.jpeg, id=159, 1376.0208pt x 1032.0156pt>
+<spektral.jpeg, id=165, 1376.0208pt x 1032.0156pt>
 File: spektral.jpeg Graphic file (type jpg)
 <use spektral.jpeg>
-Package pdftex.def Info: spektral.jpeg  used on input line 242.
+Package pdftex.def Info: spektral.jpeg  used on input line 241.
 (pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
 [5 <./Solarzelle.jpeg>] [6 <./spektral.jpeg>]
-<hydrocar.jpeg, id=177, 1376.0208pt x 1032.0156pt>
+<hydrocar.jpeg, id=183, 1376.0208pt x 1032.0156pt>
 File: hydrocar.jpeg Graphic file (type jpg)
 <use hydrocar.jpeg>
-Package pdftex.def Info: hydrocar.jpeg  used on input line 255.
+Package pdftex.def Info: hydrocar.jpeg  used on input line 254.
 (pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
  [7 <./hydrocar.jpeg>]
-<kennlinie_IV_50.png, id=184, 498.1812pt x 353.4003pt>
+<kennlinie_IV_50.png, id=190, 498.1812pt x 353.4003pt>
 File: kennlinie_IV_50.png Graphic file (type png)
 <use kennlinie_IV_50.png>
-Package pdftex.def Info: kennlinie_IV_50.png  used on input line 282.
+Package pdftex.def Info: kennlinie_IV_50.png  used on input line 281.
 (pdftex.def)             Requested size: 218.51521pt x 155.01128pt.
-<kennlinie_IV_100.png, id=185, 497.57895pt x 353.4003pt>
+<kennlinie_IV_100.png, id=191, 497.57895pt x 353.4003pt>
 File: kennlinie_IV_100.png Graphic file (type png)
 <use kennlinie_IV_100.png>
-Package pdftex.def Info: kennlinie_IV_100.png  used on input line 289.
+Package pdftex.def Info: kennlinie_IV_100.png  used on input line 288.
 (pdftex.def)             Requested size: 218.51521pt x 155.20001pt.
 
 
-Package caption Warning: \label without proper reference on input line 301.
+Package caption Warning: \label without proper reference on input line 300.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `tab:messwerteSZ' on page 8 undefined on input line 31
-4.
+3.
 
 [8 <./kennlinie_IV_50.png> <./kennlinie_IV_100.png>]
-<leistung_50_100.png, id=200, 498.1812pt x 353.4003pt>
+<leistung_50_100.png, id=206, 498.1812pt x 353.4003pt>
 File: leistung_50_100.png Graphic file (type png)
 <use leistung_50_100.png>
-Package pdftex.def Info: leistung_50_100.png  used on input line 356.
+Package pdftex.def Info: leistung_50_100.png  used on input line 355.
 (pdftex.def)             Requested size: 318.66948pt x 226.06755pt.
  [9 <./leistung_50_100.png>]
-<nullOrdnung_Messung2.png, id=216, 498.1812pt x 353.03896pt>
+<nullOrdnung_Messung2.png, id=222, 498.1812pt x 353.03896pt>
 File: nullOrdnung_Messung2.png Graphic file (type png)
 <use nullOrdnung_Messung2.png>
-Package pdftex.def Info: nullOrdnung_Messung2.png  used on input line 395.
+Package pdftex.def Info: nullOrdnung_Messung2.png  used on input line 394.
 (pdftex.def)             Requested size: 218.51521pt x 154.85278pt.
-<nullOrdnung_Messung1.png, id=217, 498.1812pt x 353.4003pt>
+<nullOrdnung_Messung1.png, id=223, 498.1812pt x 353.4003pt>
 File: nullOrdnung_Messung1.png Graphic file (type png)
 <use nullOrdnung_Messung1.png>
-Package pdftex.def Info: nullOrdnung_Messung1.png  used on input line 402.
+Package pdftex.def Info: nullOrdnung_Messung1.png  used on input line 401.
 (pdftex.def)             Requested size: 218.51521pt x 155.01128pt.
  [10 <./nullOrdnung_Messung2.png> <./nullOrdnung_Messung1.png>]
-<SpektralEmpf_Vergleich.png, id=231, 498.30165pt x 353.4003pt>
+<SpektralEmpf_Vergleich.png, id=237, 498.30165pt x 353.4003pt>
 File: SpektralEmpf_Vergleich.png Graphic file (type png)
 <use SpektralEmpf_Vergleich.png>
-Package pdftex.def Info: SpektralEmpf_Vergleich.png  used on input line 411.
+Package pdftex.def Info: SpektralEmpf_Vergleich.png  used on input line 410.
 (pdftex.def)             Requested size: 318.66948pt x 226.00824pt.
  [11 <./SpektralEmpf_Vergleich.png>]
-<tatsaechliche_Spektralempfindlichkeit.png, id=242, 498.1812pt x 353.4003pt>
+<tatsaechliche_Spektralempfindlichkeit.png, id=248, 498.1812pt x 353.4003pt>
 File: tatsaechliche_Spektralempfindlichkeit.png Graphic file (type png)
 <use tatsaechliche_Spektralempfindlichkeit.png>
 Package pdftex.def Info: tatsaechliche_Spektralempfindlichkeit.png  used on inp
-ut line 424.
+ut line 423.
 (pdftex.def)             Requested size: 318.66948pt x 226.06755pt.
  [12 <./tatsaechliche_Spektralempfindlichkeit.png>]
 [13] [14]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-67.
+69.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -884,39 +884,52 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
 []\T1/lmr/m/n/10.95 (+20) Statistisches Bun-des-amt (De-sta-tis), ``Er-neu-er-b
 a-re Ener-gi-en glo-bal'', De-sta-tis,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
 []$\T1/lmtt/m/n/10.95 https : / / www\OML/lmm/m/it/10.95 :\T1/lmtt/m/n/10.95 de
 statis\OML/lmm/m/it/10.95 :\T1/lmtt/m/n/10.95 de / DE / Themen / Laender -[] Re
 gionen / Internationales / Thema /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
+Underfull \hbox (badness 5274) in paragraph at lines 476--477
+[]\T1/lmr/m/n/10.95 (+20) Joachim Herz Stif-tung, ``Silizium-Solarzellen'', LEI
+-FI-phy-sik. [On-li-ne]. Ver-füg-bar:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+[]$\T1/lmtt/m/n/10.95 https : / / www\OML/lmm/m/it/10.95 :\T1/lmtt/m/n/10.95 le
+ifiphysik\OML/lmm/m/it/10.95 :\T1/lmtt/m/n/10.95 de / elektronik / halbleiterdi
+ode / grundwissen / silizium -[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
 []\T1/lmr/m/n/10.95 (+20) ``Bandlücke'', Leis-tungs-elek-tro-nik, [On-li-ne]. V
 er-füg-bar: []$\T1/lmtt/m/n/10.95 https : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
 \T1/lmtt/m/n/10.95 www\OML/lmm/m/it/10.95 :\T1/lmtt/m/n/10.95 leistungselektron
 ik\OML/lmm/m/it/10.95 :\T1/lmtt/m/n/10.95 de / bandluecke -[] a -[] c6bef4222bd
 e07af45faeb7b2f1e4ef4/$[]\T1/lmr/m/n/10.95 (+20) .
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 487--488
+Underfull \hbox (badness 1297) in paragraph at lines 495--496
 []\T1/lmr/m/n/10.95 (+20) Fraunhofer-Institut für So-la-re Ener-gie-sys-te-me I
 SE, ``Fraun-ho-fer ISE ent-wi-ckelt ef-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
 \T1/lmr/m/n/10.95 (+20) Mai 2022. [On-li-ne]. Ver-füg-bar: []$\T1/lmtt/m/n/10.9
 5 https : / / www\OML/lmm/m/it/10.95 :\T1/lmtt/m/n/10.95 ise\OML/lmm/m/it/10.95
  :\T1/lmtt/m/n/10.95 fraunhofer\OML/lmm/m/it/10.95 :\T1/lmtt/m/n/10.95 de / de 
@@ -924,19 +937,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 487--488
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
 \T1/lmtt/m/n/10.95 medien / presseinformationen / 2022 / fraunhofer -[] ise -[]
  entwickelt -[] effizienteste -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
 \T1/lmtt/m/n/10.95 solarzelle -[] der -[] welt -[] mit -[] 47 -[] komma -[] 6 -
 [] prozent -[] wirkungsgrad\OML/lmm/m/it/10.95 :\T1/lmtt/m/n/10.95 html$[]\T1/l
 mr/m/n/10.95 (+20) . [Ab-ge-ru-fen:
  []
 
-[15] (./Solarzelle.aux)
+[15] [16] (./Solarzelle.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -945,17 +958,20 @@ L3 programming layer <2026-01-19>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Solarzelle.out' has not changed.
 (rerunfilecheck)             Checksum: BA05CD2A2D5F7E671DF128C0FFDAF5BA;2683.
  ) 
 Here is how much of TeX's memory you used:
- 21598 strings out of 467525
- 417331 string characters out of 5418982
- 862498 words of memory out of 5000000
- 50013 multiletter control sequences out of 15000+600000
+ 21603 strings out of 467525
+ 417418 string characters out of 5418982
+ 863650 words of memory out of 5000000
+ 50015 multiletter control sequences out of 15000+600000
  695111 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,80p,1112b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,80p,1112b,1251s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
 e/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/tex
@@ -968,10 +984,10 @@ ive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2026/tex
 mf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026/texmf-dist/fo
 nts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/
 public/lm/lmtt10.pfb>
-Output written on Solarzelle.pdf (17 pages, 10652229 bytes).
+Output written on Solarzelle.pdf (18 pages, 10653369 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
- 74 named destinations out of 1000 (max. 500000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
+ 77 named destinations out of 1000 (max. 500000)
  39621 words of extra memory for PDF output out of 42996 (max. 10000000)
 
