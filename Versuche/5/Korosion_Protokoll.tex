@@ -1,0 +1,108 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Pakete ---
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % Computer Modern (empfohlen)
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm
+}
+\usepackage{setspace}
+\setstretch{1.24} % entspricht Empfehlung (1–1.5 Zeilenabstand)
+\usepackage{microtype}
+\usepackage{csquotes}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{siunitx}     % saubere Einheiten, Einheiten aufrecht
+\sisetup{detect-all}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{hyperref}
+\def\UrlBreaks{\do\/\do-} % Erlaubt Zeilenumbrüche in URLs nach / und -
+
+\usepackage{fancyhdr}
+\usepackage{mhchem}
+
+% --- Kopf- und Fußzeile ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\sectionmark}[1]{%
+  \markboth{\thesection\ #1}{}%
+}
+
+
+% --- Nummerierte Gleichungen ---
+\numberwithin{equation}{section}
+
+% --- Abbildungs- und Tabellenbeschriftungen ---
+\captionsetup{font=small,labelfont=bf}
+
+
+% --- Metadaten (für Titelseite) ---
+\newcommand{\Lehrveranstaltung}{Praktikum Physikalische Eigenschaften der Materialien}
+\newcommand{\Universitaet}{Universität Augsburg}
+\newcommand{\Semester}{Wintersemester 2025/2026}
+\newcommand{\Versuchsnummer}{5}
+\newcommand{\Versuchstitel}{Korrosion}
+\newcommand{\Gruppe}{C}
+\newcommand{\Versuchsdatum}{04.03.2026}
+\newcommand{\Abgabedatum}{TT.MM.JJJJ}
+\newcommand{\Abgabeart}{Gemeinsames Versuchsprotokoll}
+\newcommand{\Autor}{Fabio Piskorz, Fabio Nogielsky, Konstantin Szantho von Radnoth }
+
+% ---------------------------------------------------
+% Titelseite (ohne Seitenzahl)
+% ---------------------------------------------------
+\begin{document}
+\pagenumbering{gobble} % keine Seitenzahl auf Titelseite
+
+\begin{titlepage}
+    \centering
+    {\Large \Lehrveranstaltung\par}
+    \vspace{0.5cm}
+    {\large \Universitaet\par}
+    \vspace{0.5cm}
+    {\large \Semester\par}
+    \vspace{1.5cm}
+    {\Large Versuchsnummer: \Versuchsnummer\par}
+    \vspace{0.5cm}
+    {\Large Versuchstitel: \Versuchstitel\par}
+    \vspace{1.5cm}
+    {\large Gruppe \Gruppe\par}
+    \vspace{0.5cm}
+    {\LARGE \Abgabeart\par}
+    \vspace{0.5cm}
+    {\large Autor(en): \Autor\par}
+    \vspace{1.5cm}
+    {\large Versuchsdatum: \Versuchsdatum\par}
+    \vspace{0.5cm}
+    {\large Abgabedatum: \Abgabedatum\par}
+
+    \vfill
+\end{titlepage}
+
+
+%Inhaltsverzeichnis
+\tableofcontents
+\newpage
+% ab hier Seitenzahlen normal
+\pagenumbering{arabic}
+
+\section{Einleitung}
+
+Materialien sind im Alltag jeglicher Form von \"au{\ss}eren Umwelteinfl\"ussen ausgesetzt. Sei es die Autokarosserie, die Wind und Wetter standhalten muss, der Rumpf eines Schiffes der st\"andig unter Wasser steht oder auch einfach das Silberbesteck welches in die Sp\"ulmachine gesteckt wird,
+F\"uhrt die Reaktion eines metallischen Werkstoffs mit seiner Umwelt zu messbaren Ver\"anderungen und zu einer Beeinträchtigungen seiner Funktion, so wird dies als Korrosion bezeichnet. %\cite{korrosioDef} 
+Am gel\"aufigsten ist hierbei das Rosten, also die chemische Reaktion der Oxidation. Korrosion wird dar\"uber hinaus auf elektrochemische, physikalische und biologische Ursachen definiert. 
+\newline Um das Verhalten eines Bauteils 
+
+
+\end{document}
