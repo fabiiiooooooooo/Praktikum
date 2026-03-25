@@ -25,7 +25,7 @@
 \sisetup{detect-all}
 \usepackage{booktabs}
 \usepackage{hyperref}
-\usepackage{hyperref}
+\usepackage{enumitem}
 \def\UrlBreaks{\do\/\do-} % Erlaubt Zeilenumbrüche in URLs nach / und -
 
 \usepackage{fancyhdr}
@@ -103,6 +103,60 @@ Materialien sind im Alltag jeglicher Form von \"au{\ss}eren Umwelteinfl\"ussen a
 F\"uhrt die Reaktion eines metallischen Werkstoffs mit seiner Umwelt zu messbaren Ver\"anderungen und zu einer Beeinträchtigungen seiner Funktion, so wird dies als Korrosion bezeichnet. %\cite{korrosioDef} 
 Am gel\"aufigsten ist hierbei das Rosten, also die chemische Reaktion der Oxidation. Korrosion wird dar\"uber hinaus auf elektrochemische, physikalische und biologische Ursachen definiert. 
 \newline Um das Verhalten eines Bauteils 
+
+\section{Theorie}
+
+\section{Versuchsbeschreibung}
+
+\begin{figure}[ht]
+\centering
+\label{fig:probenBeginn}
+\includegraphics[width=0.7\textwidth]{proben_beginn.jpeg}
+\caption{Vorbereitung der Proben}
+\end{figure}
+\noindent F\"ur die Versuche werden zwei Zink, zwei Kupfer, sieben Eisen und ein Edelstahl Stab ben\"otigt. Sie besitzen jeweils eine Fl\"ache von $A_{\text{Probe}} \approx \qty{150}{\milli\metre\squared}$.
+
+\noindent Zur Vorbereitung werden die Proben (Abb. \ref{fig:probenBeginn}) geschliffen und poliert, um sie von vorherigen Korrosionsr\"uckst\"anden zu befreien und um ihre Oberfl\"ache m\"oglichst Eben zu bekommen, damit die sp\"ateren Reaktionsergebnisse vergleichbar sind.
+\subsection{Elektrochemische Spannungsreihe}
+Die elektrochemische Spannungsreihe wird mit folgenden Probenpaaren aufgebaut:
+\begin{enumerate}[label = \alph*)]
+\item \ce{Fe} -- \ce{Zn} ohne elektrischen Kontakt
+\item \ce{Fe} -- \ce{Zn} mit elektrischen Kontakt
+\item \ce{Fe} -- \ce{Cu} ohne elektrischen Kontakt
+\item \ce{Fe} -- \ce{Cu} mit elektrischen Kontakt
+\label{list:elSp}
+\end{enumerate}
+
+\begin{figure}[ht]
+\centering
+\label{fig:elSR}
+\includegraphics[width=0.7\textwidth]{elektrischeSR.jpeg}
+\caption{Aufbau der elektrischen Spannungsreihe}
+\end{figure}
+
+\noindent Die Paare a) und c) werden jeweils in eine Glasschale gelegt und mit Kochsalzl\"osung (\ce{HCL}) bedeckt. Es wird dabei darauf geachtet, dass die Proben sich nicht gegenseitig ber\"uhren.
+\noindent Die verbleibenden Paare b) und d) werden ebenfalls in eine mit \ce{HCL} gef\"ullte Schale gelegt, im Vorhinein aber mithilfe von Krokodilsklemmen elektrisch miteinander verbunden. Hierbei ist darauf zu achten, dass die Klemmen keinen Kontakt zur L\"osung haben, um eine Kontaktkorrosion an dieser Stelle zu vermeiden. Der gesamte Aufbau (Abb. ~\ref{fig:elSR}) findet unter dem Abzug statt.
+\subsection{Korrosionsmesszelle}
+
+\begin{figure}[hthb]
+\centering
+\label{fig:krMZ}
+\includegraphics[width=0.7\textwidth]{Korrosionsmesszelle.jpeg}
+\caption{Aufbau der Korrosionsmesszelle}
+\end{figure}
+
+Die Korrosionsmesszelle (Abb, \ref{fig:krMZ}) besteht aus einem Hauptgef\"a{\ss}, welches mit Elektrolyt bef\"ullt ist. Einem Deckel mit \"Offnungen f\"ur die Messger\"ate, einem Stromschl\"ussel mit einer Halber-Luggin-Kapilare an einem Ende, der Probenhalterung mit der 
+\section{Auswertung und Diskussion}
+
+
+\section{Zusammenfassung}
+
+\appendix
+\section{Anhang}
+
+
+\section{Literaturverzeichnis}
+
 
 
 \end{document}

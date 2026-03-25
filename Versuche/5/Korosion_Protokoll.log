@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  25 MAR 2026 12:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  25 MAR 2026 16:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -503,24 +503,33 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
 \Hy@SectionHShift=\skip57
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip58
+\enit@outerparindent=\dimen258
+\enit@toks=\toks30
+\enit@inbox=\box66
+\enit@count@id=\count342
+\enitdp@description=\count343
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip58
-\f@nch@offset@elh=\skip59
-\f@nch@offset@erh=\skip60
-\f@nch@offset@olh=\skip61
-\f@nch@offset@orh=\skip62
-\f@nch@offset@elf=\skip63
-\f@nch@offset@erf=\skip64
-\f@nch@offset@olf=\skip65
-\f@nch@offset@orf=\skip66
-\f@nch@height=\skip67
-\f@nch@footalignment=\skip68
-\f@nch@widthL=\skip69
-\f@nch@widthC=\skip70
-\f@nch@widthR=\skip71
-\@temptokenb=\toks30
+\f@nch@headwidth=\skip59
+\f@nch@offset@elh=\skip60
+\f@nch@offset@erh=\skip61
+\f@nch@offset@olh=\skip62
+\f@nch@offset@orh=\skip63
+\f@nch@offset@elf=\skip64
+\f@nch@offset@erf=\skip65
+\f@nch@offset@olf=\skip66
+\f@nch@offset@orf=\skip67
+\f@nch@height=\skip68
+\f@nch@footalignment=\skip69
+\f@nch@widthL=\skip70
+\f@nch@widthC=\skip71
+\f@nch@widthR=\skip72
+\@temptokenb=\toks31
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
@@ -530,22 +539,22 @@ Package: expl3 2026-01-19 L3 programming layer (loader)
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count342
+\l__color_backend_stack_int=\count344
 ))
 (/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count343
-\calc@Bcount=\count344
-\calc@Adimen=\dimen258
-\calc@Bdimen=\dimen259
-\calc@Askip=\skip72
-\calc@Bskip=\skip73
+\calc@Acount=\count345
+\calc@Bcount=\count346
+\calc@Adimen=\dimen259
+\calc@Bdimen=\dimen260
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count345
-\calc@Cskip=\skip74
+\calc@Ccount=\count347
+\calc@Cskip=\skip75
 )
 (/usr/local/texlive/2026/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 (/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -553,25 +562,25 @@ Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count346
-\g__chemgreek_tmpa_int=\count347
+\l__chemgreek_tmpa_int=\count348
+\g__chemgreek_tmpa_int=\count349
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count348
-\__mhchem_arrow_extPgfLength_skip=\skip75
-\mhchem@minispace@tmp=\skip76
-\mhchem@minibackspace@tmp=\skip77
-\mhchem@bondwidth=\skip78
-\mhchem@bondheight=\skip79
-\mhchem@smallbondwidth@tmpA=\skip80
-\mhchem@smallbondwidth@tmpB=\skip81
-\mhchem@smallbondwidth=\skip82
-\mhchem@bondtmp@minussidebearingleft=\skip83
-\mhchem@bondtmp@minussidebearingright=\skip84
-\l__mhchem_option_version_int=\count349
-\mhchem@option@minusmathsidebearingleft=\dimen260
-\mhchem@option@minusmathsidebearingright=\dimen261
-\mhchem@option@minustextsidebearingleft=\dimen262
-\mhchem@option@minustextsidebearingright=\dimen263
+\l__mhchem_ce_distanceFromLastComma_int=\count350
+\__mhchem_arrow_extPgfLength_skip=\skip76
+\mhchem@minispace@tmp=\skip77
+\mhchem@minibackspace@tmp=\skip78
+\mhchem@bondwidth=\skip79
+\mhchem@bondheight=\skip80
+\mhchem@smallbondwidth@tmpA=\skip81
+\mhchem@smallbondwidth@tmpB=\skip82
+\mhchem@smallbondwidth=\skip83
+\mhchem@bondtmp@minussidebearingleft=\skip84
+\mhchem@bondtmp@minussidebearingright=\skip85
+\l__mhchem_option_version_int=\count351
+\mhchem@option@minusmathsidebearingleft=\dimen261
+\mhchem@option@minusmathsidebearingright=\dimen262
+\mhchem@option@minustextsidebearingleft=\dimen263
+\mhchem@option@minustextsidebearingright=\dimen264
 
 
 Package mhchem Warning: You did not specify a 'version' option for the mhchem
@@ -683,17 +692,17 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count350
-\scratchdimen=\dimen264
-\scratchbox=\box66
-\nofMPsegments=\count351
-\nofMParguments=\count352
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count353
-\MPscratchDim=\dimen265
-\MPnumerator=\count354
-\makeMPintoPDFobject=\count355
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count352
+\scratchdimen=\dimen265
+\scratchbox=\box67
+\nofMPsegments=\count353
+\nofMParguments=\count354
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count355
+\MPscratchDim=\dimen266
+\MPnumerator=\count356
+\makeMPintoPDFobject=\count357
+\everyMPtoPDFconversion=\toks33
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -727,7 +736,53 @@ Package chemgreek Info: Activating mapping `default' on line 65.
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
-(./Korosion_Protokoll.toc)
+(./Korosion_Protokoll.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+5.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+5.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+))
 \tf@toc=\write4
 \openout4 = `Korosion_Protokoll.toc'.
 
@@ -738,37 +793,80 @@ een already used, duplicate ignored
                    \relax 
 l.96 \newpage
               [1]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-07.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-[1{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+<proben_beginn.jpeg, id=63, 1376.0208pt x 1032.0156pt>
+File: proben_beginn.jpeg Graphic file (type jpg)
+<use proben_beginn.jpeg>
+Package pdftex.def Info: proben_beginn.jpeg  used on input line 114.
+(pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
+
+
+Package caption Warning: \label without proper reference on input line 113.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:probenBeginn' on page 1 undefined on input line 1
+19.
+
+[1{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
+cal/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
+e/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./proben_beginn.jpeg>]
+<elektrischeSR.jpeg, id=76, 971.3088pt x 728.4816pt>
+File: elektrischeSR.jpeg Graphic file (type jpg)
+<use elektrischeSR.jpeg>
+Package pdftex.def Info: elektrischeSR.jpeg  used on input line 133.
+(pdftex.def)             Requested size: 318.66948pt x 238.99908pt.
+
+
+Package caption Warning: \label without proper reference on input line 132.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:elSR' on page 2 undefined on input line 138.
+
+<Korrosionsmesszelle.jpeg, id=78, 1376.0208pt x 1032.0156pt>
+File: Korrosionsmesszelle.jpeg Graphic file (type jpg)
+<use Korrosionsmesszelle.jpeg>
+Package pdftex.def Info: Korrosionsmesszelle.jpeg  used on input line 144.
+(pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
+
+Package caption Warning: \label without proper reference on input line 143.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:krMZ' on page 2 undefined on input line 148.
+
+[2 <./elektrischeSR.jpeg>] [3 <./Korrosionsmesszelle.jpeg>]
 (./Korosion_Protokoll.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Korosion_Protokoll.out' has not changed.
-(rerunfilecheck)             Checksum: 5094E4EB7061D518F6AABF96528EC15D;93.
+(rerunfilecheck)             Checksum: F04C2AA1A52368DE31206FACD3A7CD0E;1191.
  ) 
 Here is how much of TeX's memory you used:
- 21006 strings out of 467525
- 406821 string characters out of 5418982
- 851606 words of memory out of 5000000
- 49671 multiletter control sequences out of 15000+600000
- 648569 words of font info for 65 fonts, out of 8000000 for 9000
+ 21575 strings out of 467525
+ 417085 string characters out of 5418982
+ 863579 words of memory out of 5000000
+ 50147 multiletter control sequences out of 15000+600000
+ 676890 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,80p,1015b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,80p,1015b,1263s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
-e/2026/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2026/texm
-f-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-dist/font
-s/type1/public/lm/lmr17.pfb>
-Output written on Korosion_Protokoll.pdf (3 pages, 137468 bytes).
+e/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/tex
+mf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2026/texmf-dist/fon
+ts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/pu
+blic/lm/lmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr
+8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on Korosion_Protokoll.pdf (5 pages, 9718441 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 14345 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 28760 words of extra memory for PDF output out of 29859 (max. 10000000)
 
