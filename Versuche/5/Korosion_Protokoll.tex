@@ -100,24 +100,65 @@
 \section{Einleitung}
 
 Materialien sind im Alltag jeglicher Form von \"au{\ss}eren Umwelteinfl\"ussen ausgesetzt. Sei es die Autokarosserie, die Wind und Wetter standhalten muss, der Rumpf eines Schiffes der st\"andig unter Wasser steht oder auch einfach das Silberbesteck welches in die Sp\"ulmachine gesteckt wird,
-F\"uhrt die Reaktion eines metallischen Werkstoffs mit seiner Umwelt zu messbaren Ver\"anderungen und zu einer Beeinträchtigungen seiner Funktion, so wird dies als Korrosion bezeichnet. %\cite{korrosioDef} 
+F\"uhrt die Reaktion eines metallischen Werkstoffs mit seiner Umwelt zu messbaren Ver\"anderungen und zu einer Beeinträchtigungen seiner Funktion, so wird dies als Korrosion bezeichnet \cite{korrosioDef}
 Am gel\"aufigsten ist hierbei das Rosten, also die chemische Reaktion der Oxidation. Korrosion wird dar\"uber hinaus auf elektrochemische, physikalische und biologische Ursachen definiert. 
 \newline Um das Verhalten eines Bauteils 
 
 \section{Theorie}
 
+\subsection{Grundlagen der Korrosion}
+Während die Korrosion in heißen Gasen auf direkter Oxidation ohne Elektrolyt basiert und meist diffusionskontrollierten Wachstumsgesetzen gehorcht \cite{tostmann2001korrosion}, beschränkt sich dieser Versuch auf die elektrochemische Korrosion. Diese findet in wässrigen Medien (Elektrolyten) statt und strebt ein thermodynamisches Minimum an, welches durch eine negative Änderung der freien Enthalpie ($\Delta G < 0$) gekennzeichnet ist. 
+
+\subsection{Elektrochemische Thermodynamik}
+Bei der elektrochemischen Korrosion stellt sich an der Phasengrenze zwischen Metall und Elektrolyt ein dynamisches Gleichgewicht ein, bei dem das Metall sich auflädt. Das sich dabei aufbauende Potenzial $U$ lässt sich über die Nernstsche Gleichung beschreiben:
+\begin{equation}
+    U = U_0 - \frac{R T}{n F} \cdot \ln\left([Me^{n+}]\right)
+    \label{eq:nernst}
+\end{equation}
+Dabei ist $U_0$ das Standardpotenzial, $R$ die universelle Gaskonstante, $T$ die Temperatur, $n$ die Wertigkeit der Ionen und $F$ die Faraday-Konstante. Da absolute Einzelpotenziale nicht messbar sind, wird als Bezugspunkt die Standardwasserstoffelektrode ($U_0 = \qty{0}{\volt}$) definiert. In der resultierenden elektrochemischen Spannungsreihe gelten Metalle mit positivem Potenzial gegenüber diesem Nullpunkt als edel, solche mit negativem als unedel. 
+
+\noindent Thermodynamische Stabilitätsbereiche, in denen das Metall immun, aktiv korrodierend oder passiviert vorliegt, lassen sich in Pourbaix-Diagrammen in Abhängigkeit des pH-Wertes darstellen. Sie erlauben jedoch keine Aussage über die tatsächliche Reaktionsgeschwindigkeit \cite{barthelgrenzen}.
+
+\subsection{Kinetik und Reaktionsgeschwindigkeit}
+Das Maß für die korrodierte Stoffmenge pro Zeiteinheit lässt sich durch das erste und zweite Faradaysche Gesetz \cite{lupke1899faradaysche} direkt mit dem fließenden Strom $I$ verknüpfen:
+\begin{equation}
+    \frac{\Delta m}{\Delta t} = \frac{I \cdot M_0}{z \cdot F}
+    \label{eq:faraday}
+\end{equation}
+Hierbei beschreibt $M_0$ die molare Masse und $z$ die Wertigkeit. Um den Einfluss der Probengeometrie auszuschließen, wird standardmäßig die flächenbezogene Stromdichte $i = I/A$ betrachtet.
+
+\noindent Weicht eine Elektrode von ihrem Gleichgewichtspotenzial $E_R$ ab, spricht man von der Überspannung $\eta$. Die resultierende Stromdichte wird maßgeblich vom langsamsten Teilschritt der Reaktion limitiert:
+\begin{itemize}
+    \item \textbf{Durchtrittskontrolle:} Ist der Ladungsdurchtritt vom Anodenmaterial in den Elektrolyten der geschwindigkeitsbestimmende Schritt, so gilt bei großen Überspannungen das logarithmische Verhalten der Tafel-Gleichung:
+    \begin{equation}
+        \ln|i| = \ln(i_0) + \beta \cdot \eta
+        \label{eq:tafel}
+    \end{equation}
+    mit der Austauschstromdichte $i_0$ und dem empirischen Anstiegsfaktor $\beta$.
+    \item \textbf{Diffusionskontrolle:} Ist hingegen der Stofftransport zur Elektrode limitiert, nähert sich die Stromdichte für hohe Überspannungen asymptotisch einer maximalen Grenzstromdichte $i_{gr}$ an.
+\end{itemize}
+
+\subsection{Mischelektroden und Passivierung}
+In einer realen Korrosionszelle (Mischelektrode) stellt sich das Ruhe- oder Korrosionspotenzial $E_{korr}$ ein. An diesem Potenzial heben sich der anodische Teilstrom $i_a$ und der kathodische Teilstrom $i_k$ exakt auf, wodurch die Zelle nach außen hin stromlos erscheint ($i_a + i_k = 0$). 
+
+Bei unedlen Metallen kann es bei zunehmender anodischer Belastung zur Passivierung kommen. Überschreitet die anodische Stromdichte einen kritischen Wert, kristallisiert lokal eine schützende Deckschicht (z.\,B.\ aus Sulfaten oder Oxiden) aus. Der Korrosionsstrom bricht in diesem Bereich drastisch ein, bis das angelegte Potenzial stark genug ist, um die schützende Passivschicht wieder aufzubrechen.
+
+\subsection{Das Belüftungselement}
+Ein wesentlicher Mechanismus der lokalen Korrosion ist das Belüftungselement nach Evans. Taucht ein Werkstück in einen Elektrolyten mit lokal unterschiedlicher Sauerstoffkonzentration, entsteht ein Lokalelement. Bereiche mit hoher Sauerstoffzufuhr wirken kathodisch, während sauerstoffarme Bereiche (z.\,B.\ in Spalten oder im Zentrum eines Wassertropfens) zur Anode werden und gezielt in Lösung gehen. Dieses Prinzip ist die treibende physikalische Kraft hinter der Spalt- und Tropfenkorrosion.
+
 \section{Versuchsbeschreibung}
 
+
+\subsection{Elektrochemische Spannungsreihe}
 \begin{figure}[ht]
 \centering
 \label{fig:probenBeginn}
 \includegraphics[width=0.7\textwidth]{proben_beginn.jpeg}
 \caption{Vorbereitung der Proben}
 \end{figure}
-\noindent F\"ur die Versuche werden zwei Zink, zwei Kupfer, sieben Eisen und ein Edelstahl Stab ben\"otigt. Sie besitzen jeweils eine Fl\"ache von $A_{\text{Probe}} \approx \qty{150}{\milli\metre\squared}$.
+\noindent F\"ur die Versuche werden zwei Zink, zwei Kupfer, sieben Eisen und ein Edelstahl Stab ben\"otigt.
 
 \noindent Zur Vorbereitung werden die Proben (Abb. \ref{fig:probenBeginn}) geschliffen und poliert, um sie von vorherigen Korrosionsr\"uckst\"anden zu befreien und um ihre Oberfl\"ache m\"oglichst Eben zu bekommen, damit die sp\"ateren Reaktionsergebnisse vergleichbar sind.
-\subsection{Elektrochemische Spannungsreihe}
 Die elektrochemische Spannungsreihe wird mit folgenden Probenpaaren aufgebaut:
 \begin{enumerate}[label = \alph*)]
 \item \ce{Fe} -- \ce{Zn} ohne elektrischen Kontakt
@@ -134,8 +175,8 @@ Die elektrochemische Spannungsreihe wird mit folgenden Probenpaaren aufgebaut:
 \caption{Aufbau der elektrischen Spannungsreihe}
 \end{figure}
 
-\noindent Die Paare a) und c) werden jeweils in eine Glasschale gelegt und mit Kochsalzl\"osung (\ce{HCL}) bedeckt. Es wird dabei darauf geachtet, dass die Proben sich nicht gegenseitig ber\"uhren.
-\noindent Die verbleibenden Paare b) und d) werden ebenfalls in eine mit \ce{HCL} gef\"ullte Schale gelegt, im Vorhinein aber mithilfe von Krokodilsklemmen elektrisch miteinander verbunden. Hierbei ist darauf zu achten, dass die Klemmen keinen Kontakt zur L\"osung haben, um eine Kontaktkorrosion an dieser Stelle zu vermeiden. Der gesamte Aufbau (Abb. ~\ref{fig:elSR}) findet unter dem Abzug statt.
+\noindent Die Paare a) und c) werden jeweils in eine Glasschale gelegt und mit Kochsalzl\"osung (\ce{NaCl}) bedeckt. Es wird dabei darauf geachtet, dass die Proben sich nicht gegenseitig ber\"uhren.
+\noindent Die verbleibenden Paare b) und d) werden ebenfalls in eine mit \ce{NaCl} gef\"ullte Schale gelegt, im Vorhinein aber mithilfe von Krokodilsklemmen elektrisch miteinander verbunden. Hierbei ist darauf zu achten, dass die Klemmen keinen Kontakt zur L\"osung haben, um eine Kontaktkorrosion an dieser Stelle zu vermeiden. Der gesamte Aufbau (Abb. ~\ref{fig:elSR}) findet unter dem Abzug statt.
 \subsection{Korrosionsmesszelle}
 
 \begin{figure}[hthb]
@@ -145,8 +186,27 @@ Die elektrochemische Spannungsreihe wird mit folgenden Probenpaaren aufgebaut:
 \caption{Aufbau der Korrosionsmesszelle}
 \end{figure}
 
-Die Korrosionsmesszelle (Abb, \ref{fig:krMZ}) besteht aus einem Hauptgef\"a{\ss}, welches mit Elektrolyt bef\"ullt ist. Einem Deckel mit \"Offnungen f\"ur die Messger\"ate, einem Stromschl\"ussel mit einer Halber-Luggin-Kapilare an einem Ende, der Probenhalterung mit der 
+Die Korrosionsmesszelle (Abb. ~\ref{fig:krMZ}) besteht aus einem Hauptgef\"a{\ss}, welches mit Elektrolyt bef\"ullt ist und einem Deckel mit \"Offnungen f\"ur alle Messger\"ate. Das Zwisschengef\"a{\ss} wird mittels einer Pipette mit Pipettierballon mit ca. 15 ml Elektrolyt bef\"ullt. Mithilfe eines Stromschl\"ussels  wird eine Verbindung zwischen Referenzgef\"a{\ss} und dem Hauptgef\"a{\ss}  hergestellt. Das gerade St\"uck des Stromschl\"ussels wird mithilfe einer Spritze und einem d\"unnen Schl\"auch vollst\"andig mit Elektrolyt zu bef\"ullt. Dabei wird darauf geachtet, dass sich keine Luftblasen bilden. Der andere Zweig besteht aus einer Halber-Luggin-Kapilare und muss auch mit Elektrolyt bef\"ullt werden, hierzu wird der Pipettierballon an der oberen \"Offnung des Stromschl\"ussels angesetzt und das Elektrolyt durch die Kapillare hochgezogen bis die Verbindung beider Zweige gef\"ullt ist. Die Probenhalterung wird ca. 1 cm in die L\"osung geh\"angt 
+\newline Abschlie{\ss}end werden die Gegen- und Referenzelektrode eingesetzt. Gemeinsam mit der Arbeitselektrode, also der Probe,  mit einem Netzger\"at verbunden.
+Der Versuch wird f\"ur zwei Verschiede Proben, zwei Elektolyte und bei zwei Temperaturen durchgef\"uhrt.
+\begin{enumerate}[label = \alph*)]
+\item \ce{Fe} in \ce{NHCl} bei $T_{\text{Raum}} \approx \qty{23}{\degreeCelsius}$
+\item \ce{Fe} in \ce{H2SO4} (verd\"unnt) bei $T_{\text{Raum}}$
+\item \ce{Fe} in \ce{H2SO4} (verd\"unnt) bei $T_{\text{erw\"ahrmt}} \approx \qty{30}{\degreeCelsius}$ 
+\item Chromstahl in \ce{H2So4} (verd\"unnt) bei $T_{\text{Raum}}$
+\end{enumerate}
+Die Proben besitzen jeweils eine Fl\"ache von $A_{\text{Probe}} \approx \qty{150}{\milli\metre\squared}$. Sie werden vor dem Einsetzen von vorherigen R\"uckst\"anden befreit.
+Die Versuche mit erw\"ahrmten Elektrolyt werden auf einer Heizplatte unter st\"andigem R\"uhren (mittels eines magnetischen R\"uhrfischchens) durchgef\"uhrt.
+
+\subsection{Aufnahme der Stromdichte-Porenzial-Kurve}
+Die Kennlinie wird mithilfe eines Potentiostats und einer Software am Computer aufgenommen. Vor Versuchsbeginn wird sich mit der Funktionsweise vertraut gemacht. 
+Die Messsoftware ben\"otigt $A_{\text{Probe}}$ als Messparamter einegtragen, der Potentialbereich wird Schrittweise durchfahren. 
+Vor Messbeginn wird gewartet bis sich das Ruhepotenzial $\phi_{\text{Ruhe}}$ stabilisiert hat. Es wird notiert und die Messung wird gestartet.
 \section{Auswertung und Diskussion}
+
+\subsection{Spannungsreihe}
+
+
 
 
 \section{Zusammenfassung}
@@ -157,6 +217,7 @@ Die Korrosionsmesszelle (Abb, \ref{fig:krMZ}) besteht aus einem Hauptgef\"a{\ss}
 
 \section{Literaturverzeichnis}
 
-
+\bibliography{korrosionbib}
+\bibliographystyle{IEEEtran}
 
 \end{document}

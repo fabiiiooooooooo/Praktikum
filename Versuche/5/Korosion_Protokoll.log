@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  25 MAR 2026 16:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  26 MAR 2026 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -737,37 +737,37 @@ Package chemgreek Info: Activating mapping `default' on line 65.
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
 (./Korosion_Protokoll.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-5.
+4.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-5.
+4.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 5.
+(Font)              <10.95> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+(Font)              <6> on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -775,7 +775,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -792,50 +792,59 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.96 \newpage
-              [1]
-<proben_beginn.jpeg, id=63, 1376.0208pt x 1032.0156pt>
+              [1] [1{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-r
+m.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/us
+r/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/te
+xlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+32.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+<proben_beginn.jpeg, id=118, 1376.0208pt x 1032.0156pt>
 File: proben_beginn.jpeg Graphic file (type jpg)
 <use proben_beginn.jpeg>
-Package pdftex.def Info: proben_beginn.jpeg  used on input line 114.
+Package pdftex.def Info: proben_beginn.jpeg  used on input line 156.
 (pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
 
 
-Package caption Warning: \label without proper reference on input line 113.
+Package caption Warning: \label without proper reference on input line 155.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:probenBeginn' on page 1 undefined on input line 1
-19.
+LaTeX Warning: Reference `fig:probenBeginn' on page 2 undefined on input line 1
+61.
 
-[1{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
-cal/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
-e/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./proben_beginn.jpeg>]
-<elektrischeSR.jpeg, id=76, 971.3088pt x 728.4816pt>
+[2{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+<elektrischeSR.jpeg, id=127, 971.3088pt x 728.4816pt>
 File: elektrischeSR.jpeg Graphic file (type jpg)
 <use elektrischeSR.jpeg>
-Package pdftex.def Info: elektrischeSR.jpeg  used on input line 133.
+Package pdftex.def Info: elektrischeSR.jpeg  used on input line 174.
 (pdftex.def)             Requested size: 318.66948pt x 238.99908pt.
 
 
-Package caption Warning: \label without proper reference on input line 132.
+Package caption Warning: \label without proper reference on input line 173.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:elSR' on page 2 undefined on input line 138.
+LaTeX Warning: Reference `fig:elSR' on page 3 undefined on input line 179.
 
-<Korrosionsmesszelle.jpeg, id=78, 1376.0208pt x 1032.0156pt>
+[3 <./proben_beginn.jpeg> <./elektrischeSR.jpeg>]
+<Korrosionsmesszelle.jpeg, id=138, 823.3962pt x 823.3962pt>
 File: Korrosionsmesszelle.jpeg Graphic file (type jpg)
 <use Korrosionsmesszelle.jpeg>
-Package pdftex.def Info: Korrosionsmesszelle.jpeg  used on input line 144.
-(pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
+Package pdftex.def Info: Korrosionsmesszelle.jpeg  used on input line 185.
+(pdftex.def)             Requested size: 318.66948pt x 318.67323pt.
 
-Package caption Warning: \label without proper reference on input line 143.
+
+Package caption Warning: \label without proper reference on input line 184.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:krMZ' on page 2 undefined on input line 148.
+LaTeX Warning: Reference `fig:krMZ' on page 4 undefined on input line 189.
 
-[2 <./elektrischeSR.jpeg>] [3 <./Korrosionsmesszelle.jpeg>]
+[4 <./Korrosionsmesszelle.jpeg>] (./Korosion_Protokoll.bbl) [5]
 (./Korosion_Protokoll.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -846,27 +855,31 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Korosion_Protokoll.out' has not changed.
-(rerunfilecheck)             Checksum: F04C2AA1A52368DE31206FACD3A7CD0E;1191.
+(rerunfilecheck)             Checksum: 425C1BA01DD35D869A98EF2D90693280;2615.
  ) 
 Here is how much of TeX's memory you used:
- 21575 strings out of 467525
- 417085 string characters out of 5418982
- 863579 words of memory out of 5000000
- 50147 multiletter control sequences out of 15000+600000
- 676890 words of font info for 102 fonts, out of 8000000 for 9000
+ 21719 strings out of 467525
+ 419589 string characters out of 5418982
+ 866930 words of memory out of 5000000
+ 50212 multiletter control sequences out of 15000+600000
+ 683579 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,80p,1015b,1263s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,80p,1018b,1221s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
-e/2026/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/tex
-mf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2026/texmf-dist/fon
-ts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/pu
-blic/lm/lmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr
-8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Korosion_Protokoll.pdf (5 pages, 9718441 bytes).
+e/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2026/tex
+mf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/texmf-dist/fo
+nts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/p
+ublic/lm/lmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lm
+r12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr17.pfb></u
+sr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/tex
+live/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026/
+texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist
+/fonts/type1/public/lm/lmsy8.pfb>
+Output written on Korosion_Protokoll.pdf (7 pages, 8559373 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 28760 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 32912 words of extra memory for PDF output out of 35830 (max. 10000000)
 
