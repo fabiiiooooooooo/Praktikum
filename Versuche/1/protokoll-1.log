@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  15 MAR 2026 12:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  25 MAR 2026 15:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,10 +632,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 63
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./protokoll-1.aux
-Package babel Info: 'ngerman' activates 'german' shorthands.
-(babel)             Reported on input line 8.
-)
+) (./protokoll-1.aux)
 \openout1 = `protokoll-1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
@@ -656,6 +653,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
+Package babel Info: 'ngerman' activates 'german' shorthands.
+(babel)             Reported on input line 63.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -756,53 +755,7 @@ Package chemgreek Info: Activating mapping `default' on line 63.
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] (./protokoll-1.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-4.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-4.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
-
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
+al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] (./protokoll-1.toc)
 \tf@toc=\write4
 \openout4 = `protokoll-1.toc'.
 
@@ -813,6 +766,57 @@ een already used, duplicate ignored
                    \relax 
 l.98 \newpage
               [1]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+20.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+20.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+120.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+120.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 120.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 120.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 120.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 120
+.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 120
+.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+
+LaTeX Warning: Reference `eq:ele' on page 1 undefined on input line 120.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 137--140
 
  []
@@ -820,41 +824,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--140
 [1{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
 26/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+LaTeX Warning: Reference `eq:ele' on page 2 undefined on input line 146.
+
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 51.
-
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+
+LaTeX Warning: Reference `eq:ideal' on page 2 undefined on input line 153.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
 
+
+LaTeX Warning: Citation `4' on page 2 undefined on input line 169.
+
 [2{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-<Aufbau3-2.jpeg, id=120, 3498.06876pt x 3535.2075pt>
+<Aufbau3-2.jpeg, id=44, 3498.06876pt x 3535.2075pt>
 File: Aufbau3-2.jpeg Graphic file (type jpg)
 <use Aufbau3-2.jpeg>
 Package pdftex.def Info: Aufbau3-2.jpeg  used on input line 180.
 (pdftex.def)             Requested size: 364.19667pt x 368.0521pt.
-<Wirkungsgrad.jpeg, id=122, 5733.42pt x 4300.065pt>
+
+
+LaTeX Warning: Reference `fig:elekt' on page 3 undefined on input line 186.
+
+<Wirkungsgrad.jpeg, id=45, 5733.42pt x 4300.065pt>
 File: Wirkungsgrad.jpeg Graphic file (type jpg)
 <use Wirkungsgrad.jpeg>
 Package pdftex.def Info: Wirkungsgrad.jpeg  used on input line 191.
 (pdftex.def)             Requested size: 364.19667pt x 273.08391pt.
- [3 <./Aufbau3-2.jpeg>]
-<Aufbau3-3.jpeg, id=130, 1376.0208pt x 1032.0156pt>
+
+LaTeX Warning: Reference `fig:wirk' on page 3 undefined on input line 195.
+
+[3 <./Aufbau3-2.jpeg>]
+<Aufbau3-3.jpeg, id=53, 1376.0208pt x 1032.0156pt>
 File: Aufbau3-3.jpeg Graphic file (type jpg)
 <use Aufbau3-3.jpeg>
 Package pdftex.def Info: Aufbau3-3.jpeg  used on input line 201.
 (pdftex.def)             Requested size: 364.19667pt x 273.13638pt.
- [4 <./Wirkungsgrad.jpeg>] [5 <./Aufbau3-3.jpeg>]
-<Kennlinie_PEM-Elektrolyseur.png, id=145, 578.16pt x 433.62pt>
+
+
+LaTeX Warning: Reference `fig:brennstoffzelle' on page 4 undefined on input lin
+e 206.
+
+
+LaTeX Warning: Reference `tab:widerstaende' on page 4 undefined on input line 2
+06.
+
+[4 <./Wirkungsgrad.jpeg>] [5 <./Aufbau3-3.jpeg>]
+<Kennlinie_PEM-Elektrolyseur.png, id=68, 578.16pt x 433.62pt>
 File: Kennlinie_PEM-Elektrolyseur.png Graphic file (type png)
 <use Kennlinie_PEM-Elektrolyseur.png>
 Package pdftex.def Info: Kennlinie_PEM-Elektrolyseur.png  used on input line 24
 4.
 (pdftex.def)             Requested size: 364.19667pt x 273.14235pt.
- [6 <./Kennlinie_PEM-Elektrolyseur.png>]
+
+
+LaTeX Warning: Reference `fig:kennlinie-elektrolyseur' on page 6 undefined on i
+nput line 248.
+
+[6 <./Kennlinie_PEM-Elektrolyseur.png>]
 
 LaTeX Warning: Citation `NIST_R' on page 7 undefined on input line 258.
 
@@ -866,13 +900,28 @@ LaTeX Warning: Citation `VCI_Fraunhofer2024' on page 7 undefined on input line
 LaTeX Warning: Citation `DOE2024' on page 7 undefined on input line 269.
 
 [7]
-<I-Ukennlinie_kombiniert.png, id=162, 426.1521pt x 354.123pt>
+<I-Ukennlinie_kombiniert.png, id=86, 426.1521pt x 354.123pt>
 File: I-Ukennlinie_kombiniert.png Graphic file (type png)
 <use I-Ukennlinie_kombiniert.png>
 Package pdftex.def Info: I-Ukennlinie_kombiniert.png  used on input line 275.
 (pdftex.def)             Requested size: 364.19667pt x 302.654pt.
- [8{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./I-U
-kennlinie_kombiniert.png>] [9] [10]
+
+
+LaTeX Warning: Reference `fig:kennlinie-bz' on page 8 undefined on input line 2
+79.
+
+[8{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./I-Uk
+ennlinie_kombiniert.png>]
+
+LaTeX Warning: Reference `eq:wirkungBZ' on page 9 undefined on input line 322.
+
+
+LaTeX Warning: Citation `4' on page 9 undefined on input line 338.
+
+
+LaTeX Warning: Citation `4' on page 9 undefined on input line 346.
+
+[9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 369--373
 []\T1/lmr/m/n/10.95 (+20) VCI und Fraunhofer-Gesellschaft, \T1/lmr/m/it/10.95 (
 +20) Was-ser-stoff -- Schlüs-sel-ele-
@@ -899,15 +948,24 @@ L3 programming layer <2026-01-19>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `protokoll-1.out' has not changed.
-(rerunfilecheck)             Checksum: DEEF27D13C7E8CB4E18323AF9D50081F;2329.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `protokoll-1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `protokoll-1.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  DEEF27D13C7E8CB4E18323AF9D50081F;2329.
  ) 
 Here is how much of TeX's memory you used:
- 21750 strings out of 467525
- 419260 string characters out of 5418982
- 867339 words of memory out of 5000000
- 50147 multiletter control sequences out of 15000+600000
- 708039 words of font info for 178 fonts, out of 8000000 for 9000
+ 21736 strings out of 467525
+ 419073 string characters out of 5418982
+ 866283 words of memory out of 5000000
+ 50131 multiletter control sequences out of 15000+600000
+ 708122 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,18n,80p,1075b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
@@ -922,10 +980,10 @@ live/2026/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026/
 texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist
 /fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type
 1/public/amsfonts/symbols/msam10.pfb>
-Output written on protokoll-1.pdf (13 pages, 9885542 bytes).
+Output written on protokoll-1.pdf (13 pages, 9881939 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 232 compressed objects within 3 object streams
+ 213 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  56 named destinations out of 1000 (max. 500000)
- 51346 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 51226 words of extra memory for PDF output out of 51595 (max. 10000000)
 

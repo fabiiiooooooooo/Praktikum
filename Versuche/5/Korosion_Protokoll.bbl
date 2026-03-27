@@ -26,6 +26,14 @@ D.~I. f{\"u}r Normung, ``Korrosion von metallen und legierungen -- begriffe
   (iso 8044:2024); dreisprachige fassung en iso 8044:2025,'' DIN, Berlin, Norm
   DIN EN ISO 8044:2025-05, Mai 2025.
 
+\bibitem{nace_impact_2016}
+\BIBentryALTinterwordspacing
+{NACE International}, ``{International Measures of Prevention, Application, and
+  Economics of Corrosion Technologies (IMPACT)},'' National Association of
+  Corrosion Engineers, Houston, TX, USA, Tech. Rep., 2016, abgerufen: \today.
+  [Online]. Available: \url{http://impact.nace.org}
+\BIBentrySTDinterwordspacing
+
 \bibitem{tostmann2001korrosion}
 K.-H. Tostmann, \emph{Korrosion}.\hskip 1em plus 0.5em minus 0.4em\relax John
   Wiley \& Sons, 2001.
@@ -38,5 +46,22 @@ J.~Barthel and R.~Deiss, ``Grenzen der gleichgewichts-thermodynamik--welchen
 R.~L{\"u}pke and E.~Bose, ``Das faradaysche gesetz,'' in \emph{Grundz{\"u}ge
   der Elektrochemie auf experimenteller Basis}.\hskip 1em plus 0.5em minus
   0.4em\relax Springer, 1899, pp. 38--52.
+
+\bibitem{chemiede_spannungsreihe}
+\BIBentryALTinterwordspacing
+{LUMITOS AG}. (2026) Elektrochemische spannungsreihe -- metalle. Chemie.de
+  Lexikon. [Online]. Available:
+  \url{https://www.chemie.de/lexikon/Elektrochemische_Spannungsreihe.html#Metalle}
+\BIBentrySTDinterwordspacing
+
+\bibitem{zhang2018self}
+F.~Zhang, P.~Ju, M.~Pan, D.~Zhang, Y.~Huang, G.~Li, and X.~Li, ``Self-healing
+  mechanisms in smart protective coatings: A review,'' \emph{Corrosion
+  Science}, vol. 144, pp. 74--88, 2018.
+
+\bibitem{liang2024corrosion}
+J.~Liang, W.~Wang, Z.~Cao, J.~Guo, Z.~Sun, and Y.~Hai, ``Corrosion resistance
+  and mechanism of high-entropy alloys: A review,'' \emph{Materials and
+  Corrosion}, vol.~75, no.~4, pp. 424--432, 2024.
 
 \end{thebibliography}
