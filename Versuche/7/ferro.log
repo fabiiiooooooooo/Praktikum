@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  27 MAR 2026 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  27 MAR 2026 21:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Korosion_Protokoll.tex
-(./Korosion_Protokoll.tex
+**ferro.tex
+(./ferro.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -609,12 +609,11 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 66
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-(./Korosion_Protokoll.aux
+) (./ferro.aux
 Package babel Info: 'ngerman' activates 'german' shorthands.
 (babel)             Reported on input line 8.
 )
-\openout1 = `Korosion_Protokoll.aux'.
+\openout1 = `ferro.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
@@ -724,19 +723,17 @@ lations-basic-dictionary')
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `german'. on input line 66.
 Package hyperref Info: Link coloring OFF on input line 66.
- (./Korosion_Protokoll.out) (./Korosion_Protokoll.out)
+ (./ferro.out) (./ferro.out)
 \@outlinefile=\write3
-\openout3 = `Korosion_Protokoll.out'.
+\openout3 = `ferro.out'.
 
 
 Package chemgreek Info: Activating mapping `default' on line 66.
 
-
-[1
+ [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
-(./Korosion_Protokoll.toc
+al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] (./ferro.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
 .
 
@@ -784,7 +781,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ))
 \tf@toc=\write4
-\openout4 = `Korosion_Protokoll.toc'.
+\openout4 = `ferro.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
@@ -792,102 +789,72 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.97 \newpage
-              [1] [1{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-r
-m.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/us
+              [1] [1{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-m
+athit.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/us
 r/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/te
 xlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-33.
+39.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [2{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-<elektrischeSR.jpeg, id=136, 971.3088pt x 728.4816pt>
-File: elektrischeSR.jpeg Graphic file (type jpg)
-<use elektrischeSR.jpeg>
-Package pdftex.def Info: elektrischeSR.jpeg  used on input line 171.
-(pdftex.def)             Requested size: 318.66948pt x 238.99908pt.
- [3 <./elektrischeSR.jpeg>]
-<Korrosionsmesszelle.jpeg, id=143, 823.3962pt x 823.3962pt>
-File: Korrosionsmesszelle.jpeg Graphic file (type jpg)
-<use Korrosionsmesszelle.jpeg>
-Package pdftex.def Info: Korrosionsmesszelle.jpeg  used on input line 197.
-(pdftex.def)             Requested size: 318.66948pt x 318.67323pt.
-
-[4 <./Korrosionsmesszelle.jpeg>] [5]
-<SRende.jpeg, id=165, 1376.0208pt x 1032.0156pt>
-File: SRende.jpeg Graphic file (type jpg)
-<use SRende.jpeg>
-Package pdftex.def Info: SRende.jpeg  used on input line 226.
-(pdftex.def)             Requested size: 318.66948pt x 238.9963pt.
- [6 <./SRende.jpeg>]
-<srVergleich.jpeg, id=176, 964.5636pt x 532.8708pt>
-File: srVergleich.jpeg Graphic file (type jpg)
-<use srVergleich.jpeg>
-Package pdftex.def Info: srVergleich.jpeg  used on input line 245.
-(pdftex.def)             Requested size: 318.66948pt x 176.05118pt.
-<EIsen_in_NHCl(2)_plot.png, id=177, 578.16pt x 361.35pt>
-File: EIsen_in_NHCl(2)_plot.png Graphic file (type png)
-<use EIsen_in_NHCl(2)_plot.png>
-Package pdftex.def Info: EIsen_in_NHCl(2)_plot.png  used on input line 258.
-(pdftex.def)             Requested size: 218.51521pt x 136.57007pt.
-<Chromstahl_in_H2So4_bei RT_plot.png, id=179, 578.16pt x 361.35pt>
-File: Chromstahl_in_H2So4_bei RT_plot.png Graphic file (type png)
-<use Chromstahl_in_H2So4_bei RT_plot.png>
-Package pdftex.def Info: Chromstahl_in_H2So4_bei RT_plot.png  used on input lin
-e 265.
-(pdftex.def)             Requested size: 218.51521pt x 136.57007pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 266.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 266.
-<EIsen_in_H2So4_Vergleich.png, id=180, 578.16pt x 361.35pt>
-File: EIsen_in_H2So4_Vergleich.png Graphic file (type png)
-<use EIsen_in_H2So4_Vergleich.png>
-Package pdftex.def Info: EIsen_in_H2So4_Vergleich.png  used on input line 275.
-(pdftex.def)             Requested size: 273.14923pt x 170.71672pt.
- [7 <./srVergleich.jpeg>] [8 <./EIsen_in_NHCl(2)_plot.png> <./Chromstahl_in_H2S
-o4_bei RT_plot.png> <./EIsen_in_H2So4_Vergleich.png>] [9] [10] (./Korosion_Prot
-okoll.bbl
-Underfull \hbox (badness 2005) in paragraph at lines 52--56
-[]\T1/lmr/m/n/10.95 (+20) LUMITOS AG. (2026) Elek-tro-che-mi-sche span-nungs-re
-i-he -- me-tal-
+Overfull \hbox (7.9948pt too wide) in paragraph at lines 162--162
+[]|\T1/lmr/bx/n/10.95 (-20) Anwendungsbereich| 
  []
 
-) [11] (./Korosion_Protokoll.aux)
+
+Underfull \hbox (badness 1297) in paragraph at lines 162--162
+[]|\T1/lmr/m/n/10.95 (+20) Transformatorenkerne, In-duk-ti-
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 162--163
+[]|\T1/lmr/m/n/10.95 (+20) Permanentmagnete, Da-ten-spei-
+ []
+
+
+Package caption Warning: Unused \captionsetup[sub] on input line 30.
+See the caption package documentation for explanation.
+
+[3] (./ferro.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `Korosion_Protokoll.out' has not changed.
-(rerunfilecheck)             Checksum: 070DAC2F66063ECABAFE883402966CF1;2901.
+
+
+Package rerunfilecheck Warning: File `ferro.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ferro.out':
+(rerunfilecheck)             Before: 5D69F5997042B9C0643326848E047383;1777
+(rerunfilecheck)             After:  B7132548EB65C1041FB671AC846C7563;1921.
  ) 
 Here is how much of TeX's memory you used:
- 21879 strings out of 467525
- 422280 string characters out of 5418982
- 870748 words of memory out of 5000000
- 50295 multiletter control sequences out of 15000+600000
- 699810 words of font info for 166 fonts, out of 8000000 for 9000
+ 21635 strings out of 467525
+ 417687 string characters out of 5418982
+ 867346 words of memory out of 5000000
+ 50154 multiletter control sequences out of 15000+600000
+ 685146 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,80p,1019b,1193s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,80p,1002b,1150s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
-e/2026/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2026/tex
-mf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/texmf-dist/fo
-nts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/p
+e/2026/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2026/texm
+f-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2026/texmf-dist/fon
+ts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/p
 ublic/lm/lmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lm
 r10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb></u
 sr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/te
-xlive/2026/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2026/t
-exmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2026/texmf-dist/fo
-nts/type1/public/lm/lmr9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/pu
-blic/lm/lmri10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lm
-sy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></
-usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Korosion_Protokoll.pdf (13 pages, 9515448 bytes).
+xlive/2026/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2026/t
+exmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist/
+fonts/type1/public/lm/lmsy8.pfb>
+Output written on ferro.pdf (5 pages, 234590 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 41132 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 34889 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -1,0 +1,170 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Pakete ---
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % Computer Modern (empfohlen)
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm
+}
+\usepackage{setspace}
+\setstretch{1.24} % entspricht Empfehlung (1–1.5 Zeilenabstand)
+\usepackage{microtype}
+\usepackage{csquotes}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{siunitx}     % saubere Einheiten, Einheiten aufrecht
+\sisetup{detect-all}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{subcaption}
+\def\UrlBreaks{\do\/\do-} % Erlaubt Zeilenumbrüche in URLs nach / und -
+
+\usepackage{fancyhdr}
+\usepackage{mhchem}
+
+% --- Kopf- und Fußzeile ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\sectionmark}[1]{%
+  \markboth{\thesection\ #1}{}%
+}
+
+
+% --- Nummerierte Gleichungen ---
+\numberwithin{equation}{section}
+
+% --- Abbildungs- und Tabellenbeschriftungen ---
+\captionsetup{font=small,labelfont=bf}
+
+
+% --- Metadaten (für Titelseite) ---
+\newcommand{\Lehrveranstaltung}{Praktikum Physikalische Eigenschaften der Materialien}
+\newcommand{\Universitaet}{Universität Augsburg}
+\newcommand{\Semester}{Wintersemester 2025/2026}
+\newcommand{\Versuchsnummer}{7}
+\newcommand{\Versuchstitel}{Ferromagnetische Hysterese}
+\newcommand{\Gruppe}{C}
+\newcommand{\Versuchsdatum}{xx.xx.2026}
+\newcommand{\Abgabedatum}{TT.MM.JJJJ}
+\newcommand{\Abgabeart}{Gemeinsames Versuchsprotokoll}
+\newcommand{\Autor}{Fabio Piskorz, Fabio Nogielsky, Konstantin Szantho von Radnoth }
+
+% ---------------------------------------------------
+% Titelseite (ohne Seitenzahl)
+% ---------------------------------------------------
+\begin{document}
+\pagenumbering{gobble} % keine Seitenzahl auf Titelseite
+
+\begin{titlepage}
+    \centering
+    {\Large \Lehrveranstaltung\par}
+    \vspace{0.5cm}
+    {\large \Universitaet\par}
+    \vspace{0.5cm}
+    {\large \Semester\par}
+    \vspace{1.5cm}
+    {\Large Versuchsnummer: \Versuchsnummer\par}
+    \vspace{0.5cm}
+    {\Large Versuchstitel: \Versuchstitel\par}
+    \vspace{1.5cm}
+    {\large Gruppe \Gruppe\par}
+    \vspace{0.5cm}
+    {\LARGE \Abgabeart\par}
+    \vspace{0.5cm}
+    {\large Autor(en): \Autor\par}
+    \vspace{1.5cm}
+    {\large Versuchsdatum: \Versuchsdatum\par}
+    \vspace{0.5cm}
+    {\large Abgabedatum: \Abgabedatum\par}
+
+    \vfill
+\end{titlepage}
+
+
+%Inhaltsverzeichnis
+\tableofcontents
+\newpage
+% ab hier Seitenzahlen normal
+\pagenumbering{arabic}
+
+\section{Einleitung}
+Ferromagnetische Materialien spielen in der modernen Elektrotechnik und Experimentalphysik eine zentrale Rolle, da sie die Eigenschaft besitzen, magnetische Felder erheblich zu verstärken und dauerhaft zu speichern. Diese Eigenschaften machen sie unverzichtbar für die Konstruktion von Transformatoren, Elektromotoren, Generatoren und magnetischen Datenspeichern. 
+
+\noindent Dieses Verhalten wird sich in zahlreichen technischen Anwendungen wie Transformatoren, Elektromotoren, Generatoren und magnetischen Datenspeichern zu Nutze gemacht. 
+\noindent Demgegenüber steht der Einsatz ferromagnetischer Kerne in induktiven Bauteilen wie Netztransformatoren oder elektrischen Maschinen, die im Wechselstrombetrieb einer kontinuierlichen, periodischen Ummagnetisierung unterliegen. Bei diesem dynamischen Prozess behindern innere Gitterdefekte und die Wechselwirkungen der Weiss-Bezirke die instantane Ausrichtung der magnetischen Dipole. Die resultierende Phasenverzögerung zwischen der magnetischen Feldstärke \(H\) und der magnetischen Flussdichte \(B\) führt bei jedem Zyklus zu einer Dissipation von Energie, die als thermische Verlustleistung (Hystereseverlust) an die Umgebung abgegeben wird.
+\noindent Die Eignung eines Werkstoffs für spezifische technische Anwendungen – ob als informationserhaltender, hartmagnetischer Speicher oder als verlustarmer, weichmagnetischer Transformatorkern – wird somit maßgeblich durch die spezifische Form und Fläche seiner Hystereseschleife determiniert. Ziel dieses Versuches ist es daher, das Magnetisierungsverhalten eines ferromagnetischen Probekörpers experimentell zu charakterisieren, um aus dem gemessenen \(B(H)\)-Verlauf essenzielle Materialparameter wie die Remanenzflussdichte, die Koerzitivfeldstärke und die dissipierte Verlustenergie quantitativ zu ermitteln.
+
+
+\section{Theoretische Grundlagen}
+
+\subsection{Magnetfelder und Biot-Savart-Gesetz}
+Ein elektrischer Strom erzeugt ein Magnetfeld, dessen grundlegendes Verhalten durch die Maxwell-Gleichungen für die Quellenfreiheit \(\nabla \cdot \vec{B} = 0\) und das Ampère-Maxwell-Gesetz \(\nabla \times \vec{B} = \mu_0 \vec{J}\) beschrieben wird. Durch die Einführung eines Vektorpotentials \(\vec{A}\) mit der Coulomb-Eichung \(\nabla \cdot \vec{A} = 0\) lässt sich das Magnetfeld beliebiger Stromverteilungen berechnen. Für einen dünnen Leiter ergibt sich daraus das Biot-Savart-Gesetz:
+\begin{equation}
+    \vec{B}(\vec{r}) = \frac{\mu_0 I}{4\pi} \int \frac{d\vec{l}' \times (\vec{r} - \vec{r}')}{|\vec{r} - \vec{r}'|^3}
+\end{equation}
+
+\subsection{Magnetfeld einer Spule}
+Das Magnetfeld einer Spule mit \(N\) Windungen und der Länge \(L\) kann durch die Integration über alle Einzelwindungen berechnet werden. Im Zentrum einer langen Spule (\(L \gg R\)) entsteht ein nahezu homogenes Feld, das sich durch folgende Gleichung annähern lässt:
+\begin{equation}
+    B_{\text{innen}} \approx \mu_0 \frac{N I}{L}
+\end{equation}
+Weit außerhalb der Spule nimmt das Feld das Verhalten eines magnetischen Dipols an, dessen Feldstärke mit der dritten Potenz des Abstands abfällt.
+
+\subsection{Materialeinfluss und Induktivität}
+Die atomaren magnetischen Dipole in einem Material erzeugen eine makroskopische Magnetisierung \(\vec{M}\), welche das resultierende Magnetfeld im Festkörper zu \(\vec{B} = \mu_0 (\vec{H} + \vec{M})\) verändert. Bei linearen Materialien wird das Feld um die relative Permeabilität \(\mu_r\) verstärkt, sodass der Zusammenhang \(\vec{B} = \mu_0 \mu_r \vec{H}\) gilt. Ein ferromagnetischer Kern bündelt den magnetischen Fluss und erhöht die Induktivität \(L\) einer Spule erheblich:
+\begin{equation}
+    L = \frac{\mu_0 \mu_r N^2 A}{l_{\text{mag}}}
+\end{equation}
+
+\subsection{Magnetische Kopplung}
+Zwei Spulen können induktiv gekoppelt werden, indem sie denselben ferromagnetischen Kern umschließen. Der geschlossene Kern leitet den magnetischen Fluss zwischen den Spulen, was die gegenseitige Induktivität \(M = k \sqrt{L_1 L_2}\) ermöglicht. Bei sinusförmigen Wechselströmen lässt sich die induzierte Spannung in der Sekundärspule dann direkt aus den Material- und Geometrieparametern berechnen.
+
+\subsection{Ferromagnetismus und Weiss-Bezirke}
+Ferromagnetische Materialien bestehen aus mikroskopischen Domänen, den sogenannten Weiss-Bezirken, in denen die Elektronenspins vollkommen parallel zueinander ausgerichtet sind. Ohne äußeres Feld heben sich die magnetischen Momente makroskopisch auf, aber ein angelegtes Magnetfeld zwingt die Bezirke zu einer stetig zunehmenden Ausrichtung. Diese strukturellen Veränderungen werden durch innere Spannungen und Gitterdefekte behindert, was den Magnetisierungsprozess irreversibel macht.
+
+\subsection{Charakteristische Hysteresepunkte}
+Die Nichtlinearität der Magnetisierung führt bei zyklischer Ummagnetisierung zu einer Hystereseschleife im \(B(H)\)-Diagramm. Die Form dieser Kurve wird durch spezifische physikalische Grenzwerte des Materials definiert:
+\begin{itemize}
+    \item \textbf{Sättigungsflussdichte \(B_{\text{sat}}\):} Nahezu alle magnetischen Momente sind parallel zum äußeren Feld ausgerichtet, sodass die Flussdichte nur noch linear ansteigt.
+    \item \textbf{Remanenz \(B_r\):} Die verbleibende magnetische Flussdichte im Material, nachdem das äußere Magnetfeld vollständig abgeschaltet wurde.
+    \item \textbf{Koerzitivfeld \(H_c\):} Die benötigte entgegengesetzte magnetische Feldstärke, um das Material wieder komplett zu entmagnetisieren (\(B = 0\)).
+\end{itemize}
+
+\subsection{Energieverlust und Materialeigenschaften}
+Die eingeschlossene Fläche der Hystereseschleife entspricht exakt der Energie, die pro Magnetisierungszyklus als Wärme im Material dissipiert wird. Das Integral quantifiziert diesen Energieverlust, der für die technische Anwendung von großer Bedeutung ist:
+\begin{equation}
+    W_{\text{Verlust}} = \oint H \, dB
+\end{equation}
+Die Materialien werden anhand ihrer Hysterese-Eigenschaften grundlegend in zwei Hauptkategorien unterteilt.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Spezifische Materialklassifizierung nach Hysterese-Eigenschaften}
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{p{3.5cm} p{5.5cm} p{5.5cm}}
+        \hline
+        \textbf{Eigenschaft} & \textbf{Magnetisch weiche Materialien} & \textbf{Magnetisch harte Materialien} \\
+        \hline
+        \textbf{Hystereseschleife} & Schmal, geringe umschlossene Fläche & Breit, große umschlossene Fläche \\
+        \textbf{Koerzitivfeld (\(H_c\))} & Sehr gering, leicht ummagnetisierbar & Sehr hoch, schwer entmagnetisierbar \\
+        \textbf{Remanenz (\(B_r\))} & Niedrig bis moderat & Sehr hoch \\
+        \textbf{Anwendungsbereich} & Transformatorenkerne, Induktionsspulen & Permanentmagnete, Datenspeicher \\
+        \hline
+    \end{tabular}
+    \label{tab:material_klassifizierung}
+\end{table}
+
+\section{Versuchsbeschreibung}
+
+\end{document}
